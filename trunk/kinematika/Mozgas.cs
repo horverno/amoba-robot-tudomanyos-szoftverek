@@ -8,11 +8,12 @@ namespace amoba
     class Mozgas
     {
         protected string celmezo;
-        protected int[,] mozgasok = new int[2,10];
+        protected int[,] mozgasok = new int[2, 2];
         
         public Mozgas(string celm)
         {
             this.celmezo = celm;
+            
         }
 
         public void setTomb(int[,] tomb)
