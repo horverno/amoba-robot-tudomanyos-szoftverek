@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using ROBOTIS;
 using System.IO;
+using System.Threading;
 
 namespace amoba
 {
@@ -68,7 +69,10 @@ namespace amoba
         }
         //getpos
 
-
+        public int getPresentPositon() 
+        {
+            return dynamixel.dxl_read_byte(this.id, P_PRESENT_POSITION_L);
+        }
 
 
 
@@ -144,5 +148,15 @@ namespace amoba
             if (dynamixel.dxl_get_rxpacket_error(dynamixel.ERRBIT_INSTRUCTION) == 1)
                 Console.WriteLine("Instruction code error!");
         }*/
+
+        internal void createThread(int f, int[,] akttomb)
+        {
+            new Thread(new ThreadStart(delegate()
+            {
+                System.Threading.Thread.Sleep(Program.sleeptime);
+                this.ThreadRun(akttomb[1, f]);
+            })).Start();
+            Program.sleeptime += 40;
+        }
     }
 }

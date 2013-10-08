@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading;
+using ROBOTIS;
 
 namespace amoba
 {
@@ -10,28 +11,39 @@ namespace amoba
     {
         public const int DEFAULT_PORTNUM = 3; // COM3
         public const int DEFAULT_BAUDNUM = 1; // 1Mbps
-        const int motorokszama = 4;
-        static Mozgas[] mozg = new Mozgas[10];
+        const int motorokszama = 2;
+        static Mozgas[] mozg = new Mozgas[2];
         static Motor[] motorok = new Motor[motorokszama];
-        static int sleeptime = 0;
+        public static int sleeptime = 0;
 
         static void Main(string[] args)
         {
+
+            if (dynamixel.dxl_initialize(DEFAULT_PORTNUM, DEFAULT_BAUDNUM) == 0)
+            {
+                Console.WriteLine("Failed to open USB2Dynamixel!");
+                Console.WriteLine("Press any key to terminate...");
+                Console.ReadKey(true);
+                return;
+            }
+            else
+            {
+                Console.WriteLine("Succeed to open USB2Dynamixel!");
+            }
             
-            
-            int[,] a1mov = new int[2,10];
+            int[,] a1mov = new int[2, 2];
             a1mov[0,0] = 250;
-            a1mov[0,1] = 870;
-            a1mov[1,0] = 10;
+            a1mov[1,0] = 870;
+            a1mov[0,1] = 10;
             a1mov[1,1] = 800;
 
             Mozgas a1 = new Mozgas("A1");
             a1.setTomb(a1mov);
 
-            int[,] a2mov = new int[2, 10];
+            int[,] a2mov = new int[2, 2];
             a2mov[0, 0] = 250;
-            a2mov[0, 1] = 800;
-            a2mov[1, 0] = 10;
+            a2mov[1, 0] = 800;
+            a2mov[0, 1] = 10;
             a2mov[1, 1] = 750;
 
             Mozgas a2 = new Mozgas("A2");
@@ -51,8 +63,8 @@ namespace amoba
             
             motorok[0] = motor1;
             motorok[1] = motor2;
-            motorok[2] = motor3;
-            motorok[3] = motor8;
+            //motorok[2] = motor3;
+            //motorok[3] = motor8;
 
             
             // bekérem, hogy hova mozgassam
@@ -82,9 +94,13 @@ namespace amoba
                             // vezérlés a képfelismerésnek
                         }
                     }
+                    Console.WriteLine("megált");
+                    Console.ReadKey();
+                    dynamixel.dxl_terminate();
                 }
 
             }
+            
         }
 
         protected static void mozgatas(string celmezo)
@@ -98,24 +114,31 @@ namespace amoba
                     int[,] akttomb = mozg[i].getTomb();
                     for (int k = 0; k < motorok.Count(); k++)   // motorokon megy végig
                     {
-                        for (int j = 0; j < akttomb.Length / 2; j++)  // motorokra lebontott mozgást tartalmazó tömbbön végigmegyünk
+                        for (int f = 0; f < 2; f++)  // motorokra lebontott mozgást tartalmazó tömbbön végigmegyünk
                         {
-                            if (motorok[k].getID() == akttomb[j, 0])
+                            Console.Write("motorId: ");
+                            Console.WriteLine(motorok[k].getID());
+                            Console.Write("motorId2: ");
+                            Console.WriteLine(akttomb[0, k]);
+
+                            if (motorok[k].getID() == akttomb[0, k])
                             {
                                 // elé kell setspeed
                                 motorok[k].setSpeed(50);
+                                /*Console.Write("f: ");
+                                Console.WriteLine(f);*/
 
-                                new Thread(new ThreadStart(delegate()
-                                {
-                                    System.Threading.Thread.Sleep(sleeptime);
-                                    motorok[k].ThreadRun(akttomb[j, 1]);
-                                })).Start();
-                                sleeptime += 40;
+                                motorok[k].createThread(f, akttomb);
+
+                                
+                                
                             }
+                            
                         }
                     }
                 }
             }
+            
         }
 
 
@@ -135,7 +158,7 @@ namespace amoba
                 {
                     if (motorok[i].isMoving())
                     {
-                        mozog = true;
+                        mozog = false;
                     }
                 }
             }
