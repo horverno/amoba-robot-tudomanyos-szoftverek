@@ -15,7 +15,7 @@ namespace amoba
             this.masikid = masikid;
         }
 
-        public override void ThreadRun(int pos)
+        public override void Run(int pos)
         {
             dynamixel.dxl_write_word(this.id, P_GOAL_POSITION_L, pos);
             Thread.Sleep(40);

@@ -90,13 +90,11 @@ namespace amoba
             // először fel kell venni a bábut
             if (mozgatas("BM"))
             {
-
-
-
+                Console.WriteLine("BM megvolt");
                 if (mozgatas(hova))
                 {
 
-                    Console.WriteLine("megált");
+                    Console.WriteLine("Cél megvolt");
                     Console.ReadKey();
                     dynamixel.dxl_terminate();
                 }
@@ -113,9 +111,9 @@ namespace amoba
                 {
                     int[,] akttomb = mozg[i].getTomb();
                     for (int k = 0; k < motorok.Count(); k++)   // motorokon megy végig
-                    {
-                        for (int f = 0; f < 2; f++)  // motorokra lebontott mozgást tartalmazó tömbbön végigmegyünk
                         {
+                    //    for (int f = 0; f < 2; f++)  // motorokra lebontott mozgást tartalmazó tömbbön végigmegyünk
+                    //    {
                             Console.Write("motorId: ");
                             Console.WriteLine(motorok[k].getID());
                             Console.Write("motorId2: ");
@@ -128,17 +126,18 @@ namespace amoba
                                 /*Console.Write("f: ");
                                 Console.WriteLine(f);*/
                                 Thread.Sleep(40);
-                                motorok[k].createThread(f, akttomb);
-
+                                //motorok[k].createThread(f, akttomb);
+                                motorok[k].Run(akttomb[1, k]);
                                 
                                 
                             }
                             
-                        }
+                        //}
                     }
                 }
              
             }
+            Console.WriteLine("isready előtt");
             while (!isready()) ;
             return true;
             

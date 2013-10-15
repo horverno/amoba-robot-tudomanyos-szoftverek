@@ -33,7 +33,7 @@ namespace amoba
             this.id = id;
         }
 
-        public virtual void ThreadRun(int pos)
+        public virtual void Run(int pos)
         {
             dynamixel.dxl_write_word(this.id, P_GOAL_POSITION_L, pos);
             this.goalPosition = pos;
@@ -50,10 +50,16 @@ namespace amoba
 
         public bool isInGoalPosition()
         {
-            if (Math.Abs(dynamixel.dxl_read_byte(this.id, P_PRESENT_POSITION_L) - this.goalPosition) < 10 )
+            if (Math.Abs(dynamixel.dxl_read_byte(this.id, P_PRESENT_POSITION_H) - this.goalPosition) < 10 )
             {
+                if (this.id == 250)
+                    Console.WriteLine("H\tMotorID: " + this.id + " PresPos: " + dynamixel.dxl_read_byte(this.id, P_PRESENT_POSITION_H) + " Goalpos: " + this.goalPosition);
+                Console.WriteLine("L\tMotorID: " + this.id + " PresPos: " + dynamixel.dxl_read_byte(this.id, P_PRESENT_POSITION_L) + " Goalpos: " + this.goalPosition);
                 return true;
             }
+            if (this.id == 250)
+                Console.WriteLine("\tMotorID: " + this.id + " PresPos: " + dynamixel.dxl_read_byte(this.id, P_PRESENT_POSITION_H) + " Goalpos: " + this.goalPosition);
+            Console.WriteLine("L\tMotorID: " + this.id + " PresPos: " + dynamixel.dxl_read_byte(this.id, P_PRESENT_POSITION_L) + " Goalpos: " + this.goalPosition);
             return false;
         }
 
@@ -77,14 +83,14 @@ namespace amoba
         }
 
 
-        internal void createThread(int f, int[,] akttomb)
-        {
-            new Thread(new ThreadStart(delegate()
-            {
-                System.Threading.Thread.Sleep(Program.sleeptime);
-                this.ThreadRun(akttomb[1, f]);
-            })).Start();
-            Program.sleeptime += 40;
-        }
+    //    internal void createThread(int f, int[,] akttomb)
+    //    {
+    //        new Thread(new ThreadStart(delegate()
+    //        {
+    //            System.Threading.Thread.Sleep(Program.sleeptime);
+    //            this.ThreadRun(akttomb[1, f]);
+    //        })).Start();
+    //        Program.sleeptime += 40;
+    //    }
     }
 }
