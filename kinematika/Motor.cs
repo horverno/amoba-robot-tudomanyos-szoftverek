@@ -10,7 +10,7 @@ namespace amoba
 {
     class Motor
     {
-         public const int P_GOAL_POSITION_L = 30;
+        public const int P_GOAL_POSITION_L = 30;
         public const int P_GOAL_POSITION_H = 31;
         public const int P_PRESENT_POSITION_L = 36;
         public const int P_PRESENT_POSITION_H = 37;
@@ -22,6 +22,7 @@ namespace amoba
         public const int DEFAULT_PORTNUM = 3; // COM3
         public const int DEFAULT_BAUDNUM = 1; // 1Mbps
         protected int id;
+        private int goalPosition;
         
         
 
@@ -35,6 +36,7 @@ namespace amoba
         public virtual void ThreadRun(int pos)
         {
             dynamixel.dxl_write_word(this.id, P_GOAL_POSITION_L, pos);
+            this.goalPosition = pos;
         }
 
         public virtual void setSpeed(int speed){
@@ -46,9 +48,9 @@ namespace amoba
             return this.id;
         }
 
-        public bool isMoving()
+        public bool isInGoalPosition()
         {
-            if (dynamixel.dxl_read_byte(this.id, P_MOVING) != 0)
+            if (Math.Abs(dynamixel.dxl_read_byte(this.id, P_PRESENT_POSITION_L) - this.goalPosition) < 10 )
             {
                 return true;
             }
@@ -74,80 +76,6 @@ namespace amoba
             return dynamixel.dxl_read_byte(this.id, P_PRESENT_POSITION_L);
         }
 
-
-
-
-
-
-
-        /*
-        public static void Log(string logMessage, TextWriter w)
-        {
-            w.Write("\r\nLog Entry : ");
-            w.WriteLine("{0} ", DateTime.Now.ToString("hh.mm.ss.ffffff"));
-            w.WriteLine("  :");
-            w.WriteLine("  :{0}", logMessage);
-            w.WriteLine("-------------------------------");
-        }
-
-        static void PrintCommStatus(int CommStatus)
-        {
-            switch (CommStatus)
-            {
-                case dynamixel.COMM_TXFAIL:
-                    Console.WriteLine("COMM_TXFAIL: Failed transmit instruction packet!");
-                    break;
-
-                case dynamixel.COMM_TXERROR:
-                    Console.WriteLine("COMM_TXERROR: Incorrect instruction packet!");
-                    break;
-
-                case dynamixel.COMM_RXFAIL:
-                    Console.WriteLine("COMM_RXFAIL: Failed get status packet from device!");
-                    break;
-
-                case dynamixel.COMM_RXWAITING:
-                    Console.WriteLine("COMM_RXWAITING: Now recieving status packet!");
-                    break;
-
-                case dynamixel.COMM_RXTIMEOUT:
-                    Console.WriteLine("COMM_RXTIMEOUT: There is no status packet!");
-                    break;
-
-                case dynamixel.COMM_RXCORRUPT:
-                    Console.WriteLine("COMM_RXCORRUPT: Incorrect status packet!");
-                    break;
-
-                default:
-                    Console.WriteLine("This is unknown error code!");
-                    break;
-            }
-        }
-
-        // Print error bit of status packet
-        static void PrintErrorCode()
-        {
-            if (dynamixel.dxl_get_rxpacket_error(dynamixel.ERRBIT_VOLTAGE) == 1)
-                Console.WriteLine("Input voltage error!");
-
-            if (dynamixel.dxl_get_rxpacket_error(dynamixel.ERRBIT_ANGLE) == 1)
-                Console.WriteLine("Angle limit error!");
-
-            if (dynamixel.dxl_get_rxpacket_error(dynamixel.ERRBIT_OVERHEAT) == 1)
-                Console.WriteLine("Overheat error!");
-
-            if (dynamixel.dxl_get_rxpacket_error(dynamixel.ERRBIT_RANGE) == 1)
-                Console.WriteLine("Out of range error!");
-
-            if (dynamixel.dxl_get_rxpacket_error(dynamixel.ERRBIT_CHECKSUM) == 1)
-                Console.WriteLine("Checksum error!");
-
-            if (dynamixel.dxl_get_rxpacket_error(dynamixel.ERRBIT_OVERLOAD) == 1)
-                Console.WriteLine("Overload error!");
-
-            if (dynamixel.dxl_get_rxpacket_error(dynamixel.ERRBIT_INSTRUCTION) == 1)
-                Console.WriteLine("Instruction code error!");
-        }*/
 
         internal void createThread(int f, int[,] akttomb)
         {

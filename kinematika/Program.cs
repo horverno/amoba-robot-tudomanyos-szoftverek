@@ -11,8 +11,8 @@ namespace amoba
     {
         public const int DEFAULT_PORTNUM = 3; // COM3
         public const int DEFAULT_BAUDNUM = 1; // 1Mbps
-        const int motorokszama = 2;
-        static Mozgas[] mozg = new Mozgas[2];
+        const int motorokszama = 3;
+        static Mozgas[] mozg = new Mozgas[3];
         static Motor[] motorok = new Motor[motorokszama];
         public static int sleeptime = 0;
 
@@ -30,21 +30,36 @@ namespace amoba
             {
                 Console.WriteLine("Succeed to open USB2Dynamixel!");
             }
-            
-            int[,] a1mov = new int[2, 2];
+
+            int[,] bmmov = new int[2, 3];
+            bmmov[0, 0] = 250;
+            bmmov[1, 0] = 870;
+            bmmov[0, 1] = 10;
+            bmmov[1, 1] = 800;
+            bmmov[0, 2] = 12;
+            bmmov[1, 2] = 700;
+
+            Mozgas bm = new Mozgas("BM");
+            bm.setTomb(bmmov);
+
+            int[,] a1mov = new int[2, 3];
             a1mov[0,0] = 250;
             a1mov[1,0] = 870;
             a1mov[0,1] = 10;
             a1mov[1,1] = 800;
+            a1mov[0, 2] = 12;
+            a1mov[1, 2] = 500;
 
             Mozgas a1 = new Mozgas("A1");
             a1.setTomb(a1mov);
 
-            int[,] a2mov = new int[2, 2];
+            int[,] a2mov = new int[2, 3];
             a2mov[0, 0] = 250;
-            a2mov[1, 0] = 800;
+            a2mov[1, 0] = 536;
             a2mov[0, 1] = 10;
-            a2mov[1, 1] = 750;
+            a2mov[1, 1] = 622;
+            a2mov[0, 2] = 12;
+            a2mov[1, 2] = 518;
 
             Mozgas a2 = new Mozgas("A2");
             a2.setTomb(a2mov);
@@ -52,6 +67,7 @@ namespace amoba
             
             mozg[0]=a1;
             mozg[1]=a2;
+            mozg[2] = bm;
 
 
             Motor motor1 = new Motor(250); // 870
@@ -63,7 +79,7 @@ namespace amoba
             
             motorok[0] = motor1;
             motorok[1] = motor2;
-            //motorok[2] = motor3;
+            motorok[2] = motor3;
             //motorok[3] = motor8;
 
             
@@ -72,38 +88,22 @@ namespace amoba
 
 
             // először fel kell venni a bábut
-            //mozgatas("babuert_menni");
-            if (isready())
+            if (mozgatas("BM"))
             {
-                sleeptime = 0;
-                // melyik mezőre mozgassam
-                mozgatas(hova);
-                if (isready())
+
+
+
+                if (mozgatas(hova))
                 {
-                    sleeptime = 0;
-                    // már mind leállt
-                    //mozgatas("babut_ledob");
-                    if (isready())
-                    {
-                        sleeptime = 0;
-                        // most kell ledobni a bábut, aztán visszamozgatni pihenőbe
-                        //mozgatas("pihenobe");
-                        if (isready())
-                        {
-                            sleeptime = 0;
-                            // vezérlés a képfelismerésnek
-                        }
-                    }
+
                     Console.WriteLine("megált");
                     Console.ReadKey();
                     dynamixel.dxl_terminate();
                 }
-
             }
-            
         }
 
-        protected static void mozgatas(string celmezo)
+        protected static bool mozgatas(string celmezo)
         {
             // a táblán lévő célpozícióba mozgatja
             celmezo = celmezo.ToUpper();
@@ -127,7 +127,7 @@ namespace amoba
                                 motorok[k].setSpeed(50);
                                 /*Console.Write("f: ");
                                 Console.WriteLine(f);*/
-
+                                Thread.Sleep(40);
                                 motorok[k].createThread(f, akttomb);
 
                                 
@@ -137,7 +137,10 @@ namespace amoba
                         }
                     }
                 }
+             
             }
+            while (!isready()) ;
+            return true;
             
         }
 
@@ -150,18 +153,24 @@ namespace amoba
 
         protected static bool isready()
         {
-            bool mozog = true;
-            while (mozog)   // vizsgálom, hogy mozog e még valamelyik motor
+            int isOk = 0;
+            while (isOk < motorokszama)
             {
-                mozog = false;
-                for (int i = 0; i < motorok.Count(); i++)
+
+                isOk = 0;
+                for (int i = 0; i < motorokszama; i++)
                 {
-                    if (motorok[i].isMoving())
-                    {
-                        mozog = false;
+                    if (motorok[i].isInGoalPosition() == true) {
+                        isOk++;
+                        
+                        Console.Write("Motorszám :");
+                        Console.WriteLine(i);
+                        Thread.Sleep(200);
                     }
                 }
+
             }
+            Console.WriteLine("ready");
             return true;
         }
 
