@@ -50,16 +50,16 @@ namespace amoba
 
         public bool isInGoalPosition()
         {
-            if (Math.Abs(dynamixel.dxl_read_byte(this.id, P_PRESENT_POSITION_H) - this.goalPosition) < 10 )
+            if (Math.Abs(dynamixel.dxl_read_word(this.id, P_PRESENT_POSITION_L) - this.goalPosition) < 10 )
             {
-                if (this.id == 250)
-                    Console.WriteLine("H\tMotorID: " + this.id + " PresPos: " + dynamixel.dxl_read_byte(this.id, P_PRESENT_POSITION_H) + " Goalpos: " + this.goalPosition);
-                Console.WriteLine("L\tMotorID: " + this.id + " PresPos: " + dynamixel.dxl_read_byte(this.id, P_PRESENT_POSITION_L) + " Goalpos: " + this.goalPosition);
+                
+                    Console.WriteLine("H\tMotorID: " + this.id + " PresPos: " + dynamixel.dxl_read_word(this.id, P_PRESENT_POSITION_H) + " Goalpos: " + this.goalPosition);
+                Console.WriteLine("L\tMotorID: " + this.id + " PresPos: " + dynamixel.dxl_read_word(this.id, P_PRESENT_POSITION_L) + " Goalpos: " + this.goalPosition);
                 return true;
             }
-            if (this.id == 250)
-                Console.WriteLine("\tMotorID: " + this.id + " PresPos: " + dynamixel.dxl_read_byte(this.id, P_PRESENT_POSITION_H) + " Goalpos: " + this.goalPosition);
-            Console.WriteLine("L\tMotorID: " + this.id + " PresPos: " + dynamixel.dxl_read_byte(this.id, P_PRESENT_POSITION_L) + " Goalpos: " + this.goalPosition);
+          
+                Console.WriteLine("\tMotorID: " + this.id + " PresPos: " + dynamixel.dxl_read_word(this.id, P_PRESENT_POSITION_H) + " Goalpos: " + this.goalPosition);
+            Console.WriteLine("L\tMotorID: " + this.id + " PresPos: " + dynamixel.dxl_read_word(this.id, P_PRESENT_POSITION_L) + " Goalpos: " + this.goalPosition);
             return false;
         }
 
@@ -79,7 +79,7 @@ namespace amoba
 
         public int getPresentPositon() 
         {
-            return dynamixel.dxl_read_byte(this.id, P_PRESENT_POSITION_L);
+            return dynamixel.dxl_read_word(this.id, P_PRESENT_POSITION_L);
         }
 
 
