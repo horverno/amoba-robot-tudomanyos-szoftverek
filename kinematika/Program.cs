@@ -31,6 +31,11 @@ namespace amoba
                 Console.WriteLine("Succeed to open USB2Dynamixel!");
             }
 
+
+          
+
+
+
             int[,] bmmov = new int[2, 3];
             bmmov[0, 0] = 250;
             bmmov[1, 0] = 870;
@@ -82,7 +87,12 @@ namespace amoba
             motorok[2] = motor3;
             //motorok[3] = motor8;
 
-            
+
+            Console.WriteLine(motorok[0].getPresentPositon());
+
+
+
+
             // bekérem, hogy hova mozgassam
             string hova = adatbekeres();
 
