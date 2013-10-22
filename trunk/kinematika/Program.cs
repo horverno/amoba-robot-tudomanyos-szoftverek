@@ -11,8 +11,8 @@ namespace amoba
     {
         public const int DEFAULT_PORTNUM = 3; // COM3
         public const int DEFAULT_BAUDNUM = 1; // 1Mbps
-        const int motorokszama = 3;
-        static Mozgas[] mozg = new Mozgas[3];
+        const int motorokszama = 7;
+        static Mozgas[] mozg = new Mozgas[4];
         static Motor[] motorok = new Motor[motorokszama];
         public static int sleeptime = 0;
 
@@ -32,28 +32,123 @@ namespace amoba
             }
 
 
-          
-
-
-
-            int[,] bmmov = new int[2, 3];
-            bmmov[0, 0] = 250;
-            bmmov[1, 0] = 870;
-            bmmov[0, 1] = 10;
-            bmmov[1, 1] = 800;
-            bmmov[0, 2] = 12;
-            bmmov[1, 2] = 700;
+            int[,] bmmov = new int[2, 7];
+            bmmov[0, 0] = 2;
+            bmmov[1, 0] = 826;
+            bmmov[0, 1] = 9;
+            bmmov[1, 1] = 181;
+            bmmov[0, 2] = 10;
+            bmmov[1, 2] = 558;
+            bmmov[0, 3] = 11;
+            bmmov[1,3]=203;
+            bmmov[0,4]=12;
+            bmmov[1,4]=692;
+            bmmov[0,5]=13;
+            bmmov[1,5]=300;
+            //bmmov[0,6]=14;
+            //bmmov[1,6]=325;
+            //bmmov[0,7]=16;
+            //bmmov[1,7]=826;
+            bmmov[0,6]=250;
+            bmmov[1,6]=900;
 
             Mozgas bm = new Mozgas("BM");
             bm.setTomb(bmmov);
 
+            int[,] bmarkolmov = new int[2, 7];
+            bmarkolmov[0, 0] = 2;
+            bmarkolmov[1, 0] = 826;
+            bmarkolmov[0, 1] = 9;
+            bmarkolmov[1, 1] = 181;
+            bmarkolmov[0, 2] = 10;
+            bmarkolmov[1, 2] = 558;
+            bmarkolmov[0, 3] = 11;
+            bmarkolmov[1, 3] = 203;
+            bmarkolmov[0, 4] = 12;
+            bmarkolmov[1, 4] = 692;
+            bmarkolmov[0, 5] = 13;
+            bmarkolmov[1, 5] = 320;
+            //bmarkolmov[0, 6] = 14;
+            //bmarkolmov[1, 6] = 325;
+            //bmarkolmov[0, 7] = 16;
+            //bmarkolmov[1, 7] = 826;
+            bmarkolmov[0, 6] = 250;
+            bmarkolmov[1, 6] = 900;
+
+            Mozgas bmarkol = new Mozgas("BMM");
+            bmarkol.setTomb(bmarkolmov);
+
+            
+
+            int[,] bmarkolmovv = new int[2, 7];
+            bmarkolmovv[0, 0] = 2;
+            bmarkolmovv[1, 0] = 726;
+            bmarkolmovv[0, 1] = 9;
+            bmarkolmovv[1, 1] = 281;
+            bmarkolmovv[0, 2] = 10;
+            bmarkolmovv[1, 2] = 658;
+            bmarkolmovv[0, 3] = 11;
+            bmarkolmovv[1, 3] = 203;
+            bmarkolmovv[0, 4] = 12;
+            bmarkolmovv[1, 4] = 692;
+            bmarkolmovv[0, 5] = 13;
+            bmarkolmovv[1, 5] = 325;
+            //bmarkolmov[0, 6] = 14;
+            //bmarkolmov[1, 6] = 325;
+            //bmarkolmov[0, 7] = 16;
+            //bmarkolmov[1, 7] = 826;
+            bmarkolmovv[0, 6] = 250;
+            bmarkolmovv[1, 6] = 838;
+
+            Mozgas bmv = new Mozgas("BMV");
+            bmv.setTomb(bmarkolmovv);
+
+
+            // markolás -> összeszorít
+
+            int[,] bszorit = new int[2, 7];
+            bszorit[0, 0] = 2;
+            bszorit[1, 0] = 726;
+            bszorit[0, 1] = 9;
+            bszorit[1, 1] = 281;
+            bszorit[0, 2] = 10;
+            bszorit[1, 2] = 658;
+            bszorit[0, 3] = 11;
+            bszorit[1, 3] = 203;
+            bszorit[0, 4] = 12;
+            bszorit[1, 4] = 692;
+            bszorit[0, 5] = 13;
+            bszorit[1, 5] = 325;
+            //bmarkolmov[0, 6] = 14;
+            //bmarkolmov[1, 6] = 325;
+            //bmarkolmov[0, 7] = 16;
+            //bmarkolmov[1, 7] = 826;
+            bszorit[0, 6] = 250;
+            bszorit[1, 6] = 838;
+
+            Mozgas bmszorit = new Mozgas("BMSZ");
+            bmszorit.setTomb(bszorit);
+
+
+
+
+
+
+
+
+
+
+
+            
+
+
             int[,] a1mov = new int[2, 3];
-            a1mov[0,0] = 250;
-            a1mov[1,0] = 870;
-            a1mov[0,1] = 10;
-            a1mov[1,1] = 800;
-            a1mov[0, 2] = 12;
-            a1mov[1, 2] = 500;
+            a1mov[0,0] = 2;
+            a1mov[1,0] = 826;
+            a1mov[0,1] = 9;
+            a1mov[1,1] = 181;
+            a1mov[0, 2] = 10;
+            a1mov[1, 2] = 558;
 
             Mozgas a1 = new Mozgas("A1");
             a1.setTomb(a1mov);
@@ -73,24 +168,29 @@ namespace amoba
             mozg[0]=a1;
             mozg[1]=a2;
             mozg[2] = bm;
+            mozg[3] = bmarkol;
 
 
-            Motor motor1 = new Motor(250); // 870
-            Motor motor2 = new Motor(10);  // 800
-            Motor motor3 = new Motor(12);  // 700
 
-            DuplaMotor motor8 = new DuplaMotor(13, 14); // 800
+            Motor motor1 = new Motor(9);
+            Motor motor2 = new Motor(10);
+            Motor motor3 = new Motor(11);
+            Motor motor4 = new Motor(12);
+            Motor motor5 = new Motor(250);
 
+            DuplaMotor motor6 = new DuplaMotor(13, 14);
+            DuplaMotor motor7 = new DuplaMotor(2, 16);
             
             motorok[0] = motor1;
             motorok[1] = motor2;
             motorok[2] = motor3;
+            motorok[3] = motor4;
+            motorok[4] = motor5;
+            motorok[5] = motor6;
+            motorok[6] = motor7;
+          
             //motorok[3] = motor8;
-
-
-            Console.WriteLine(motorok[0].getPresentPositon());
-
-
+            //Console.WriteLine(motorok[0].getPresentPositon());
 
 
             // bekérem, hogy hova mozgassam
@@ -100,13 +200,23 @@ namespace amoba
             // először fel kell venni a bábut
             if (mozgatas("BM"))
             {
-                Console.WriteLine("BM megvolt");
-                if (mozgatas(hova))
+                if (mozgatas("BMM"))
                 {
+                    if(mozgatas("BMSZ"))
+                    {
+                    
+                    if (mozgatas("BMV"))
+                    {
 
-                    Console.WriteLine("Cél megvolt");
-                    Console.ReadKey();
-                    dynamixel.dxl_terminate();
+                        //    Console.WriteLine("BMM megvolt");
+                        //if (mozgatas(hova))
+                        //{
+                        //    Console.WriteLine("Cél megvolt");
+                        //    Console.ReadKey();
+                        dynamixel.dxl_terminate();
+                        //}
+                    }
+                        }
                 }
             }
         }
@@ -120,29 +230,32 @@ namespace amoba
                 if (mozg[i].getCel().Equals(celmezo))   // azt a mozgást keresem ami a bemeneti paraméternek megfelel
                 {
                     int[,] akttomb = mozg[i].getTomb();
+                    Console.WriteLine(motorok.Count());
                     for (int k = 0; k < motorok.Count(); k++)   // motorokon megy végig
                         {
-                    //    for (int f = 0; f < 2; f++)  // motorokra lebontott mozgást tartalmazó tömbbön végigmegyünk
-                    //    {
-                            Console.Write("motorId: ");
-                            Console.WriteLine(motorok[k].getID());
-                            Console.Write("motorId2: ");
-                            Console.WriteLine(akttomb[0, k]);
 
-                            if (motorok[k].getID() == akttomb[0, k])
+                            //Console.Write("motorId: ");
+                            //Console.WriteLine(motorok[k].getID());
+                            //Console.Write("motorid: ");
+                            //Console.WriteLine(akttomb[0, k]);
+
+                           
+                            for (int f = 0; f < motorok.Count(); f++)
                             {
-                                // elé kell setspeed
-                                motorok[k].setSpeed(50);
-                                /*Console.Write("f: ");
-                                Console.WriteLine(f);*/
-                                Thread.Sleep(40);
-                                //motorok[k].createThread(f, akttomb);
-                                motorok[k].Run(akttomb[1, k]);
-                                
-                                
+                                Console.WriteLine(motorok[k].getID() + " " + akttomb[0, f]);
+                                if (motorok[k].getID() == akttomb[0, f])
+                                {
+
+                                    // elé kell setspeed
+                                    motorok[k].setSpeed(50);
+
+                                    Thread.Sleep(100);
+
+                                    motorok[k].Run(akttomb[1, f]);
+
+
+                                }
                             }
-                            
-                        //}
                     }
                 }
              
@@ -169,12 +282,22 @@ namespace amoba
                 isOk = 0;
                 for (int i = 0; i < motorokszama; i++)
                 {
-                    if (motorok[i].isInGoalPosition() == true) {
+                    Console.Write("Motorok száma :" + motorok.Count());
+
+                    if (motorok[i].isInGoalPosition() == true)
+                    {
                         isOk++;
-                        
+                        Console.Write("isOK :");
+                        Console.WriteLine(isOk);
                         Console.Write("Motorszám :");
                         Console.WriteLine(i);
-                        Thread.Sleep(200);
+                        Thread.Sleep(40);
+                    }
+                    else
+                    {
+                        Console.WriteLine("MotorID " + motorok[i].getID());
+                        Console.WriteLine("Pozíciója: " + motorok[i].getPresentPositon());
+                        Console.WriteLine("Célpozíció: " + motorok[i].getGoalPosition());
                     }
                 }
 

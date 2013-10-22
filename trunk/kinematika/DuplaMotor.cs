@@ -17,6 +17,7 @@ namespace amoba
 
         public override void Run(int pos)
         {
+            this.goalPosition = pos;
             dynamixel.dxl_write_word(this.id, P_GOAL_POSITION_L, pos);
             Thread.Sleep(40);
             dynamixel.dxl_write_word(this.masikid, P_GOAL_POSITION_L, pos);
