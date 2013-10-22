@@ -8,7 +8,7 @@ namespace amoba
     class Mozgas
     {
         protected string celmezo;
-        protected int[,] mozgasok = new int[2, 3];
+        protected int[,] mozgasok = new int[2, 7];
         
         public Mozgas(string celm)
         {

@@ -22,7 +22,7 @@ namespace amoba
         public const int DEFAULT_PORTNUM = 3; // COM3
         public const int DEFAULT_BAUDNUM = 1; // 1Mbps
         protected int id;
-        private int goalPosition;
+        protected int goalPosition;
         
         
 
@@ -43,6 +43,11 @@ namespace amoba
             dynamixel.dxl_write_word(this.id, P_SPEED, speed);
         }
 
+        public int getGoalPosition()
+        {
+            return this.goalPosition;
+        }
+
         public int getID()
         {
             return this.id;
@@ -50,47 +55,23 @@ namespace amoba
 
         public bool isInGoalPosition()
         {
-            if (Math.Abs(dynamixel.dxl_read_word(this.id, P_PRESENT_POSITION_L) - this.goalPosition) < 10 )
+            if (Math.Abs(dynamixel.dxl_read_word(this.id, P_PRESENT_POSITION_L) - this.goalPosition) < 20 )
             {
                 
-                    Console.WriteLine("H\tMotorID: " + this.id + " PresPos: " + dynamixel.dxl_read_word(this.id, P_PRESENT_POSITION_H) + " Goalpos: " + this.goalPosition);
-                Console.WriteLine("L\tMotorID: " + this.id + " PresPos: " + dynamixel.dxl_read_word(this.id, P_PRESENT_POSITION_L) + " Goalpos: " + this.goalPosition);
+                //    Console.WriteLine("H\tMotorID: " + this.id + " PresPos: " + dynamixel.dxl_read_word(this.id, P_PRESENT_POSITION_H) + " Goalpos: " + this.goalPosition);
+                //Console.WriteLine("L\tMotorID: " + this.id + " PresPos: " + dynamixel.dxl_read_word(this.id, P_PRESENT_POSITION_L) + " Goalpos: " + this.goalPosition);
                 return true;
             }
           
-                Console.WriteLine("\tMotorID: " + this.id + " PresPos: " + dynamixel.dxl_read_word(this.id, P_PRESENT_POSITION_H) + " Goalpos: " + this.goalPosition);
-            Console.WriteLine("L\tMotorID: " + this.id + " PresPos: " + dynamixel.dxl_read_word(this.id, P_PRESENT_POSITION_L) + " Goalpos: " + this.goalPosition);
+            //    Console.WriteLine("\tMotorID: " + this.id + " PresPos: " + dynamixel.dxl_read_word(this.id, P_PRESENT_POSITION_H) + " Goalpos: " + this.goalPosition);
+            //Console.WriteLine("L\tMotorID: " + this.id + " PresPos: " + dynamixel.dxl_read_word(this.id, P_PRESENT_POSITION_L) + " Goalpos: " + this.goalPosition);
             return false;
         }
 
-        public bool isDoubleEngine()
-        {
-            if (this.getID() == 13 || this.getID() == 14)
-            {
-                return true;
-            }
-            else
-            {
-                return false;
-            }
-        
-        }
-        //getpos
 
         public int getPresentPositon() 
         {
             return dynamixel.dxl_read_word(this.id, P_PRESENT_POSITION_L);
         }
-
-
-    //    internal void createThread(int f, int[,] akttomb)
-    //    {
-    //        new Thread(new ThreadStart(delegate()
-    //        {
-    //            System.Threading.Thread.Sleep(Program.sleeptime);
-    //            this.ThreadRun(akttomb[1, f]);
-    //        })).Start();
-    //        Program.sleeptime += 40;
-    //    }
     }
 }
