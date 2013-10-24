@@ -1,0 +1,13 @@
+Z:\Dokumentumok\Egyetem\Tantárgyak\Diff\tudom.szoft.ter\RoboTicTacToe\RoboTicTacToe\bin\Debug\RoboTicTacToe.exe
+Z:\Dokumentumok\Egyetem\Tantárgyak\Diff\tudom.szoft.ter\RoboTicTacToe\RoboTicTacToe\bin\Debug\RoboTicTacToe.pdb
+Z:\Dokumentumok\Egyetem\Tantárgyak\Diff\tudom.szoft.ter\RoboTicTacToe\RoboTicTacToe\obj\x86\Debug\ResolveAssemblyReference.cache
+Z:\Dokumentumok\Egyetem\Tantárgyak\Diff\tudom.szoft.ter\RoboTicTacToe\RoboTicTacToe\obj\x86\Debug\RoboTicTacToe.MainWindow.resources
+Z:\Dokumentumok\Egyetem\Tantárgyak\Diff\tudom.szoft.ter\RoboTicTacToe\RoboTicTacToe\obj\x86\Debug\RoboTicTacToe.Properties.Resources.resources
+Z:\Dokumentumok\Egyetem\Tantárgyak\Diff\tudom.szoft.ter\RoboTicTacToe\RoboTicTacToe\obj\x86\Debug\GenerateResource.read.1.tlog
+Z:\Dokumentumok\Egyetem\Tantárgyak\Diff\tudom.szoft.ter\RoboTicTacToe\RoboTicTacToe\obj\x86\Debug\GenerateResource.write.1.tlog
+Z:\Dokumentumok\Egyetem\Tantárgyak\Diff\tudom.szoft.ter\RoboTicTacToe\RoboTicTacToe\obj\x86\Debug\RoboTicTacToe.exe
+Z:\Dokumentumok\Egyetem\Tantárgyak\Diff\tudom.szoft.ter\RoboTicTacToe\RoboTicTacToe\obj\x86\Debug\RoboTicTacToe.pdb
+Z:\Dokumentumok\Egyetem\Tantárgyak\Diff\tudom.szoft.ter\VS Projektek\RoboTicTacToe\RoboTicTacToe\obj\x86\Debug\RoboTicTacToe.exe
+Z:\Dokumentumok\Egyetem\Tantárgyak\Diff\tudom.szoft.ter\VS Projektek\RoboTicTacToe\RoboTicTacToe\obj\x86\Debug\RoboTicTacToe.pdb
+Z:\Dokumentumok\Egyetem\Tantárgyak\Diff\tudom.szoft.ter\VS Projektek\jateklogika\RoboTicTacToe\obj\x86\Debug\RoboTicTacToe.exe
+Z:\Dokumentumok\Egyetem\Tantárgyak\Diff\tudom.szoft.ter\VS Projektek\jateklogika\RoboTicTacToe\obj\x86\Debug\RoboTicTacToe.pdb
