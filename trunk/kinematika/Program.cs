@@ -12,7 +12,7 @@ namespace amoba
         public const int DEFAULT_PORTNUM = 3; // COM3
         public const int DEFAULT_BAUDNUM = 1; // 1Mbps
         const int motorokszama = 7;
-        static Mozgas[] mozg = new Mozgas[4];
+        static Mozgas[] mozg = new Mozgas[7];
         static Motor[] motorok = new Motor[motorokszama];
         public static int sleeptime = 0;
 
@@ -32,19 +32,47 @@ namespace amoba
             }
 
 
+            /*NULL pozicíó begin*/
+            int[,] npmov = new int[2, 7];
+            npmov[0, 0] = 2;
+            npmov[1, 0] = 800;
+            npmov[0, 1] = 9;
+            npmov[1, 1] = 806;
+            npmov[0, 2] = 10;
+            npmov[1, 2] = 630;
+            npmov[0, 3] = 11;
+            npmov[1, 3] = 518;
+            npmov[0, 4] = 12;
+            npmov[1, 4] = 532;
+            npmov[0, 5] = 13;
+            npmov[1, 5] = 486;
+            //npmov[0,6]=14;
+            //npmov[1,6]=325;
+            //npmov[0,7]=16;
+            //npmov[1,7]=826;
+            npmov[0, 6] = 250;
+            npmov[1, 6] = 818; //643
+
+            Mozgas np = new Mozgas("NP");
+            np.setTomb(npmov);
+            /*NULL pozicíó end*/
+
+
+
+            /*bábuért megy begin*/
             int[,] bmmov = new int[2, 7];
             bmmov[0, 0] = 2;
-            bmmov[1, 0] = 826;
+            bmmov[1, 0] = 800;
             bmmov[0, 1] = 9;
-            bmmov[1, 1] = 181;
+            bmmov[1, 1] = 190;
             bmmov[0, 2] = 10;
-            bmmov[1, 2] = 558;
+            bmmov[1, 2] = 525;
             bmmov[0, 3] = 11;
-            bmmov[1,3]=203;
-            bmmov[0,4]=12;
-            bmmov[1,4]=692;
-            bmmov[0,5]=13;
-            bmmov[1,5]=300;
+            bmmov[1, 3] = 180;
+            bmmov[0, 4] = 12;
+            bmmov[1, 4] = 689;
+            bmmov[0, 5] = 13;
+            bmmov[1, 5] = 312;
             //bmmov[0,6]=14;
             //bmmov[1,6]=325;
             //bmmov[0,7]=16;
@@ -54,20 +82,22 @@ namespace amoba
 
             Mozgas bm = new Mozgas("BM");
             bm.setTomb(bmmov);
+            /*bábuért megy end*/
 
+            /*bábut markol begin*/
             int[,] bmarkolmov = new int[2, 7];
             bmarkolmov[0, 0] = 2;
-            bmarkolmov[1, 0] = 826;
+            bmarkolmov[1, 0] = 782;
             bmarkolmov[0, 1] = 9;
-            bmarkolmov[1, 1] = 181;
+            bmarkolmov[1, 1] = 217;
             bmarkolmov[0, 2] = 10;
-            bmarkolmov[1, 2] = 558;
+            bmarkolmov[1, 2] = 525;
             bmarkolmov[0, 3] = 11;
-            bmarkolmov[1, 3] = 203;
+            bmarkolmov[1, 3] = 221;
             bmarkolmov[0, 4] = 12;
-            bmarkolmov[1, 4] = 692;
+            bmarkolmov[1, 4] = 616;
             bmarkolmov[0, 5] = 13;
-            bmarkolmov[1, 5] = 320;
+            bmarkolmov[1, 5] = 386;
             //bmarkolmov[0, 6] = 14;
             //bmarkolmov[1, 6] = 325;
             //bmarkolmov[0, 7] = 16;
@@ -78,57 +108,61 @@ namespace amoba
             Mozgas bmarkol = new Mozgas("BMM");
             bmarkol.setTomb(bmarkolmov);
 
-            
+            /*bábut markol end*/
 
+            /*bábut markol2 (elmozdítja a felvettet) begin*/
             int[,] bmarkolmovv = new int[2, 7];
-            bmarkolmovv[0, 0] = 2;
-            bmarkolmovv[1, 0] = 726;
-            bmarkolmovv[0, 1] = 9;
-            bmarkolmovv[1, 1] = 281;
-            bmarkolmovv[0, 2] = 10;
-            bmarkolmovv[1, 2] = 658;
-            bmarkolmovv[0, 3] = 11;
-            bmarkolmovv[1, 3] = 203;
-            bmarkolmovv[0, 4] = 12;
-            bmarkolmovv[1, 4] = 692;
-            bmarkolmovv[0, 5] = 13;
-            bmarkolmovv[1, 5] = 325;
+           bmarkolmovv[0, 0] = 2;
+           bmarkolmovv[1, 0] = 800;
+           bmarkolmovv[0, 1] = 9;
+           bmarkolmovv[1, 1] = 190;
+           bmarkolmovv[0, 2] = 10;
+           bmarkolmovv[1, 2] = 525;
+           bmarkolmovv[0, 3] = 11;
+           bmarkolmovv[1, 3] = 180;
+           bmarkolmovv[0, 4] = 12;
+           bmarkolmovv[1, 4] = 689;
+           bmarkolmovv[0, 5] = 13;
+           bmarkolmovv[1, 5] = 312;
             //bmarkolmov[0, 6] = 14;
             //bmarkolmov[1, 6] = 325;
             //bmarkolmov[0, 7] = 16;
             //bmarkolmov[1, 7] = 826;
             bmarkolmovv[0, 6] = 250;
-            bmarkolmovv[1, 6] = 838;
+            bmarkolmovv[1, 6] = 818;
 
             Mozgas bmv = new Mozgas("BMV");
             bmv.setTomb(bmarkolmovv);
 
 
             // markolás -> összeszorít
+            /*bábut összeszorít begin*/
 
             int[,] bszorit = new int[2, 7];
+
             bszorit[0, 0] = 2;
-            bszorit[1, 0] = 726;
+            bszorit[1, 0] = 782;
             bszorit[0, 1] = 9;
-            bszorit[1, 1] = 281;
+            bszorit[1, 1] = 217;
             bszorit[0, 2] = 10;
-            bszorit[1, 2] = 658;
+            bszorit[1, 2] = 525;
             bszorit[0, 3] = 11;
-            bszorit[1, 3] = 203;
+            bszorit[1, 3] = 221;
             bszorit[0, 4] = 12;
-            bszorit[1, 4] = 692;
+            bszorit[1, 4] = 616;
             bszorit[0, 5] = 13;
-            bszorit[1, 5] = 325;
+            bszorit[1, 5] = 386;
             //bmarkolmov[0, 6] = 14;
             //bmarkolmov[1, 6] = 325;
             //bmarkolmov[0, 7] = 16;
             //bmarkolmov[1, 7] = 826;
             bszorit[0, 6] = 250;
-            bszorit[1, 6] = 838;
+            bszorit[1, 6] = 818;
 
             Mozgas bmszorit = new Mozgas("BMSZ");
             bmszorit.setTomb(bszorit);
 
+            /*bábut összeszorít end*/
 
 
 
@@ -138,8 +172,7 @@ namespace amoba
 
 
 
-
-            
+            /* mezők begin */
 
 
             int[,] a1mov = new int[2, 3];
@@ -164,13 +197,18 @@ namespace amoba
             Mozgas a2 = new Mozgas("A2");
             a2.setTomb(a2mov);
 
+            /*mezők end*/
             
+            /* mozgások aggregálása egy tömbbe */
             mozg[0]=a1;
             mozg[1]=a2;
             mozg[2] = bm;
             mozg[3] = bmarkol;
+            mozg[4] = np;
+            mozg[5] = bmszorit;
+            mozg[6] = bmv;
 
-
+            /* motorok példányosítása */
 
             Motor motor1 = new Motor(9);
             Motor motor2 = new Motor(10);
@@ -197,28 +235,28 @@ namespace amoba
             string hova = adatbekeres();
 
 
-            // először fel kell venni a bábut
-            if (mozgatas("BM"))
+            if (mozgatas("NP"))
             {
-                if (mozgatas("BMM"))
+                // először fel kell venni a bábut
+                if (mozgatas("BM"))
                 {
-                    if(mozgatas("BMSZ"))
+                    if (mozgatas("BMM"))
                     {
-                    
-                    if (mozgatas("BMV"))
-                    {
-
-                        //    Console.WriteLine("BMM megvolt");
-                        //if (mozgatas(hova))
-                        //{
-                        //    Console.WriteLine("Cél megvolt");
-                        //    Console.ReadKey();
-                        dynamixel.dxl_terminate();
-                        //}
+                            if (mozgatas("BMSZ"))
+                            {
+                                if (mozgatas("BMV"))
+                                {
+                                    if (mozgatas("NP"))
+                                    {
+                                        dynamixel.dxl_terminate();
+                                    }
+                                }
+                                
+                            }
                     }
-                        }
                 }
             }
+            dynamixel.dxl_terminate();
         }
 
         protected static bool mozgatas(string celmezo)
