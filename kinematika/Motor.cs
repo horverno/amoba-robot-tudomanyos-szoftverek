@@ -55,7 +55,11 @@ namespace amoba
 
         public bool isInGoalPosition()
         {
-            if (Math.Abs(dynamixel.dxl_read_word(this.id, P_PRESENT_POSITION_L) - this.goalPosition) < 20 )
+            int margin = 20;
+            if (this.id == 250) {
+                margin = 20;
+            }
+            if (Math.Abs(dynamixel.dxl_read_word(this.id, P_PRESENT_POSITION_L) - this.goalPosition) < margin )
             {
                 
                 //    Console.WriteLine("H\tMotorID: " + this.id + " PresPos: " + dynamixel.dxl_read_word(this.id, P_PRESENT_POSITION_H) + " Goalpos: " + this.goalPosition);
@@ -63,7 +67,7 @@ namespace amoba
                 return true;
             }
           
-            //    Console.WriteLine("\tMotorID: " + this.id + " PresPos: " + dynamixel.dxl_read_word(this.id, P_PRESENT_POSITION_H) + " Goalpos: " + this.goalPosition);
+            Console.WriteLine("\t Nincs pozíción: MotorID: " + this.id + " PresPos: " + dynamixel.dxl_read_word(this.id, P_PRESENT_POSITION_H) + " Goalpos: " + this.goalPosition);
             //Console.WriteLine("L\tMotorID: " + this.id + " PresPos: " + dynamixel.dxl_read_word(this.id, P_PRESENT_POSITION_L) + " Goalpos: " + this.goalPosition);
             return false;
         }
