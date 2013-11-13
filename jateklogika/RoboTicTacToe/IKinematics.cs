@@ -2,7 +2,13 @@
 
 namespace RoboTicTacToe
 {
-    public enum RobotMovement { Cheer, Grieve };
+    /// <summary>
+    /// This is the enumeration of all the movement types the robot arm can do.
+    /// </summary>
+    public enum RobotMovement { CleanUp, PlacePiece, Cheer, Grieve };
+    /// <summary>
+    /// This is the enumeration of the possible statuses of the robot arm.
+    /// </summary>
     public enum RobotStatus { Ready, Moving, Offline, ServoError, OutOfPieces };
 
     /// <summary>
@@ -10,18 +16,22 @@ namespace RoboTicTacToe
     /// </summary>
     interface IKinematics : IGame
     {
-        void NewGame(byte colCount, byte rowCount);
-        void PlacePiece(Piece pieceType, byte destCol, byte destRow);
-        void Move(RobotMovement movementType);
-
-        event EventHandler RobotStatusChanged;
+        /// <summary>
+        /// This event must be "called" whenever the status of the robot has changed.
+        /// Raise:  RobotStatusChanged(this, new RobotStatusChangedEventArgs(RobotStatus.Ready))
+        /// Handle: EventHandler<RobotStatusChangedEventArgs> robotStatusHandler = RobotStatusChanged
+        /// </summary>
+        event EventHandler<RobotStatusChangedEventArgs> RobotStatusChanged;
     }
 
-    class RobotStatusChangedEventArgs
+    /// <summary>
+    /// An instance of this class contains the information about the new status of the robot.
+    /// </summary>
+    class RobotStatusChangedEventArgs : EventArgs
     {
-        private RobotStatus CurrentStatus { get; set; }
+        public RobotStatus CurrentStatus { get; set; }
 
-        public RobotStatusChangedEventArgs(RobotStatus newStatus)
+        public RobotStatusChangedEventArgs(RobotStatus newStatus) : base()
         {
             this.CurrentStatus = newStatus;
         }
