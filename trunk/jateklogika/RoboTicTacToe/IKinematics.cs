@@ -18,10 +18,16 @@ namespace RoboTicTacToe
     {
         /// <summary>
         /// This event must be "called" whenever the status of the robot has changed.
-        /// Raise:  RobotStatusChanged(this, new RobotStatusChangedEventArgs(RobotStatus.Ready))
-        /// Handle: EventHandler<RobotStatusChangedEventArgs> robotStatusHandler = RobotStatusChanged
         /// </summary>
         event EventHandler<RobotStatusChangedEventArgs> RobotStatusChanged;
+
+        /// <summary>
+        /// This method is called by the game logics to establish the incoming communication.
+        /// </summary>
+        /// <param name="gameLogics">The reference of the caller</param>
+        /// <example>gameLogics.RobotMovementReqest += RobotMovementRequestHandler;</example>
+        void SignUpToRobotMovementRequestEvent(IGameLogics gameLogics);
+
     }
 
     /// <summary>
@@ -34,6 +40,11 @@ namespace RoboTicTacToe
         public RobotStatusChangedEventArgs(RobotStatus newStatus) : base()
         {
             this.CurrentStatus = newStatus;
+        }
+
+        public override string ToString()
+        {
+            return "New status: " + CurrentStatus;
         }
     }
 }

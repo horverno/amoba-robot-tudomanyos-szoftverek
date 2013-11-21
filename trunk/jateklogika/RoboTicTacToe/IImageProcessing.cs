@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Text;
 
 namespace RoboTicTacToe
 {
@@ -14,16 +15,12 @@ namespace RoboTicTacToe
     {
         /// <summary>
         /// The event indicating tha camera state changes.
-        /// Raise:  CameraStatusChanged(this, new CameraStatusChangedEventArgs(CameraStatus.Ok))
-        /// Handle: EventHandler<CameraStatusChangedEventAgrgs> cameraStatusHandler = CameraStatusChanged
         /// </summary>
         event EventHandler<CameraStatusChangedEventArgs> CameraStatusChanged;
         /// <summary>
         /// This event should occur whenever something changed on the table.
-        /// Raise:  TableSetupChanged(this, new TableSetupChangedEventArgs(newTable))
-        /// Handle: EventHandler<CameraStatusChangedEventAgrgs> tableSetupHandler = TableSetupChanged
         /// </summary>
-        event EventHandler<TableSetupChangedEventArgs> TableSetupChanged;
+        event EventHandler<TableStateChangedEventArgs> TableStateChanged;
     }
     
     /// <summary>
@@ -37,18 +34,40 @@ namespace RoboTicTacToe
         {
             this.CurrentStatus = newCameraStatus;
         }
+
+        public override string ToString()
+        {
+            return "New status: " + CurrentStatus;
+        }
     }
     
     /// <summary>
     /// This class represents the new set-up of the changed table.
     /// </summary>
-    class TableSetupChangedEventArgs : EventArgs
+    class TableStateChangedEventArgs : EventArgs
     {
         public Piece[,] table;
         
-        public TableSetupChangedEventArgs(Piece[,] newTable) : base()
+        public TableStateChangedEventArgs(Piece[,] newTable) : base()
         {
             this.table = newTable;
+        }
+
+        /// <returns>Returns the string representation of the table state</returns>
+        public override string ToString()
+        {
+            StringBuilder result = new StringBuilder("New table set-up:\n");
+            int cols = table.GetLength(0);
+            int rows = table.GetLength(1);
+            for (int x = 0; x < cols; ++x)
+            {
+                for (int y = 0; y < rows; ++y)
+                {
+                    result.Append(table[x, y]).Append("\t");
+                }
+                result.Append("\n");
+            }
+            return result.ToString();
         }
     }
 }

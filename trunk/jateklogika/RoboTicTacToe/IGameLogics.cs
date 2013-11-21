@@ -12,14 +12,13 @@ namespace RoboTicTacToe
     {
         /// <summary>
         /// With this event the game logics can call for a movement (from the kinematics)
-        /// Raise:  RobotMovementRequest(this, new RobotMovementRequestEventArgs(RobotMovement.PlacePiece, Piece.X, 0, 2)
-        /// Handle: EventHandler<RobotMovementRequestEventArgs> movementRequestHandler = RobotMovementRequest;
         /// </summary>
         event EventHandler<RobotMovementRequestEventArgs> RobotMovementReqest;
+
     }
 
     /// <summary>
-    /// This class represents a movement of the robot (requested by the game logics).
+    /// This class represents a movement request  the robot (requested by the game logics).
     /// </summary>
     class RobotMovementRequestEventArgs : EventArgs
     {
@@ -29,7 +28,7 @@ namespace RoboTicTacToe
         public int destRow { get; set; }
 
         /// <summary>
-        /// Constructor for making a "new movement".
+        /// Constructor for making a new movement request.
         /// </summary>
         /// <param name="movementType">the kind of the movement</param>
         /// <param name="pieceType">The type of the piece must be placed (only needed when placing a piece onto the table)</param>
@@ -41,6 +40,15 @@ namespace RoboTicTacToe
             this.movementType = movementType;
             this.destCol = destCol;
             this.destRow = destRow;
+        }
+        
+        /// <returns>Returns the string representation of the movement request</returns>
+        public override string ToString()
+        {
+            StringBuilder result = new StringBuilder("Type of movement: ").Append(movementType);
+            result.Append("\nPiece type: ").Append(pieceType);
+            result.Append("\nDestination: (column ").Append(destCol).Append(", row ").Append(destRow).Append(")");
+            return result.ToString();
         }
     }
 }
