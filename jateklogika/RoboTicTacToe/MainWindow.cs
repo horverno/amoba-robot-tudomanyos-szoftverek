@@ -15,5 +15,11 @@ namespace RoboTicTacToe
         {
             InitializeComponent();
         }
+
+        private void openTestWindowToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            TestWindow tw = new TestWindow();
+            tw.Show();
+        }
     }
 }

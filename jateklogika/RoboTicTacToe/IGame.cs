@@ -16,14 +16,16 @@ namespace RoboTicTacToe
     interface IGame
     {
         /// <summary>
-        /// This event can be used by all modules to send post messages to the gui (so the user can see working process).
-        /// Raise:  PostMessage(this, new PostMessageEventArgs("message"))
-        /// Handle: EventHandler<PostMessageEventArgs> messageHandler = PostMessage;
+        /// This event can be used by all modules to send post messages to the gui (so the user can follow the process).
         /// </summary>
-        event EventHandler<PostMessageEventArgs> PostMessage;
+        /// <remarks>asdf</remarks>
+        event EventHandler<PostMessageEventArgs> PostMessageShowRequest;
 
     }
-
+    
+    /// <summary>
+    /// This class describes an object holding a post message
+    /// </summary>
     class PostMessageEventArgs : EventArgs
     {
         public string message{ get; set; }
@@ -32,5 +34,11 @@ namespace RoboTicTacToe
 	    {
             this.message = message;
 	    }
+
+        /// <returns>Returns the message as a string</returns>
+        public override string ToString()
+        {
+            return "Message: " + message;
+        }
     }
 }
