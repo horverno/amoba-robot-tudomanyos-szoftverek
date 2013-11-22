@@ -16,7 +16,7 @@ namespace amoba
         public const int DEFAULT_PORTNUM = 3; // COM3
         public const int DEFAULT_BAUDNUM = 1; // 1Mbps
         const int motorokszama = 7;
-        static Mozgas[] mozg = new Mozgas[10];
+        static Mozgas[] mozg = new Mozgas[11];
         static Motor[] motorok = new Motor[motorokszama];
         public static int sleeptime = 0;
 
@@ -40,25 +40,6 @@ namespace amoba
             }
 
 
-
-            int[,] teszt4mov = new int[2, 7];
-            teszt4mov[0, 0] = 2;
-            teszt4mov[1, 0] = 666;
-            teszt4mov[0, 1] = 9;
-            teszt4mov[1, 1] = 557;
-            teszt4mov[0, 2] = 10;
-            teszt4mov[1, 2] = 1023;
-            teszt4mov[0, 3] = 11;
-            teszt4mov[1, 3] = 171;
-            teszt4mov[0, 4] = 12;
-            teszt4mov[1, 4] = 650;
-            teszt4mov[0, 5] = 13;
-            teszt4mov[1, 5] = 524;
-            teszt4mov[0, 6] = 250;
-            teszt4mov[1, 6] = 823;
-            Mozgas teszt4 = new Mozgas("TESZT4");
-            teszt4.setTomb(teszt4mov);
-
             int[,] babumegymov = new int[2, 7];
             babumegymov[0, 0] = 2;
             babumegymov[1, 0] = 801;
@@ -76,6 +57,25 @@ namespace amoba
             babumegymov[1, 6] = 866;
             Mozgas babumegy = new Mozgas("BABUMEGY");
             babumegy.setTomb(babumegymov);
+
+
+            int[,] babu_felmov = new int[2, 7];
+            babu_felmov[0, 0] = 2;
+            babu_felmov[1, 0] = 801;
+            babu_felmov[0, 1] = 9;
+            babu_felmov[1, 1] = 854;
+            babu_felmov[0, 2] = 10;
+            babu_felmov[1, 2] = 811;
+            babu_felmov[0, 3] = 11;
+            babu_felmov[1, 3] = 233;
+            babu_felmov[0, 4] = 12;
+            babu_felmov[1, 4] = 638;
+            babu_felmov[0, 5] = 13;
+            babu_felmov[1, 5] = 690;
+            babu_felmov[0, 6] = 250;
+            babu_felmov[1, 6] = 813;
+            Mozgas babu_fel = new Mozgas("BABUFEL");
+            babu_fel.setTomb(babu_felmov);
 
             int[,] osszefogmov = new int[2, 7];
             osszefogmov[0, 0] = 2;
@@ -109,11 +109,11 @@ namespace amoba
             elengedmov[0, 5] = 13;
             elengedmov[1, 5] = 666;
             elengedmov[0, 6] = 250;
-            elengedmov[1, 6] = 823;
+            elengedmov[1, 6] = 833;
             Mozgas elenged = new Mozgas("ELENGED");
             elenged.setTomb(elengedmov);
 
-            int[,] konyokBemov = new int[2,7];
+            int[,] konyokBemov = new int[2, 7];
             konyokBemov[0, 0] = 2;
             konyokBemov[1, 0] = 800;
             konyokBemov[0, 1] = 9;
@@ -132,64 +132,243 @@ namespace amoba
             konyokBe.setTomb(konyokBemov);
 
 
-            
+            int[,] poz00mov = new int[2, 7];
+            poz00mov[0, 0] = 2;
+            poz00mov[1, 0] = 818;
+            poz00mov[0, 1] = 9;
+            poz00mov[1, 1] = 837;
+            poz00mov[0, 2] = 10;
+            poz00mov[1, 2] = 630;
+            poz00mov[0, 3] = 11;
+            poz00mov[1, 3] = 337;
+            poz00mov[0, 4] = 12;
+            poz00mov[1, 4] = 701;
+            poz00mov[0, 5] = 13;
+            poz00mov[1, 5] = 656;
+            poz00mov[0, 6] = 250;
+            poz00mov[1, 6] = 813;
+            Mozgas poz00 = new Mozgas("POZ00");
+            poz00.setTomb(poz00mov);
+
+            int[,] poz00felmov = new int[2, 7];
+            poz00felmov[0, 0] = 2;
+            poz00felmov[1, 0] = 819;
+            poz00felmov[0, 1] = 9;
+            poz00felmov[1, 1] = 837;
+            poz00felmov[0, 2] = 10;
+            poz00felmov[1, 2] = 631;
+            poz00felmov[0, 3] = 11;
+            poz00felmov[1, 3] = 337;
+            poz00felmov[0, 4] = 12;
+            poz00felmov[1, 4] = 702;
+            poz00felmov[0, 5] = 13;
+            poz00felmov[1, 5] = 708;
+            poz00felmov[0, 6] = 250;
+            poz00felmov[1, 6] = 813;
+            Mozgas poz00fel = new Mozgas("POZ00FEL");
+            poz00fel.setTomb(poz00felmov);
+
+            int[,] poz00leteszmov = new int[2, 7];
+            poz00leteszmov[0, 0] = 2;
+            poz00leteszmov[1, 0] = 818;
+            poz00leteszmov[0, 1] = 9;
+            poz00leteszmov[1, 1] = 837;
+            poz00leteszmov[0, 2] = 10;
+            poz00leteszmov[1, 2] = 630;
+            poz00leteszmov[0, 3] = 11;
+            poz00leteszmov[1, 3] = 337;
+            poz00leteszmov[0, 4] = 12;
+            poz00leteszmov[1, 4] = 701;
+            poz00leteszmov[0, 5] = 13;
+            poz00leteszmov[1, 5] = 656;
+            poz00leteszmov[0, 6] = 250;
+            poz00leteszmov[1, 6] = 850;
+            Mozgas poz00letesz = new Mozgas("POZ00LETESZ");
+            poz00letesz.setTomb(poz00leteszmov);
 
 
-            int[,] teszt3mov = new int[2, 7];
-            teszt3mov[0, 0] = 2;
-            teszt3mov[1, 0] = 705;
-            teszt3mov[0, 1] = 9;
-            teszt3mov[1, 1] = 598;
-            teszt3mov[0, 2] = 10;
-            teszt3mov[1, 2] = 1023;
-            teszt3mov[0, 3] = 11;
-            teszt3mov[1, 3] = 192;
-            teszt3mov[0, 4] = 12;
-            teszt3mov[1, 4] = 614;
-            teszt3mov[0, 5] = 13;
-            teszt3mov[1, 5] = 522;
-            teszt3mov[0, 6] = 250;
-            teszt3mov[1, 6] = 823;
-            Mozgas teszt3 = new Mozgas("TESZT3");
-            teszt3.setTomb(teszt3mov);
+            int[,] poz10mov = new int[2, 7];
+            poz10mov[0, 0] = 2;
+            poz10mov[1, 0] = 805;
+            poz10mov[0, 1] = 9;
+            poz10mov[1, 1] = 829;
+            poz10mov[0, 2] = 10;
+            poz10mov[1, 2] = 676;
+            poz10mov[0, 3] = 11;
+            poz10mov[1, 3] = 359;
+            poz10mov[0, 4] = 12;
+            poz10mov[1, 4] = 732;
+            poz10mov[0, 5] = 13;
+            poz10mov[1, 5] = 658;
+            poz10mov[0, 6] = 250;
+            poz10mov[1, 6] = 813;
+            Mozgas poz10 = new Mozgas("POZ10");
+            poz10.setTomb(poz10mov);
+
+            int[,] poz10felmov = new int[2, 7];
+            poz10felmov[0, 0] = 2;
+            poz10felmov[1, 0] = 806;
+            poz10felmov[0, 1] = 9;
+            poz10felmov[1, 1] = 829;
+            poz10felmov[0, 2] = 10;
+            poz10felmov[1, 2] = 677;
+            poz10felmov[0, 3] = 11;
+            poz10felmov[1, 3] = 360;
+            poz10felmov[0, 4] = 12;
+            poz10felmov[1, 4] = 730;
+            poz10felmov[0, 5] = 13;
+            poz10felmov[1, 5] = 708;
+            poz10felmov[0, 6] = 250;
+            poz10felmov[1, 6] = 813;
+            Mozgas poz10fel = new Mozgas("POZ10FEL");  //kicsit pontosítani kell
+            poz10fel.setTomb(poz10felmov);
+
+            int[,] poz10leteszmov = new int[2, 7];
+            poz10leteszmov[0, 0] = 2;
+            poz10leteszmov[1, 0] = 806;
+            poz10leteszmov[0, 1] = 9;
+            poz10leteszmov[1, 1] = 829;
+            poz10leteszmov[0, 2] = 10;
+            poz10leteszmov[1, 2] = 677;
+            poz10leteszmov[0, 3] = 11;
+            poz10leteszmov[1, 3] = 360;
+            poz10leteszmov[0, 4] = 12;
+            poz10leteszmov[1, 4] = 730;
+            poz10leteszmov[0, 5] = 13;
+            poz10leteszmov[1, 5] = 708;
+            poz10leteszmov[0, 6] = 250;
+            poz10leteszmov[1, 6] = 850;
+            Mozgas poz10letesz = new Mozgas("POZ10LETESZ");
+            poz10letesz.setTomb(poz10leteszmov);
 
 
-            int[,] teszt2mov = new int[2, 7];
-            teszt2mov[0, 0] = 2;
-            teszt2mov[1, 0] = 827;
-            teszt2mov[0, 1] = 9;
-            teszt2mov[1, 1] = 869;
-            teszt2mov[0, 2] = 10;
-            teszt2mov[1, 2] = 600;
-            teszt2mov[0, 3] = 11;
-            teszt2mov[1, 3] = 562;
-            teszt2mov[0, 4] = 12;
-            teszt2mov[1, 4] = 657;
-            teszt2mov[0, 5] = 13;
-            teszt2mov[1, 5] = 660;
-            teszt2mov[0, 6] = 250;
-            teszt2mov[1, 6] = 823;
-            Mozgas teszt2 = new Mozgas("TESZT2");
-            teszt2.setTomb(teszt2mov);
 
+            int[,] poz20mov = new int[2, 7];
+            poz20mov[0, 0] = 2;
+            poz20mov[1, 0] = 805;
+            poz20mov[0, 1] = 9;
+            poz20mov[1, 1] = 829;
+            poz20mov[0, 2] = 10;
+            poz20mov[1, 2] = 714;
+            poz20mov[0, 3] = 11;
+            poz20mov[1, 3] = 470;
+            poz20mov[0, 4] = 12;
+            poz20mov[1, 4] = 717;
+            poz20mov[0, 5] = 13;
+            poz20mov[1, 5] = 665;
+            poz20mov[0, 6] = 250;
+            poz20mov[1, 6] = 813;
+            Mozgas poz20 = new Mozgas("POZ20");
+            poz20.setTomb(poz20mov);
 
-            int[,] teszt1mov = new int[2, 7];
-            teszt1mov[0, 0] = 2;
-            teszt1mov[1, 0] = 781;
-            teszt1mov[0, 1] = 9;
-            teszt1mov[1, 1] = 761;
-            teszt1mov[0, 2] = 10;
-            teszt1mov[1, 2] = 250;
-            teszt1mov[0, 3] = 11;
-            teszt1mov[1, 3] = 316;
-            teszt1mov[0, 4] = 12;
-            teszt1mov[1, 4] = 686;
-            teszt1mov[0, 5] = 13;
-            teszt1mov[1, 5] = 666;
-            teszt1mov[0, 6] = 250;
-            teszt1mov[1, 6] = 813;
-            Mozgas teszt1 = new Mozgas("TESZT1");
-            teszt1.setTomb(teszt1mov);
+            int[,] poz20felmov = new int[2, 7];
+            poz20felmov[0, 0] = 2;
+            poz20felmov[1, 0] = 806;
+            poz20felmov[0, 1] = 9;
+            poz20felmov[1, 1] = 829;
+            poz20felmov[0, 2] = 10;
+            poz20felmov[1, 2] = 714;
+            poz20felmov[0, 3] = 11;
+            poz20felmov[1, 3] = 471;
+            poz20felmov[0, 4] = 12;
+            poz20felmov[1, 4] = 716;
+            poz20felmov[0, 5] = 13;
+            poz20felmov[1, 5] = 737;
+            poz20felmov[0, 6] = 250;
+            poz20felmov[1, 6] = 813;
+            Mozgas poz20fel = new Mozgas("POZ20FEL");           // A pozíció nioncs a cél felett, amúgy kiráély
+            poz20fel.setTomb(poz20felmov);
+
+            int[,] poz20leteszmov = new int[2, 7];
+            poz20leteszmov[0, 0] = 2;
+            poz20leteszmov[1, 0] = 806;
+            poz20leteszmov[0, 1] = 9;
+            poz20leteszmov[1, 1] = 829;
+            poz20leteszmov[0, 2] = 10;
+            poz20leteszmov[1, 2] = 714;
+            poz20leteszmov[0, 3] = 11;
+            poz20leteszmov[1, 3] = 471;
+            poz20leteszmov[0, 4] = 12;
+            poz20leteszmov[1, 4] = 716;
+            poz20leteszmov[0, 5] = 13;
+            poz20leteszmov[1, 5] = 737;
+            poz20leteszmov[0, 6] = 250;
+            poz20leteszmov[1, 6] = 850;
+            Mozgas poz20letesz = new Mozgas("POZ20LETESZ");
+            poz20letesz.setTomb(poz20leteszmov);
+
+            int[,] poz30mov = new int[2, 7];
+            poz30mov[0, 0] = 2;
+            poz30mov[1, 0] = 805;
+            poz30mov[0, 1] = 9;
+            poz30mov[1, 1] = 869;
+            poz30mov[0, 2] = 10;
+            poz30mov[1, 2] = 713;
+            poz30mov[0, 3] = 11;
+            poz30mov[1, 3] = 580;
+            poz30mov[0, 4] = 12;
+            poz30mov[1, 4] = 667;
+            poz30mov[0, 5] = 13;
+            poz30mov[1, 5] = 672;
+            poz30mov[0, 6] = 250;
+            poz30mov[1, 6] = 813;
+            Mozgas poz30 = new Mozgas("POZ30");
+            poz30.setTomb(poz30mov);
+
+            int[,] poz30felmov = new int[2, 7];
+            poz30felmov[0, 0] = 2;
+            poz30felmov[1, 0] = 805;
+            poz30felmov[0, 1] = 9;
+            poz30felmov[1, 1] = 869;
+            poz30felmov[0, 2] = 10;
+            poz30felmov[1, 2] = 714;
+            poz30felmov[0, 3] = 11;
+            poz30felmov[1, 3] = 580;
+            poz30felmov[0, 4] = 12;
+            poz30felmov[1, 4] = 667;
+            poz30felmov[0, 5] = 13;
+            poz30felmov[1, 5] = 719;
+            poz30felmov[0, 6] = 250;
+            poz30felmov[1, 6] = 813;
+            Mozgas poz30fel = new Mozgas("POZ30FEL");
+            poz30fel.setTomb(poz30felmov);
+
+            int[,] poz30leteszmov = new int[2, 7];
+            poz30leteszmov[0, 0] = 2;
+            poz30leteszmov[1, 0] = 805;
+            poz30leteszmov[0, 1] = 9;
+            poz30leteszmov[1, 1] = 869;
+            poz30leteszmov[0, 2] = 10;
+            poz30leteszmov[1, 2] = 713;
+            poz30leteszmov[0, 3] = 11;
+            poz30leteszmov[1, 3] = 580;
+            poz30leteszmov[0, 4] = 12;
+            poz30leteszmov[1, 4] = 667;
+            poz30leteszmov[0, 5] = 13;
+            poz30leteszmov[1, 5] = 672;
+            poz30leteszmov[0, 6] = 250;
+            poz30leteszmov[1, 6] = 850;
+            Mozgas poz30letesz = new Mozgas("POZ30LETESZ");
+            poz30letesz.setTomb(poz30leteszmov);
+
+            int[,] poz30felnyitmov = new int[2, 7];
+            poz30felnyitmov[0, 0] = 2;
+            poz30felnyitmov[1, 0] = 805;
+            poz30felnyitmov[0, 1] = 9;
+            poz30felnyitmov[1, 1] = 869;
+            poz30felnyitmov[0, 2] = 10;
+            poz30felnyitmov[1, 2] = 714;
+            poz30felnyitmov[0, 3] = 11;
+            poz30felnyitmov[1, 3] = 580;
+            poz30felnyitmov[0, 4] = 12;
+            poz30felnyitmov[1, 4] = 667;
+            poz30felnyitmov[0, 5] = 13;
+            poz30felnyitmov[1, 5] = 719;
+            poz30felnyitmov[0, 6] = 250;
+            poz30felnyitmov[1, 6] = 850;
+            Mozgas poz30felnyit = new Mozgas("POZ30FELNYIT");
+            poz30felnyit.setTomb(poz30felnyitmov);
+
 
             //pihenőből bábúért
 
@@ -210,155 +389,6 @@ namespace amoba
             _veddlemov[1, 6] = 813;
             Mozgas _veddle = new Mozgas("_VEDDLE");
             _veddle.setTomb(_veddlemov);
-
-
-
-            int[,] _00mov = new int[2, 7];
-            _00mov[0, 0] = 2;
-            _00mov[1, 0] = 839;
-            _00mov[0, 1] = 9;
-            _00mov[1, 1] = 842;
-            _00mov[0, 2] = 10;
-            _00mov[1, 2] = 0;
-            _00mov[0, 3] = 11;
-            _00mov[1, 3] = 416;
-            _00mov[0, 4] = 12;
-            _00mov[1, 4] = 647;
-            _00mov[0, 5] = 13;
-            _00mov[1, 5] = 631;
-            _00mov[0, 6] = 250;
-            _00mov[1, 6] = 824;
-            Mozgas _00 = new Mozgas("_00");
-            _00.setTomb(_00mov);
-
-            int[,] _10mov = new int[2, 7];
-            _10mov[0, 0] = 2;
-            _10mov[1, 0] = 841;
-            _10mov[0, 1] = 9;
-            _10mov[1, 1] = 870;
-            _10mov[0, 2] = 10;
-            _10mov[1, 2] = 0;
-            _10mov[0, 3] = 11;
-            _10mov[1, 3] = 514;
-            _10mov[0, 4] = 12;
-            _10mov[1, 4] = 646;
-            _10mov[0, 5] = 13;
-            _10mov[1, 5] = 636;
-            _10mov[0, 6] = 250;
-            _10mov[1, 6] = 824;
-            Mozgas _10 = new Mozgas("_10");
-            _10.setTomb(_10mov);
-
-            int[,] _20mov = new int[2, 7];
-            _20mov[0, 0] = 2;
-            _20mov[1, 0] = 837;
-            _20mov[0, 1] = 9;
-            _20mov[1, 1] = 871;
-            _20mov[0, 2] = 10;
-            _20mov[1, 2] = 0;
-            _20mov[0, 3] = 11;
-            _20mov[1, 3] = 574;
-            _20mov[0, 4] = 12;
-            _20mov[1, 4] = 642;
-            _20mov[0, 5] = 13;
-            _20mov[1, 5] = 646;
-            _20mov[0, 6] = 250;
-            _20mov[1, 6] = 829;
-            Mozgas _20 = new Mozgas("_20");
-            _20.setTomb(_20mov);
-
-            int[,] _30mov = new int[2, 7];
-            _30mov[0, 0] = 2;
-            _30mov[1, 0] = 812;
-            _30mov[0, 1] = 9;
-            _30mov[1, 1] = 819;
-            _30mov[0, 2] = 10;
-            _30mov[1, 2] = 1023;
-            _30mov[0, 3] = 11;
-            _30mov[1, 3] = 580;
-            _30mov[0, 4] = 12;
-            _30mov[1, 4] = 643;
-            _30mov[0, 5] = 13;
-            _30mov[1, 5] = 660;
-            _30mov[0, 6] = 250;
-            _30mov[1, 6] = 822;
-            Mozgas _30 = new Mozgas("_30");
-            _30.setTomb(_30mov);
-
-            int[,] _01mov = new int[2, 7];
-            _01mov[0, 0] = 2;
-            _01mov[1, 0] = 805;
-            _01mov[0, 1] = 9;
-            _01mov[1, 1] = 861;
-            _01mov[0, 2] = 10;
-            _01mov[1, 2] = 77;
-            _01mov[0, 3] = 11;
-            _01mov[1, 3] = 371;
-            _01mov[0, 4] = 12;
-            _01mov[1, 4] = 623;
-            _01mov[0, 5] = 13;
-            _01mov[1, 5] = 631;
-            _01mov[0, 6] = 250;
-            _01mov[1, 6] = 822;
-            Mozgas _01 = new Mozgas("_01");
-            _01.setTomb(_01mov);
-
-            int[,] _11mov = new int[2, 7];
-            _11mov[0, 0] = 2;
-            _11mov[1, 0] = 807;
-            _11mov[0, 1] = 9;
-            _11mov[1, 1] = 845;
-            _11mov[0, 2] = 10;
-            _11mov[1, 2] = 1001;
-            _11mov[0, 3] = 11;
-            _11mov[1, 3] = 400;
-            _11mov[0, 4] = 12;
-            _11mov[1, 4] = 643;
-            _11mov[0, 5] = 13;
-            _11mov[1, 5] = 642;
-            _11mov[0, 6] = 250;
-            _11mov[1, 6] = 825;
-            Mozgas _11 = new Mozgas("_11");
-            _11.setTomb(_11mov);
-
-            int[,] _21mov = new int[2, 7];
-            _21mov[0, 0] = 2;
-            _21mov[1, 0] = 792;
-            _21mov[0, 1] = 9;
-            _21mov[1, 1] = 797;
-            _21mov[0, 2] = 10;
-            _21mov[1, 2] = 958;
-            _21mov[0, 3] = 11;
-            _21mov[1, 3] = 455;
-            _21mov[0, 4] = 12;
-            _21mov[1, 4] = 624;
-            _21mov[0, 5] = 13;
-            _21mov[1, 5] = 637;
-            _21mov[0, 6] = 250;
-            _21mov[1, 6] = 825;
-            Mozgas _21 = new Mozgas("_21");
-            _21.setTomb(_21mov);
-
-            int[,] _31mov = new int[2, 7];
-            _31mov[0, 0] = 2;
-            _31mov[1, 0] = 750;
-            _31mov[0, 1] = 9;
-            _31mov[1, 1] = 717;
-            _31mov[0, 2] = 10;
-            _31mov[1, 2] = 1023;
-            _31mov[0, 3] = 11;
-            _31mov[1, 3] = 447;
-            _31mov[0, 4] = 12;
-            _31mov[1, 4] = 643;
-            _31mov[0, 5] = 13;
-            _31mov[1, 5] = 630;
-            _31mov[0, 6] = 250;
-            _31mov[1, 6] = 828;
-            Mozgas _31 = new Mozgas("_31");
-            _31.setTomb(_31mov);
-
-
-
 
             /*NULL pozicíó begin*/
             int[,] npmov = new int[2, 7];
@@ -530,16 +560,18 @@ namespace amoba
             /* mozgások aggregálása egy tömbbe */
 
             mozg[0] = np;
-            
+
             mozg[1] = _veddle;
             mozg[2] = babumegy;
-            mozg[3] = _11;
-            mozg[4] = _11;
-            mozg[5] = _20;
-            mozg[6] = teszt1;
+            mozg[3] = babu_fel;
+            mozg[4] = poz30;
+            mozg[5] = poz30fel;
+            mozg[6] = poz30letesz;
             mozg[7] = konyokBe;
             mozg[8] = osszefog;
             mozg[9] = elenged;
+            mozg[10] = poz30felnyit;
+
 
 
 
@@ -578,30 +610,42 @@ namespace amoba
                 {
                     if (mozgatas("_VEDDLE"))
                     {
-                        if (mozgatas("BABUMEGY"))
+                        if (mozgatas("BABUFEL"))
                         {
-                            if (mozgatas("OSSZEFOG"))
+                            if (mozgatas("BABUMEGY"))
                             {
-                                if (mozgatas("_VEDDLE"))
+                                if (mozgatas("OSSZEFOG"))
                                 {
-                                    if (mozgatas("TESZT1"))
+                                    if (mozgatas("BABUFEL"))
                                     {
-                                        if (mozgatas("ELENGED"))
-                                        {
-                                            if (mozgatas("_VEDDLE"))
-                                            {
-                                                if (mozgatas("KONYOKBE"))
-                                                {
-                                                    if (mozgatas("NP"))
-                                                    {
 
-                                                        dynamixel.dxl_terminate();
+                                        if (mozgatas("_VEDDLE"))
+                                        {
+                                            if (mozgatas("POZ30FEL"))
+                                            {
+                                                if (mozgatas("POZ30"))
+                                                {
+                                                    if (mozgatas("POZ30LETESZ"))
+                                                    {
+                                                        if (mozgatas("POZ30FELNYIT"))
+                                                        {
+                                                            if (mozgatas("_VEDDLE"))
+                                                            {
+                                                                if (mozgatas("KONYOKBE"))
+                                                                {
+                                                                    if (mozgatas("NP"))
+                                                                    {
+
+                                                                        dynamixel.dxl_terminate();
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
                                                     }
                                                 }
                                             }
                                         }
                                     }
-
                                 }
                             }
                         }
@@ -637,7 +681,7 @@ namespace amoba
                             {
 
                                 // elé kell setspeed
-                                motorok[k].setSpeed(25);
+                                motorok[k].setSpeed(50);
 
                                 Thread.Sleep(100);
 
