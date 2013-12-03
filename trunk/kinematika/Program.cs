@@ -70,38 +70,48 @@ namespace amoba
             //sebessegbeallitas(motorok, "NP");
             if (mozgatas("NP"))
             {
-                // először fel kell venni a bábut
                 if (mozgatas("KONYOKBE"))
                 {
-                    if (mozgatas("_VEDDLE"))
+                    if (mozgatas("VEDDLENYITVA"))
                     {
-                        if (mozgatas("BABUFEL"))
+                        if (mozgatas("BABUFELETT"))
                         {
-                            if (mozgatas("BABUMEGY"))
+                            if (mozgatas("BABUOSSZEFOG"))
                             {
-                                if (mozgatas("OSSZEFOG"))
+                                if (mozgatas("BABUELVESZ"))
                                 {
-                                    if (mozgatas("BABUFEL"))
+                                   if (mozgatas("VEDDLEZARVA"))
                                     {
-
-                                        if (mozgatas("_VEDDLE"))
+                                        if (mozgatas("POZ00FELETT"))
                                         {
-                                            if (mozgatas("POZ20FEL"))
+                                            if (mozgatas("POZ00ELENGED"))
                                             {
-                                                if (mozgatas("POZ30"))
+                                                if (mozgatas("VEDDLENYITVA"))
                                                 {
-                                                    if (mozgatas("POZ30LETESZ"))
+                                                    if (mozgatas("BABUFELETT"))
                                                     {
-                                                        if (mozgatas("POZ30FELNYIT"))
+                                                        if (mozgatas("BABUOSSZEFOG"))
                                                         {
-                                                            if (mozgatas("_VEDDLE"))
+                                                            if (mozgatas("BABUELVESZ"))
                                                             {
-                                                                if (mozgatas("KONYOKBE"))
+                                                                if (mozgatas("VEDDLEZARVA"))
                                                                 {
-                                                                    if (mozgatas("NP"))
+                                                                    if (mozgatas("POZ21FELETT"))
                                                                     {
+                                                                        if (mozgatas("POZ21ELENGED"))
+                                                                        {
+                                                                            if (mozgatas("VEDDLENYITVA"))
+                                                                            {
+                                                                                if (mozgatas("KONYOKBE"))
+                                                                                {
+                                                                                    if (mozgatas("NP"))
+                                                                                    {
 
-                                                                        dynamixel.dxl_terminate();
+                                                                                        dynamixel.dxl_terminate();
+                                                                                    }
+                                                                                }
+                                                                            }
+                                                                        }
                                                                     }
                                                                 }
                                                             }
@@ -142,7 +152,7 @@ namespace amoba
                     {
 
                         // elé kell setspeed
-                        motorok[k].setSpeed(50);
+                        motorok[k].setSpeed(25);
 
                         Thread.Sleep(100);
 
