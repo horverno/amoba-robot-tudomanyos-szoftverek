@@ -68,46 +68,160 @@ namespace amoba
             string hova = adatbekeres();
 
             //sebessegbeallitas(motorok, "NP");
-            if (mozgatas("NP"))
-            {
-                if (mozgatas("KONYOKBE"))
-                {
-                    if (mozgatas("VEDDLENYITVA"))
-                    {
-                        if (mozgatas("BABUFELETT"))
-                        {
-                            if (mozgatas("BABUOSSZEFOG"))
-                            {
-                                if (mozgatas("BABUELVESZ"))
-                                {
-                                   if (mozgatas("VEDDLEZARVA"))
-                                    {
-                                        if (mozgatas("POZ00FELETT"))
-                                        {
-                                            if (mozgatas("POZ00ELENGED"))
-                                            {
-                                                if (mozgatas("VEDDLENYITVA"))
-                                                {
-                                                    if (mozgatas("BABUFELETT"))
-                                                    {
-                                                        if (mozgatas("BABUOSSZEFOG"))
-                                                        {
-                                                            if (mozgatas("BABUELVESZ"))
-                                                            {
-                                                                if (mozgatas("VEDDLEZARVA"))
-                                                                {
-                                                                    if (mozgatas("POZ21FELETT"))
-                                                                    {
-                                                                        if (mozgatas("POZ21ELENGED"))
-                                                                        {
-                                                                            if (mozgatas("VEDDLENYITVA"))
-                                                                            {
-                                                                                if (mozgatas("KONYOKBE"))
-                                                                                {
-                                                                                    if (mozgatas("NP"))
-                                                                                    {
 
-                                                                                        dynamixel.dxl_terminate();
+
+            elsoSor();
+            //if (mozgatas("VEDDLEZARVA"))
+            //{
+            //    if (mozgatas("BABUFELE"))
+            //    {
+            //        if (mozgatas("BABUMELETT"))
+            //        {
+            //            if (mozgatas("BABUFELETT"))
+            //            {
+            //                if (mozgatas("BABUOSSZEFOG"))
+            //                {
+            //                    if (mozgatas("BABUELVESZ"))
+            //                    {
+            //                        if (mozgatas("VEDDLEZARVA"))
+            //                        {
+            //                            if (mozgatas("POZ30FELETT"))
+            //                            {
+            //                                if (mozgatas("POZ30ELENGED"))
+            //                                {
+            //                                    if (mozgatas("POZ30ELENGEDFELETT"))
+            //                                    {
+            //                                        if (mozgatas("VEDDLENYITVA"))
+            //                                        {
+            //                                            dynamixel.dxl_terminate();
+            //                                        }
+            //                                    }
+            //                                }
+            //                            }
+            //                        }
+            //                    }
+            //                }
+            //            }
+            //        }
+            //    }
+            //}
+            
+            
+            
+            
+      
+
+            dynamixel.dxl_terminate();
+        }
+
+
+        
+
+        static public void elsoSor()
+        {
+            if (mozgatas("BABUFELE"))
+            {
+            if (mozgatas("BABUMELLETT"))
+            {
+                if (mozgatas("BABUFELETT"))
+                {
+                    if (mozgatas("BABUOSSZEFOG"))
+                    {
+                        if (mozgatas("BABUELVESZ"))
+                        {
+                            if (mozgatas("VEDDLEZARVA"))
+                            {
+                                if (mozgatas("POZ00FELETT"))
+                                {
+                                    if (mozgatas("POZ00ELENGED"))
+                                    {
+                                        if (mozgatas("POZ00ELENGEDFELETT"))
+                                        {
+                                            if (mozgatas("VEDDLENYITVA"))
+                                            {
+                                                if (mozgatas("BABUFELE"))
+                                                {
+                                                    if (mozgatas("BABUMELLETT"))
+                                                    {
+                                                        if (mozgatas("BABUFELETT"))
+                                                        {
+                                                            if (mozgatas("BABUOSSZEFOG"))
+                                                            {
+                                                                if (mozgatas("BABUELVESZ"))
+                                                                {
+                                                                    if (mozgatas("VEDDLEZARVA"))
+                                                                    {
+                                                                        if (mozgatas("POZ10FELETT"))
+                                                                        {
+                                                                            if (mozgatas("POZ10ELENGED"))
+                                                                            {
+                                                                                if (mozgatas("POZ10ELENGEDFELETT"))
+                                                                                {
+                                                                                    if (mozgatas("VEDDLENYITVA"))
+                                                                                    {
+                                                                                        if (mozgatas("BABUFELE"))
+                                                                                        {
+                                                                                            if (mozgatas("BABUMELLETT"))
+                                                                                            {
+                                                                                                if (mozgatas("BABUFELETT"))
+                                                                                                {
+                                                                                                    if (mozgatas("BABUOSSZEFOG"))
+                                                                                                    {
+                                                                                                        if (mozgatas("BABUELVESZ"))
+                                                                                                        {
+                                                                                                            if (mozgatas("VEDDLEZARVA"))
+                                                                                                            {
+                                                                                                                if (mozgatas("POZ20FELETT"))
+                                                                                                                {
+                                                                                                                    if (mozgatas("POZ20ELENGED"))
+                                                                                                                    {
+                                                                                                                        if (mozgatas("POZ20ELENGEDFELETT"))
+                                                                                                                        {
+                                                                                                                            if (mozgatas("VEDDLENYITVA"))
+                                                                                                                            {
+                                                                                                                                if (mozgatas("BABUFELE"))
+                                                                                                                                {
+                                                                                                                                    if (mozgatas("BABUMELLETT"))
+                                                                                                                                    {
+                                                                                                                                        if (mozgatas("BABUFELETT"))
+                                                                                                                                        {
+                                                                                                                                            if (mozgatas("BABUOSSZEFOG"))
+                                                                                                                                            {
+                                                                                                                                                if (mozgatas("BABUELVESZ"))
+                                                                                                                                                {
+                                                                                                                                                    if (mozgatas("VEDDLEZARVA"))
+                                                                                                                                                    {
+                                                                                                                                                        if (mozgatas("POZ30FELETT"))
+                                                                                                                                                        {
+                                                                                                                                                            if (mozgatas("POZ30ELENGED"))
+                                                                                                                                                            {
+                                                                                                                                                                if (mozgatas("POZ30ELENGEDFELETT"))
+                                                                                                                                                                {
+                                                                                                                                                                    if (mozgatas("VEDDLENYITVA"))
+                                                                                                                                                                    {
+                                                                                                                                                                        //dynamixel.dxl_terminate();
+                                                                                                                                                                        negyedikSor();
+                                                                                                                                                                    }
+                                                                                                                                                                }
+                                                                                                                                                            }
+                                                                                                                                                        }
+                                                                                                                                                    }
+                                                                                                                                                }
+                                                                                                                                            }
+                                                                                                                                        }
+                                                                                                                                    }
+
+                                                                                                                                }
+                                                                                                                            }
+                                                                                                                        }
+                                                                                                                    }
+                                                                                                                }
+                                                                                                            }
+                                                                                                        }
+                                                                                                    }
+                                                                                                }
+                                                                                            }
+                                                                                        }
                                                                                     }
                                                                                 }
                                                                             }
@@ -124,10 +238,139 @@ namespace amoba
                                 }
                             }
                         }
+
+                    }
                     }
                 }
             }
-            dynamixel.dxl_terminate();
+               
+        }
+
+        public static void negyedikSor()
+        {
+            if (mozgatas("BABUFELE"))
+            {
+                    if (mozgatas("BABUMELLETT"))
+                    {
+                        if (mozgatas("BABUFELETT"))
+                        {
+                            if (mozgatas("BABUOSSZEFOG"))
+                            {
+                                if (mozgatas("BABUELVESZ"))
+                                {
+                                    if (mozgatas("VEDDLEZARVA"))
+                                    {
+                                        if (mozgatas("POZ03FELETT"))
+                                        {
+                                            if (mozgatas("POZ03ELENGED"))
+                                            {
+                                                if (mozgatas("POZ03ELENGEDFELETT"))
+                                                {
+                                                    if (mozgatas("VEDDLENYITVA"))
+                                                    {
+                                                        if (mozgatas("BABUFELE"))
+                                                        {
+                                                            if (mozgatas("BABUMELLETT"))
+                                                            {
+                                                                if (mozgatas("BABUFELETT"))
+                                                                {
+                                                                    if (mozgatas("BABUOSSZEFOG"))
+                                                                    {
+                                                                        if (mozgatas("BABUELVESZ"))
+                                                                        {
+                                                                            if (mozgatas("VEDDLEZARVA"))
+                                                                            {
+                                                                                if (mozgatas("POZ13FELETT"))
+                                                                                {
+                                                                                    if (mozgatas("POZ13ELENGED"))
+                                                                                    {
+                                                                                        if (mozgatas("POZ13ELENGEDFELETT"))
+                                                                                        {
+                                                                                            if (mozgatas("VEDDLENYITVA"))
+                                                                                            {
+                                                                                                if (mozgatas("BABUFELE"))
+                                                                                                {
+                                                                                                    if (mozgatas("BABUMELLETT"))
+                                                                                                    {
+                                                                                                        if (mozgatas("BABUFELETT"))
+                                                                                                        {
+                                                                                                            if (mozgatas("BABUOSSZEFOG"))
+                                                                                                            {
+                                                                                                                if (mozgatas("BABUELVESZ"))
+                                                                                                                {
+                                                                                                                    if (mozgatas("VEDDLEZARVA"))
+                                                                                                                    {
+                                                                                                                        if (mozgatas("POZ23FELETT"))
+                                                                                                                        {
+                                                                                                                            if (mozgatas("POZ23ELENGED"))
+                                                                                                                            {
+                                                                                                                                if (mozgatas("POZ23ELENGEDFELETT"))
+                                                                                                                                {
+                                                                                                                                    if (mozgatas("VEDDLENYITVA"))
+                                                                                                                                    {
+                                                                                                                                        if (mozgatas("BABUFELE"))
+                                                                                                                                        {
+                                                                                                                                            if (mozgatas("BABUMELLETT"))
+                                                                                                                                            {
+                                                                                                                                                if (mozgatas("BABUFELETT"))
+                                                                                                                                                {
+                                                                                                                                                    if (mozgatas("BABUOSSZEFOG"))
+                                                                                                                                                    {
+                                                                                                                                                        if (mozgatas("BABUELVESZ"))
+                                                                                                                                                        {
+                                                                                                                                                            if (mozgatas("VEDDLEZARVA"))
+                                                                                                                                                            {
+                                                                                                                                                                if (mozgatas("POZ33FELETT"))
+                                                                                                                                                                {
+                                                                                                                                                                    if (mozgatas("POZ33ELENGED"))
+                                                                                                                                                                    {
+                                                                                                                                                                        if (mozgatas("POZ33ELENGEDFELETT"))
+                                                                                                                                                                        {
+                                                                                                                                                                            if (mozgatas("VEDDLENYITVA"))
+                                                                                                                                                                            {
+                                                                                                                                                                                dynamixel.dxl_terminate();
+
+                                                                                                                                                                            }
+                                                                                                                                                                        }
+                                                                                                                                                                    }
+                                                                                                                                                                }
+                                                                                                                                                            }
+                                                                                                                                                        }
+                                                                                                                                                    }
+                                                                                                                                                }
+                                                                                                                                            }
+
+                                                                                                                                        }
+                                                                                                                                    }
+                                                                                                                                }
+                                                                                                                            }
+                                                                                                                        }
+                                                                                                                    }
+                                                                                                                }
+                                                                                                            }
+                                                                                                        }
+                                                                                                    }
+                                                                                                }
+                                                                                            }
+                                                                                        }
+                                                                                    }
+                                                                                }
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
         }
 
         protected static bool mozgatas(string celmezo)
@@ -210,6 +453,9 @@ namespace amoba
             Console.WriteLine("ready");
             return true;
         }
+
+        
+
         protected static void sebessegbeallitas(Motor[] motorok, string hova)// motorok t�mb �s a c�lmez�(pl.: a1)
         {
             int[,] celok;
