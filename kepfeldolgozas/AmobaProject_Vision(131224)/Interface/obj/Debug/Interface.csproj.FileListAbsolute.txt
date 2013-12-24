@@ -1,0 +1,15 @@
+G:\AmobaProject_Vision(131202)\Interface\bin\Debug\Interface.dll
+G:\AmobaProject_Vision(131202)\Interface\bin\Debug\Interface.pdb
+G:\AmobaProject_Vision(131202)\Interface\obj\Debug\ResolveAssemblyReference.cache
+G:\AmobaProject_Vision(131202)\Interface\obj\Debug\Interface.dll
+G:\AmobaProject_Vision(131202)\Interface\obj\Debug\Interface.pdb
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131206)\Interface\bin\Debug\Interface.dll
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131206)\Interface\bin\Debug\Interface.pdb
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131206)\Interface\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131206)\Interface\obj\Debug\Interface.dll
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131206)\Interface\obj\Debug\Interface.pdb
+C:\Users\aih\Desktop\AmobaProject_Vision(131220)\Interface\bin\Debug\Interface.dll
+C:\Users\aih\Desktop\AmobaProject_Vision(131220)\Interface\bin\Debug\Interface.pdb
+C:\Users\aih\Desktop\AmobaProject_Vision(131220)\Interface\obj\Debug\Interface.dll
+C:\Users\aih\Desktop\AmobaProject_Vision(131220)\Interface\obj\Debug\Interface.pdb
+C:\Users\aih\Desktop\AmobaProject_Vision(131220)\Interface\obj\Debug\Interface.csprojResolveAssemblyReference.cache

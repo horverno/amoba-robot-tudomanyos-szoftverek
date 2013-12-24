@@ -1,0 +1,473 @@
+c:\users\hollosijanos\documents\visual studio 2010\Projects\AmobaProject_Vision\AmobaProject_Vision\bin\Debug\AmobaProject_Vision.exe
+c:\users\hollosijanos\documents\visual studio 2010\Projects\AmobaProject_Vision\AmobaProject_Vision\bin\Debug\AmobaProject_Vision.pdb
+c:\users\hollosijanos\documents\visual studio 2010\Projects\AmobaProject_Vision\AmobaProject_Vision\bin\Debug\Emgu.CV.dll
+c:\users\hollosijanos\documents\visual studio 2010\Projects\AmobaProject_Vision\AmobaProject_Vision\bin\Debug\Emgu.CV.UI.dll
+c:\users\hollosijanos\documents\visual studio 2010\Projects\AmobaProject_Vision\AmobaProject_Vision\bin\Debug\Emgu.Util.dll
+c:\users\hollosijanos\documents\visual studio 2010\Projects\AmobaProject_Vision\AmobaProject_Vision\bin\Debug\ZedGraph.dll
+c:\users\hollosijanos\documents\visual studio 2010\Projects\AmobaProject_Vision\AmobaProject_Vision\bin\Debug\Emgu.CV.pdb
+c:\users\hollosijanos\documents\visual studio 2010\Projects\AmobaProject_Vision\AmobaProject_Vision\bin\Debug\Emgu.CV.xml
+c:\users\hollosijanos\documents\visual studio 2010\Projects\AmobaProject_Vision\AmobaProject_Vision\bin\Debug\Emgu.CV.UI.pdb
+c:\users\hollosijanos\documents\visual studio 2010\Projects\AmobaProject_Vision\AmobaProject_Vision\bin\Debug\Emgu.CV.UI.xml
+c:\users\hollosijanos\documents\visual studio 2010\Projects\AmobaProject_Vision\AmobaProject_Vision\bin\Debug\Emgu.Util.pdb
+c:\users\hollosijanos\documents\visual studio 2010\Projects\AmobaProject_Vision\AmobaProject_Vision\bin\Debug\Emgu.Util.xml
+c:\users\hollosijanos\documents\visual studio 2010\Projects\AmobaProject_Vision\AmobaProject_Vision\bin\Debug\ZedGraph.xml
+c:\users\hollosijanos\documents\visual studio 2010\Projects\AmobaProject_Vision\AmobaProject_Vision\bin\Debug\zh-CN\Emgu.CV.UI.resources.dll
+c:\users\hollosijanos\documents\visual studio 2010\Projects\AmobaProject_Vision\AmobaProject_Vision\bin\Debug\zh-CN\ZedGraph.resources.dll
+c:\users\hollosijanos\documents\visual studio 2010\Projects\AmobaProject_Vision\AmobaProject_Vision\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\hollosijanos\documents\visual studio 2010\Projects\AmobaProject_Vision\AmobaProject_Vision\obj\x86\Debug\AmobaProject_Vision.Properties.Resources.resources
+c:\users\hollosijanos\documents\visual studio 2010\Projects\AmobaProject_Vision\AmobaProject_Vision\obj\x86\Debug\GenerateResource.read.1.tlog
+c:\users\hollosijanos\documents\visual studio 2010\Projects\AmobaProject_Vision\AmobaProject_Vision\obj\x86\Debug\GenerateResource.write.1.tlog
+c:\users\hollosijanos\documents\visual studio 2010\Projects\AmobaProject_Vision\AmobaProject_Vision\obj\x86\Debug\AmobaProject_Vision.exe
+c:\users\hollosijanos\documents\visual studio 2010\Projects\AmobaProject_Vision\AmobaProject_Vision\obj\x86\Debug\AmobaProject_Vision.pdb
+c:\users\hollosijanos\documents\visual studio 2010\Projects\AmobaProject_Vision\AmobaProject_Vision\bin\Debug\opencv_core249.dll
+c:\users\hollosijanos\documents\visual studio 2010\Projects\AmobaProject_Vision\AmobaProject_Vision\bin\Debug\opencv_imgproc249.dll
+c:\users\hollosijanos\documents\visual studio 2010\Projects\AmobaProject_Vision\AmobaProject_Vision\bin\Debug\Emgu.CV.DebuggerVisualizers.VS2010.dll
+C:\Users\HollosiJanos\Documents\Visual Studio 2010\Projects\AmobaProject_Vision\AmobaProject_Vision\bin\Debug\AmobaProject_Vision_OCR.dll
+C:\Users\HollosiJanos\Documents\Visual Studio 2010\Projects\AmobaProject_Vision\AmobaProject_Vision\bin\Debug\AmobaProject_Vision_OCR.pdb
+C:\Users\HollosiJanos\documents\visual studio 2010\Projects\AmobaProject_Vision\AmobaProject_Vision\bin\Debug\cudart32_50_35.dll
+C:\Users\HollosiJanos\documents\visual studio 2010\Projects\AmobaProject_Vision\AmobaProject_Vision\bin\Debug\cvextern.dll
+C:\Users\HollosiJanos\documents\visual studio 2010\Projects\AmobaProject_Vision\AmobaProject_Vision\bin\Debug\opencv_calib3d249.dll
+C:\Users\HollosiJanos\documents\visual studio 2010\Projects\AmobaProject_Vision\AmobaProject_Vision\bin\Debug\opencv_contrib249.dll
+C:\Users\HollosiJanos\documents\visual studio 2010\Projects\AmobaProject_Vision\AmobaProject_Vision\bin\Debug\opencv_features2d249.dll
+C:\Users\HollosiJanos\documents\visual studio 2010\Projects\AmobaProject_Vision\AmobaProject_Vision\bin\Debug\opencv_flann249.dll
+C:\Users\HollosiJanos\documents\visual studio 2010\Projects\AmobaProject_Vision\AmobaProject_Vision\bin\Debug\opencv_highgui249.dll
+C:\Users\HollosiJanos\documents\visual studio 2010\Projects\AmobaProject_Vision\AmobaProject_Vision\bin\Debug\opencv_legacy249.dll
+C:\Users\HollosiJanos\documents\visual studio 2010\Projects\AmobaProject_Vision\AmobaProject_Vision\bin\Debug\opencv_ml249.dll
+C:\Users\HollosiJanos\documents\visual studio 2010\Projects\AmobaProject_Vision\AmobaProject_Vision\bin\Debug\opencv_nonfree249.dll
+C:\Users\HollosiJanos\documents\visual studio 2010\Projects\AmobaProject_Vision\AmobaProject_Vision\bin\Debug\opencv_objdetect249.dll
+C:\Users\HollosiJanos\documents\visual studio 2010\Projects\AmobaProject_Vision\AmobaProject_Vision\bin\Debug\opencv_photo249.dll
+C:\Users\HollosiJanos\documents\visual studio 2010\Projects\AmobaProject_Vision\AmobaProject_Vision\bin\Debug\opencv_stitching249.dll
+C:\Users\HollosiJanos\documents\visual studio 2010\Projects\AmobaProject_Vision\AmobaProject_Vision\bin\Debug\opencv_video249.dll
+C:\Users\HollosiJanos\documents\visual studio 2010\Projects\AmobaProject_Vision\AmobaProject_Vision\bin\Debug\opencv_videostab249.dll
+C:\Users\HollosiJanos\documents\visual studio 2010\Projects\AmobaProject_Vision\AmobaProject_Vision\bin\Debug\npp32_50_35.dll
+C:\Users\HollosiJanos\documents\visual studio 2010\Projects\AmobaProject_Vision\AmobaProject_Vision\obj\x86\Debug\AmobaProject_Vision.MainForm.resources
+H:\new\AmobaProject_Vision\AmobaProject_Vision\obj\x86\Debug\AmobaProject_Vision.exe
+H:\new\AmobaProject_Vision\AmobaProject_Vision\obj\x86\Debug\AmobaProject_Vision.pdb
+H:\new\AmobaProject_Vision\AmobaProject_Vision\bin\Debug\cudart32_50_35.dll
+H:\new\AmobaProject_Vision\AmobaProject_Vision\bin\Debug\cvextern.dll
+H:\new\AmobaProject_Vision\AmobaProject_Vision\bin\Debug\npp32_50_35.dll
+H:\new\AmobaProject_Vision\AmobaProject_Vision\bin\Debug\opencv_calib3d249.dll
+H:\new\AmobaProject_Vision\AmobaProject_Vision\bin\Debug\opencv_contrib249.dll
+H:\new\AmobaProject_Vision\AmobaProject_Vision\bin\Debug\opencv_core249.dll
+H:\new\AmobaProject_Vision\AmobaProject_Vision\bin\Debug\opencv_features2d249.dll
+H:\new\AmobaProject_Vision\AmobaProject_Vision\bin\Debug\opencv_flann249.dll
+H:\new\AmobaProject_Vision\AmobaProject_Vision\bin\Debug\opencv_highgui249.dll
+H:\new\AmobaProject_Vision\AmobaProject_Vision\bin\Debug\opencv_imgproc249.dll
+H:\new\AmobaProject_Vision\AmobaProject_Vision\bin\Debug\opencv_legacy249.dll
+H:\new\AmobaProject_Vision\AmobaProject_Vision\bin\Debug\opencv_ml249.dll
+H:\new\AmobaProject_Vision\AmobaProject_Vision\bin\Debug\opencv_nonfree249.dll
+H:\new\AmobaProject_Vision\AmobaProject_Vision\bin\Debug\opencv_objdetect249.dll
+H:\new\AmobaProject_Vision\AmobaProject_Vision\bin\Debug\opencv_photo249.dll
+H:\new\AmobaProject_Vision\AmobaProject_Vision\bin\Debug\opencv_stitching249.dll
+H:\new\AmobaProject_Vision\AmobaProject_Vision\bin\Debug\opencv_video249.dll
+H:\new\AmobaProject_Vision\AmobaProject_Vision\bin\Debug\opencv_videostab249.dll
+H:\new\AmobaProject_Vision\AmobaProject_Vision\bin\Debug\AmobaProject_Vision.exe
+H:\new\AmobaProject_Vision\AmobaProject_Vision\bin\Debug\AmobaProject_Vision.pdb
+H:\new\AmobaProject_Vision\AmobaProject_Vision\bin\Debug\AmobaProject_Vision_OCR.dll
+H:\new\AmobaProject_Vision\AmobaProject_Vision\bin\Debug\AmobaProject_Vision_OCR.pdb
+H:\new\AmobaProject_Vision\AmobaProject_Vision\obj\x86\Debug\ResolveAssemblyReference.cache
+H:\new\AmobaProject_Vision\AmobaProject_Vision\obj\x86\Debug\AmobaProject_Vision.MainForm.resources
+H:\new\AmobaProject_Vision\AmobaProject_Vision\obj\x86\Debug\AmobaProject_Vision.Properties.Resources.resources
+H:\new\AmobaProject_Vision\AmobaProject_Vision\obj\x86\Debug\GenerateResource.read.1.tlog
+H:\new\AmobaProject_Vision\AmobaProject_Vision\obj\x86\Debug\GenerateResource.write.1.tlog
+F:\new\AmobaProject_Vision\AmobaProject_Vision\obj\x86\Debug\AmobaProject_Vision.exe
+F:\new\AmobaProject_Vision\AmobaProject_Vision\obj\x86\Debug\AmobaProject_Vision.pdb
+F:\new\AmobaProject_Vision\AmobaProject_Vision\bin\Debug\cudart32_50_35.dll
+F:\new\AmobaProject_Vision\AmobaProject_Vision\bin\Debug\cvextern.dll
+F:\new\AmobaProject_Vision\AmobaProject_Vision\bin\Debug\npp32_50_35.dll
+F:\new\AmobaProject_Vision\AmobaProject_Vision\bin\Debug\opencv_calib3d249.dll
+F:\new\AmobaProject_Vision\AmobaProject_Vision\bin\Debug\opencv_contrib249.dll
+F:\new\AmobaProject_Vision\AmobaProject_Vision\bin\Debug\opencv_core249.dll
+F:\new\AmobaProject_Vision\AmobaProject_Vision\bin\Debug\opencv_features2d249.dll
+F:\new\AmobaProject_Vision\AmobaProject_Vision\bin\Debug\opencv_flann249.dll
+F:\new\AmobaProject_Vision\AmobaProject_Vision\bin\Debug\opencv_highgui249.dll
+F:\new\AmobaProject_Vision\AmobaProject_Vision\bin\Debug\opencv_imgproc249.dll
+F:\new\AmobaProject_Vision\AmobaProject_Vision\bin\Debug\opencv_legacy249.dll
+F:\new\AmobaProject_Vision\AmobaProject_Vision\bin\Debug\opencv_ml249.dll
+F:\new\AmobaProject_Vision\AmobaProject_Vision\bin\Debug\opencv_nonfree249.dll
+F:\new\AmobaProject_Vision\AmobaProject_Vision\bin\Debug\opencv_objdetect249.dll
+F:\new\AmobaProject_Vision\AmobaProject_Vision\bin\Debug\opencv_photo249.dll
+F:\new\AmobaProject_Vision\AmobaProject_Vision\bin\Debug\opencv_stitching249.dll
+F:\new\AmobaProject_Vision\AmobaProject_Vision\bin\Debug\opencv_video249.dll
+F:\new\AmobaProject_Vision\AmobaProject_Vision\bin\Debug\opencv_videostab249.dll
+F:\new\AmobaProject_Vision\AmobaProject_Vision\bin\Debug\AmobaProject_Vision.exe
+F:\new\AmobaProject_Vision\AmobaProject_Vision\bin\Debug\AmobaProject_Vision.pdb
+F:\new\AmobaProject_Vision\AmobaProject_Vision\bin\Debug\AmobaProject_Vision_OCR.dll
+F:\new\AmobaProject_Vision\AmobaProject_Vision\bin\Debug\ZedGraph.dll
+F:\new\AmobaProject_Vision\AmobaProject_Vision\bin\Debug\AmobaProject_Vision_OCR.pdb
+F:\new\AmobaProject_Vision\AmobaProject_Vision\bin\Debug\Emgu.CV.pdb
+F:\new\AmobaProject_Vision\AmobaProject_Vision\bin\Debug\Emgu.CV.xml
+F:\new\AmobaProject_Vision\AmobaProject_Vision\bin\Debug\Emgu.CV.UI.pdb
+F:\new\AmobaProject_Vision\AmobaProject_Vision\bin\Debug\Emgu.CV.UI.xml
+F:\new\AmobaProject_Vision\AmobaProject_Vision\bin\Debug\Emgu.Util.pdb
+F:\new\AmobaProject_Vision\AmobaProject_Vision\bin\Debug\Emgu.Util.xml
+F:\new\AmobaProject_Vision\AmobaProject_Vision\bin\Debug\ZedGraph.xml
+F:\new\AmobaProject_Vision\AmobaProject_Vision\bin\Debug\zh-CN\Emgu.CV.UI.resources.dll
+F:\new\AmobaProject_Vision\AmobaProject_Vision\bin\Debug\zh-CN\ZedGraph.resources.dll
+F:\new\AmobaProject_Vision\AmobaProject_Vision\obj\x86\Debug\ResolveAssemblyReference.cache
+F:\new\AmobaProject_Vision\AmobaProject_Vision\obj\x86\Debug\AmobaProject_Vision.MainForm.resources
+F:\new\AmobaProject_Vision\AmobaProject_Vision\obj\x86\Debug\AmobaProject_Vision.Properties.Resources.resources
+F:\new\AmobaProject_Vision\AmobaProject_Vision\obj\x86\Debug\GenerateResource.read.1.tlog
+F:\new\AmobaProject_Vision\AmobaProject_Vision\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\HollosiJanos\Documents\Visual Studio 2010\Projects\new\AmobaProject_Vision\AmobaProject_Vision\obj\x86\Debug\AmobaProject_Vision.exe
+C:\Users\HollosiJanos\Documents\Visual Studio 2010\Projects\new\AmobaProject_Vision\AmobaProject_Vision\obj\x86\Debug\AmobaProject_Vision.pdb
+C:\Users\HollosiJanos\Documents\Visual Studio 2010\Projects\new\AmobaProject_Vision\AmobaProject_Vision\bin\Debug\cudart32_50_35.dll
+C:\Users\HollosiJanos\Documents\Visual Studio 2010\Projects\new\AmobaProject_Vision\AmobaProject_Vision\bin\Debug\cvextern.dll
+C:\Users\HollosiJanos\Documents\Visual Studio 2010\Projects\new\AmobaProject_Vision\AmobaProject_Vision\bin\Debug\npp32_50_35.dll
+C:\Users\HollosiJanos\Documents\Visual Studio 2010\Projects\new\AmobaProject_Vision\AmobaProject_Vision\bin\Debug\opencv_calib3d249.dll
+C:\Users\HollosiJanos\Documents\Visual Studio 2010\Projects\new\AmobaProject_Vision\AmobaProject_Vision\bin\Debug\opencv_contrib249.dll
+C:\Users\HollosiJanos\Documents\Visual Studio 2010\Projects\new\AmobaProject_Vision\AmobaProject_Vision\bin\Debug\opencv_core249.dll
+C:\Users\HollosiJanos\Documents\Visual Studio 2010\Projects\new\AmobaProject_Vision\AmobaProject_Vision\bin\Debug\opencv_features2d249.dll
+C:\Users\HollosiJanos\Documents\Visual Studio 2010\Projects\new\AmobaProject_Vision\AmobaProject_Vision\bin\Debug\opencv_flann249.dll
+C:\Users\HollosiJanos\Documents\Visual Studio 2010\Projects\new\AmobaProject_Vision\AmobaProject_Vision\bin\Debug\opencv_highgui249.dll
+C:\Users\HollosiJanos\Documents\Visual Studio 2010\Projects\new\AmobaProject_Vision\AmobaProject_Vision\bin\Debug\opencv_imgproc249.dll
+C:\Users\HollosiJanos\Documents\Visual Studio 2010\Projects\new\AmobaProject_Vision\AmobaProject_Vision\bin\Debug\opencv_legacy249.dll
+C:\Users\HollosiJanos\Documents\Visual Studio 2010\Projects\new\AmobaProject_Vision\AmobaProject_Vision\bin\Debug\opencv_ml249.dll
+C:\Users\HollosiJanos\Documents\Visual Studio 2010\Projects\new\AmobaProject_Vision\AmobaProject_Vision\bin\Debug\opencv_nonfree249.dll
+C:\Users\HollosiJanos\Documents\Visual Studio 2010\Projects\new\AmobaProject_Vision\AmobaProject_Vision\bin\Debug\opencv_objdetect249.dll
+C:\Users\HollosiJanos\Documents\Visual Studio 2010\Projects\new\AmobaProject_Vision\AmobaProject_Vision\bin\Debug\opencv_photo249.dll
+C:\Users\HollosiJanos\Documents\Visual Studio 2010\Projects\new\AmobaProject_Vision\AmobaProject_Vision\bin\Debug\opencv_stitching249.dll
+C:\Users\HollosiJanos\Documents\Visual Studio 2010\Projects\new\AmobaProject_Vision\AmobaProject_Vision\bin\Debug\opencv_video249.dll
+C:\Users\HollosiJanos\Documents\Visual Studio 2010\Projects\new\AmobaProject_Vision\AmobaProject_Vision\bin\Debug\opencv_videostab249.dll
+C:\Users\HollosiJanos\Documents\Visual Studio 2010\Projects\new\AmobaProject_Vision\AmobaProject_Vision\bin\Debug\AmobaProject_Vision.exe
+C:\Users\HollosiJanos\Documents\Visual Studio 2010\Projects\new\AmobaProject_Vision\AmobaProject_Vision\bin\Debug\AmobaProject_Vision.pdb
+C:\Users\HollosiJanos\Documents\Visual Studio 2010\Projects\new\AmobaProject_Vision\AmobaProject_Vision\bin\Debug\AmobaProject_Vision_OCR.dll
+C:\Users\HollosiJanos\Documents\Visual Studio 2010\Projects\new\AmobaProject_Vision\AmobaProject_Vision\bin\Debug\AmobaProject_Vision_OCR.pdb
+C:\Users\HollosiJanos\Documents\Visual Studio 2010\Projects\new\AmobaProject_Vision\AmobaProject_Vision\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\HollosiJanos\Documents\Visual Studio 2010\Projects\new\AmobaProject_Vision\AmobaProject_Vision\obj\x86\Debug\AmobaProject_Vision.MainForm.resources
+C:\Users\HollosiJanos\Documents\Visual Studio 2010\Projects\new\AmobaProject_Vision\AmobaProject_Vision\obj\x86\Debug\AmobaProject_Vision.Properties.Resources.resources
+C:\Users\HollosiJanos\Documents\Visual Studio 2010\Projects\new\AmobaProject_Vision\AmobaProject_Vision\obj\x86\Debug\AmobaProject_Vision.TestForm.resources
+C:\Users\HollosiJanos\Documents\Visual Studio 2010\Projects\new\AmobaProject_Vision\AmobaProject_Vision\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\HollosiJanos\Documents\Visual Studio 2010\Projects\new\AmobaProject_Vision\AmobaProject_Vision\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\HollosiJanos\Documents\Visual Studio 2010\Projects\new\AmobaProject_Vision\AmobaProject_Vision\bin\Debug\AmobaProject_Vision_Processor.dll
+C:\Users\HollosiJanos\Documents\Visual Studio 2010\Projects\new\AmobaProject_Vision\AmobaProject_Vision\bin\Debug\AmobaProject_Vision_Processor.pdb
+G:\AmobaProject_Vision(131122)\AmobaProject_Vision\obj\x86\Debug\AmobaProject_Vision.exe
+G:\AmobaProject_Vision(131122)\AmobaProject_Vision\obj\x86\Debug\AmobaProject_Vision.pdb
+G:\AmobaProject_Vision(131122)\AmobaProject_Vision\bin\Debug\cudart32_50_35.dll
+G:\AmobaProject_Vision(131122)\AmobaProject_Vision\bin\Debug\cvextern.dll
+G:\AmobaProject_Vision(131122)\AmobaProject_Vision\bin\Debug\npp32_50_35.dll
+G:\AmobaProject_Vision(131122)\AmobaProject_Vision\bin\Debug\opencv_calib3d249.dll
+G:\AmobaProject_Vision(131122)\AmobaProject_Vision\bin\Debug\opencv_contrib249.dll
+G:\AmobaProject_Vision(131122)\AmobaProject_Vision\bin\Debug\opencv_core249.dll
+G:\AmobaProject_Vision(131122)\AmobaProject_Vision\bin\Debug\opencv_features2d249.dll
+G:\AmobaProject_Vision(131122)\AmobaProject_Vision\bin\Debug\opencv_flann249.dll
+G:\AmobaProject_Vision(131122)\AmobaProject_Vision\bin\Debug\opencv_highgui249.dll
+G:\AmobaProject_Vision(131122)\AmobaProject_Vision\bin\Debug\opencv_imgproc249.dll
+G:\AmobaProject_Vision(131122)\AmobaProject_Vision\bin\Debug\opencv_legacy249.dll
+G:\AmobaProject_Vision(131122)\AmobaProject_Vision\bin\Debug\opencv_ml249.dll
+G:\AmobaProject_Vision(131122)\AmobaProject_Vision\bin\Debug\opencv_nonfree249.dll
+G:\AmobaProject_Vision(131122)\AmobaProject_Vision\bin\Debug\opencv_objdetect249.dll
+G:\AmobaProject_Vision(131122)\AmobaProject_Vision\bin\Debug\opencv_photo249.dll
+G:\AmobaProject_Vision(131122)\AmobaProject_Vision\bin\Debug\opencv_stitching249.dll
+G:\AmobaProject_Vision(131122)\AmobaProject_Vision\bin\Debug\opencv_video249.dll
+G:\AmobaProject_Vision(131122)\AmobaProject_Vision\bin\Debug\opencv_videostab249.dll
+G:\AmobaProject_Vision(131122)\AmobaProject_Vision\bin\Debug\AmobaProject_Vision.exe
+G:\AmobaProject_Vision(131122)\AmobaProject_Vision\bin\Debug\AmobaProject_Vision.pdb
+G:\AmobaProject_Vision(131122)\AmobaProject_Vision\bin\Debug\AmobaProject_Vision_OCR.dll
+G:\AmobaProject_Vision(131122)\AmobaProject_Vision\bin\Debug\AmobaProject_Vision_Processor.dll
+G:\AmobaProject_Vision(131122)\AmobaProject_Vision\bin\Debug\Emgu.CV.DebuggerVisualizers.VS2010.dll
+G:\AmobaProject_Vision(131122)\AmobaProject_Vision\bin\Debug\Emgu.CV.dll
+G:\AmobaProject_Vision(131122)\AmobaProject_Vision\bin\Debug\Emgu.CV.UI.dll
+G:\AmobaProject_Vision(131122)\AmobaProject_Vision\bin\Debug\Emgu.Util.dll
+G:\AmobaProject_Vision(131122)\AmobaProject_Vision\bin\Debug\AmobaProject_Vision_OCR.pdb
+G:\AmobaProject_Vision(131122)\AmobaProject_Vision\bin\Debug\AmobaProject_Vision_Processor.pdb
+G:\AmobaProject_Vision(131122)\AmobaProject_Vision\obj\x86\Debug\ResolveAssemblyReference.cache
+G:\AmobaProject_Vision(131122)\AmobaProject_Vision\obj\x86\Debug\AmobaProject_Vision.MainForm.resources
+G:\AmobaProject_Vision(131122)\AmobaProject_Vision\obj\x86\Debug\AmobaProject_Vision.Properties.Resources.resources
+G:\AmobaProject_Vision(131122)\AmobaProject_Vision\obj\x86\Debug\AmobaProject_Vision.TestForm.resources
+G:\AmobaProject_Vision(131122)\AmobaProject_Vision\obj\x86\Debug\GenerateResource.read.1.tlog
+G:\AmobaProject_Vision(131122)\AmobaProject_Vision\obj\x86\Debug\GenerateResource.write.1.tlog
+G:\AmobaProject_Vision(131202)\AmobaProject_Vision\obj\x86\Debug\AmobaProject_Vision.exe
+G:\AmobaProject_Vision(131202)\AmobaProject_Vision\obj\x86\Debug\AmobaProject_Vision.pdb
+G:\AmobaProject_Vision(131202)\AmobaProject_Vision\bin\Debug\cudart32_50_35.dll
+G:\AmobaProject_Vision(131202)\AmobaProject_Vision\bin\Debug\cvextern.dll
+G:\AmobaProject_Vision(131202)\AmobaProject_Vision\bin\Debug\npp32_50_35.dll
+G:\AmobaProject_Vision(131202)\AmobaProject_Vision\bin\Debug\opencv_calib3d249.dll
+G:\AmobaProject_Vision(131202)\AmobaProject_Vision\bin\Debug\opencv_contrib249.dll
+G:\AmobaProject_Vision(131202)\AmobaProject_Vision\bin\Debug\opencv_core249.dll
+G:\AmobaProject_Vision(131202)\AmobaProject_Vision\bin\Debug\opencv_features2d249.dll
+G:\AmobaProject_Vision(131202)\AmobaProject_Vision\bin\Debug\opencv_flann249.dll
+G:\AmobaProject_Vision(131202)\AmobaProject_Vision\bin\Debug\opencv_highgui249.dll
+G:\AmobaProject_Vision(131202)\AmobaProject_Vision\bin\Debug\opencv_imgproc249.dll
+G:\AmobaProject_Vision(131202)\AmobaProject_Vision\bin\Debug\opencv_legacy249.dll
+G:\AmobaProject_Vision(131202)\AmobaProject_Vision\bin\Debug\opencv_ml249.dll
+G:\AmobaProject_Vision(131202)\AmobaProject_Vision\bin\Debug\opencv_nonfree249.dll
+G:\AmobaProject_Vision(131202)\AmobaProject_Vision\bin\Debug\opencv_objdetect249.dll
+G:\AmobaProject_Vision(131202)\AmobaProject_Vision\bin\Debug\opencv_photo249.dll
+G:\AmobaProject_Vision(131202)\AmobaProject_Vision\bin\Debug\opencv_stitching249.dll
+G:\AmobaProject_Vision(131202)\AmobaProject_Vision\bin\Debug\opencv_video249.dll
+G:\AmobaProject_Vision(131202)\AmobaProject_Vision\bin\Debug\opencv_videostab249.dll
+G:\AmobaProject_Vision(131202)\AmobaProject_Vision\bin\Debug\AmobaProject_Vision.exe
+G:\AmobaProject_Vision(131202)\AmobaProject_Vision\bin\Debug\AmobaProject_Vision.pdb
+G:\AmobaProject_Vision(131202)\AmobaProject_Vision\bin\Debug\AmobaProject_Vision_OCR.dll
+G:\AmobaProject_Vision(131202)\AmobaProject_Vision\bin\Debug\AmobaProject_Vision_Processor.dll
+G:\AmobaProject_Vision(131202)\AmobaProject_Vision\bin\Debug\Emgu.CV.DebuggerVisualizers.VS2010.dll
+G:\AmobaProject_Vision(131202)\AmobaProject_Vision\bin\Debug\Emgu.CV.dll
+G:\AmobaProject_Vision(131202)\AmobaProject_Vision\bin\Debug\Emgu.CV.UI.dll
+G:\AmobaProject_Vision(131202)\AmobaProject_Vision\bin\Debug\Emgu.Util.dll
+G:\AmobaProject_Vision(131202)\AmobaProject_Vision\bin\Debug\AmobaProject_Vision_OCR.pdb
+G:\AmobaProject_Vision(131202)\AmobaProject_Vision\bin\Debug\AmobaProject_Vision_Processor.pdb
+G:\AmobaProject_Vision(131202)\AmobaProject_Vision\obj\x86\Debug\ResolveAssemblyReference.cache
+G:\AmobaProject_Vision(131202)\AmobaProject_Vision\obj\x86\Debug\AmobaProject_Vision.MainForm.resources
+G:\AmobaProject_Vision(131202)\AmobaProject_Vision\obj\x86\Debug\AmobaProject_Vision.Properties.Resources.resources
+G:\AmobaProject_Vision(131202)\AmobaProject_Vision\obj\x86\Debug\AmobaProject_Vision.TestForm.resources
+G:\AmobaProject_Vision(131202)\AmobaProject_Vision\obj\x86\Debug\GenerateResource.read.1.tlog
+G:\AmobaProject_Vision(131202)\AmobaProject_Vision\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131206)\AmobaProject_Vision\obj\x86\Debug\AmobaProject_Vision.exe
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131206)\AmobaProject_Vision\obj\x86\Debug\AmobaProject_Vision.pdb
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131206)\AmobaProject_Vision\bin\Debug\cudart32_50_35.dll
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131206)\AmobaProject_Vision\bin\Debug\cvextern.dll
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131206)\AmobaProject_Vision\bin\Debug\npp32_50_35.dll
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131206)\AmobaProject_Vision\bin\Debug\opencv_calib3d249.dll
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131206)\AmobaProject_Vision\bin\Debug\opencv_contrib249.dll
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131206)\AmobaProject_Vision\bin\Debug\opencv_core249.dll
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131206)\AmobaProject_Vision\bin\Debug\opencv_features2d249.dll
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131206)\AmobaProject_Vision\bin\Debug\opencv_flann249.dll
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131206)\AmobaProject_Vision\bin\Debug\opencv_highgui249.dll
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131206)\AmobaProject_Vision\bin\Debug\opencv_imgproc249.dll
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131206)\AmobaProject_Vision\bin\Debug\opencv_legacy249.dll
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131206)\AmobaProject_Vision\bin\Debug\opencv_ml249.dll
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131206)\AmobaProject_Vision\bin\Debug\opencv_nonfree249.dll
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131206)\AmobaProject_Vision\bin\Debug\opencv_objdetect249.dll
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131206)\AmobaProject_Vision\bin\Debug\opencv_photo249.dll
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131206)\AmobaProject_Vision\bin\Debug\opencv_stitching249.dll
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131206)\AmobaProject_Vision\bin\Debug\opencv_video249.dll
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131206)\AmobaProject_Vision\bin\Debug\opencv_videostab249.dll
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131206)\AmobaProject_Vision\bin\Debug\AmobaProject_Vision.exe
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131206)\AmobaProject_Vision\bin\Debug\AmobaProject_Vision.pdb
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131206)\AmobaProject_Vision\bin\Debug\AmobaProject_Vision_OCR.dll
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131206)\AmobaProject_Vision\bin\Debug\AmobaProject_Vision_Processor.dll
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131206)\AmobaProject_Vision\bin\Debug\Emgu.CV.DebuggerVisualizers.VS2010.dll
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131206)\AmobaProject_Vision\bin\Debug\Emgu.CV.dll
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131206)\AmobaProject_Vision\bin\Debug\Emgu.CV.UI.dll
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131206)\AmobaProject_Vision\bin\Debug\Emgu.Util.dll
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131206)\AmobaProject_Vision\bin\Debug\Interface.dll
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131206)\AmobaProject_Vision\bin\Debug\AmobaProject_Vision_OCR.pdb
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131206)\AmobaProject_Vision\bin\Debug\AmobaProject_Vision_Processor.pdb
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131206)\AmobaProject_Vision\bin\Debug\Interface.pdb
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131206)\AmobaProject_Vision\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131206)\AmobaProject_Vision\obj\x86\Debug\AmobaProject_Vision.MainForm.resources
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131206)\AmobaProject_Vision\obj\x86\Debug\AmobaProject_Vision.Properties.Resources.resources
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131206)\AmobaProject_Vision\obj\x86\Debug\AmobaProject_Vision.TestForm.resources
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131206)\AmobaProject_Vision\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131206)\AmobaProject_Vision\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131211)\AmobaProject_Vision\obj\x86\Debug\AmobaProject_Vision.exe
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131211)\AmobaProject_Vision\obj\x86\Debug\AmobaProject_Vision.pdb
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131211)\AmobaProject_Vision\bin\Debug\cudart32_50_35.dll
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131211)\AmobaProject_Vision\bin\Debug\cvextern.dll
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131211)\AmobaProject_Vision\bin\Debug\npp32_50_35.dll
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131211)\AmobaProject_Vision\bin\Debug\opencv_calib3d249.dll
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131211)\AmobaProject_Vision\bin\Debug\opencv_contrib249.dll
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131211)\AmobaProject_Vision\bin\Debug\opencv_core249.dll
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131211)\AmobaProject_Vision\bin\Debug\opencv_features2d249.dll
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131211)\AmobaProject_Vision\bin\Debug\opencv_flann249.dll
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131211)\AmobaProject_Vision\bin\Debug\opencv_highgui249.dll
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131211)\AmobaProject_Vision\bin\Debug\opencv_imgproc249.dll
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131211)\AmobaProject_Vision\bin\Debug\opencv_legacy249.dll
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131211)\AmobaProject_Vision\bin\Debug\opencv_ml249.dll
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131211)\AmobaProject_Vision\bin\Debug\opencv_nonfree249.dll
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131211)\AmobaProject_Vision\bin\Debug\opencv_objdetect249.dll
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131211)\AmobaProject_Vision\bin\Debug\opencv_photo249.dll
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131211)\AmobaProject_Vision\bin\Debug\opencv_stitching249.dll
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131211)\AmobaProject_Vision\bin\Debug\opencv_video249.dll
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131211)\AmobaProject_Vision\bin\Debug\opencv_videostab249.dll
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131211)\AmobaProject_Vision\bin\Debug\AmobaProject_Vision.exe
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131211)\AmobaProject_Vision\bin\Debug\AmobaProject_Vision.pdb
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131211)\AmobaProject_Vision\bin\Debug\AmobaProject_Vision_OCR.dll
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131211)\AmobaProject_Vision\bin\Debug\AmobaProject_Vision_Processor.dll
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131211)\AmobaProject_Vision\bin\Debug\Emgu.CV.DebuggerVisualizers.VS2010.dll
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131211)\AmobaProject_Vision\bin\Debug\Emgu.CV.dll
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131211)\AmobaProject_Vision\bin\Debug\Emgu.CV.UI.dll
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131211)\AmobaProject_Vision\bin\Debug\Emgu.Util.dll
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131211)\AmobaProject_Vision\bin\Debug\Interface.dll
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131211)\AmobaProject_Vision\bin\Debug\AmobaProject_Vision_OCR.pdb
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131211)\AmobaProject_Vision\bin\Debug\AmobaProject_Vision_Processor.pdb
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131211)\AmobaProject_Vision\bin\Debug\Interface.pdb
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131211)\AmobaProject_Vision\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131211)\AmobaProject_Vision\obj\x86\Debug\AmobaProject_Vision.MainForm.resources
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131211)\AmobaProject_Vision\obj\x86\Debug\AmobaProject_Vision.Properties.Resources.resources
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131211)\AmobaProject_Vision\obj\x86\Debug\AmobaProject_Vision.TestForm.resources
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131211)\AmobaProject_Vision\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131211)\AmobaProject_Vision\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131220)\AmobaProject_Vision\obj\x86\Debug\AmobaProject_Vision.exe
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131220)\AmobaProject_Vision\obj\x86\Debug\AmobaProject_Vision.pdb
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131220)\AmobaProject_Vision\bin\Debug\cudart32_50_35.dll
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131220)\AmobaProject_Vision\bin\Debug\cvextern.dll
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131220)\AmobaProject_Vision\bin\Debug\npp32_50_35.dll
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131220)\AmobaProject_Vision\bin\Debug\opencv_calib3d249.dll
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131220)\AmobaProject_Vision\bin\Debug\opencv_contrib249.dll
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131220)\AmobaProject_Vision\bin\Debug\opencv_core249.dll
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131220)\AmobaProject_Vision\bin\Debug\opencv_features2d249.dll
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131220)\AmobaProject_Vision\bin\Debug\opencv_flann249.dll
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131220)\AmobaProject_Vision\bin\Debug\opencv_highgui249.dll
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131220)\AmobaProject_Vision\bin\Debug\opencv_imgproc249.dll
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131220)\AmobaProject_Vision\bin\Debug\opencv_legacy249.dll
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131220)\AmobaProject_Vision\bin\Debug\opencv_ml249.dll
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131220)\AmobaProject_Vision\bin\Debug\opencv_nonfree249.dll
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131220)\AmobaProject_Vision\bin\Debug\opencv_objdetect249.dll
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131220)\AmobaProject_Vision\bin\Debug\opencv_photo249.dll
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131220)\AmobaProject_Vision\bin\Debug\opencv_stitching249.dll
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131220)\AmobaProject_Vision\bin\Debug\opencv_video249.dll
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131220)\AmobaProject_Vision\bin\Debug\opencv_videostab249.dll
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131220)\AmobaProject_Vision\bin\Debug\AmobaProject_Vision.exe
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131220)\AmobaProject_Vision\bin\Debug\AmobaProject_Vision.pdb
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131220)\AmobaProject_Vision\bin\Debug\AmobaProject_Vision_OCR.dll
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131220)\AmobaProject_Vision\bin\Debug\AmobaProject_Vision_Processor.dll
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131220)\AmobaProject_Vision\bin\Debug\Emgu.CV.DebuggerVisualizers.VS2010.dll
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131220)\AmobaProject_Vision\bin\Debug\Emgu.CV.dll
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131220)\AmobaProject_Vision\bin\Debug\Emgu.CV.UI.dll
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131220)\AmobaProject_Vision\bin\Debug\Emgu.Util.dll
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131220)\AmobaProject_Vision\bin\Debug\Interface.dll
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131220)\AmobaProject_Vision\bin\Debug\AmobaProject_Vision_OCR.pdb
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131220)\AmobaProject_Vision\bin\Debug\AmobaProject_Vision_Processor.pdb
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131220)\AmobaProject_Vision\bin\Debug\Interface.pdb
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131220)\AmobaProject_Vision\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131220)\AmobaProject_Vision\obj\x86\Debug\AmobaProject_Vision.MainForm.resources
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131220)\AmobaProject_Vision\obj\x86\Debug\AmobaProject_Vision.Properties.Resources.resources
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131220)\AmobaProject_Vision\obj\x86\Debug\AmobaProject_Vision.TestForm.resources
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131220)\AmobaProject_Vision\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131220)\AmobaProject_Vision\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\aih\Desktop\AmobaProject_Vision(131220)\AmobaProject_Vision\obj\x86\Debug\AmobaProject_Vision.exe
+C:\Users\aih\Desktop\AmobaProject_Vision(131220)\AmobaProject_Vision\obj\x86\Debug\AmobaProject_Vision.pdb
+C:\Users\aih\Desktop\AmobaProject_Vision(131220)\AmobaProject_Vision\bin\Debug\cudart32_50_35.dll
+C:\Users\aih\Desktop\AmobaProject_Vision(131220)\AmobaProject_Vision\bin\Debug\cvextern.dll
+C:\Users\aih\Desktop\AmobaProject_Vision(131220)\AmobaProject_Vision\bin\Debug\opencv_calib3d249.dll
+C:\Users\aih\Desktop\AmobaProject_Vision(131220)\AmobaProject_Vision\bin\Debug\opencv_contrib249.dll
+C:\Users\aih\Desktop\AmobaProject_Vision(131220)\AmobaProject_Vision\bin\Debug\opencv_core249.dll
+C:\Users\aih\Desktop\AmobaProject_Vision(131220)\AmobaProject_Vision\bin\Debug\opencv_features2d249.dll
+C:\Users\aih\Desktop\AmobaProject_Vision(131220)\AmobaProject_Vision\bin\Debug\opencv_flann249.dll
+C:\Users\aih\Desktop\AmobaProject_Vision(131220)\AmobaProject_Vision\bin\Debug\opencv_highgui249.dll
+C:\Users\aih\Desktop\AmobaProject_Vision(131220)\AmobaProject_Vision\bin\Debug\opencv_imgproc249.dll
+C:\Users\aih\Desktop\AmobaProject_Vision(131220)\AmobaProject_Vision\bin\Debug\opencv_legacy249.dll
+C:\Users\aih\Desktop\AmobaProject_Vision(131220)\AmobaProject_Vision\bin\Debug\opencv_ml249.dll
+C:\Users\aih\Desktop\AmobaProject_Vision(131220)\AmobaProject_Vision\bin\Debug\opencv_nonfree249.dll
+C:\Users\aih\Desktop\AmobaProject_Vision(131220)\AmobaProject_Vision\bin\Debug\opencv_objdetect249.dll
+C:\Users\aih\Desktop\AmobaProject_Vision(131220)\AmobaProject_Vision\bin\Debug\opencv_photo249.dll
+C:\Users\aih\Desktop\AmobaProject_Vision(131220)\AmobaProject_Vision\bin\Debug\opencv_stitching249.dll
+C:\Users\aih\Desktop\AmobaProject_Vision(131220)\AmobaProject_Vision\bin\Debug\opencv_video249.dll
+C:\Users\aih\Desktop\AmobaProject_Vision(131220)\AmobaProject_Vision\bin\Debug\opencv_videostab249.dll
+C:\Users\aih\Desktop\AmobaProject_Vision(131220)\AmobaProject_Vision\bin\Debug\AmobaProject_Vision.exe
+C:\Users\aih\Desktop\AmobaProject_Vision(131220)\AmobaProject_Vision\bin\Debug\AmobaProject_Vision.pdb
+C:\Users\aih\Desktop\AmobaProject_Vision(131220)\AmobaProject_Vision\bin\Debug\AmobaProject_Vision_OCR.dll
+C:\Users\aih\Desktop\AmobaProject_Vision(131220)\AmobaProject_Vision\bin\Debug\AmobaProject_Vision_Processor.dll
+C:\Users\aih\Desktop\AmobaProject_Vision(131220)\AmobaProject_Vision\bin\Debug\Emgu.CV.DebuggerVisualizers.VS2010.dll
+C:\Users\aih\Desktop\AmobaProject_Vision(131220)\AmobaProject_Vision\bin\Debug\Emgu.CV.dll
+C:\Users\aih\Desktop\AmobaProject_Vision(131220)\AmobaProject_Vision\bin\Debug\Emgu.CV.UI.dll
+C:\Users\aih\Desktop\AmobaProject_Vision(131220)\AmobaProject_Vision\bin\Debug\Emgu.Util.dll
+C:\Users\aih\Desktop\AmobaProject_Vision(131220)\AmobaProject_Vision\bin\Debug\Interface.dll
+C:\Users\aih\Desktop\AmobaProject_Vision(131220)\AmobaProject_Vision\bin\Debug\ZedGraph.dll
+C:\Users\aih\Desktop\AmobaProject_Vision(131220)\AmobaProject_Vision\bin\Debug\AmobaProject_Vision_OCR.pdb
+C:\Users\aih\Desktop\AmobaProject_Vision(131220)\AmobaProject_Vision\bin\Debug\AmobaProject_Vision_Processor.pdb
+C:\Users\aih\Desktop\AmobaProject_Vision(131220)\AmobaProject_Vision\bin\Debug\Interface.pdb
+C:\Users\aih\Desktop\AmobaProject_Vision(131220)\AmobaProject_Vision\bin\Debug\Emgu.CV.pdb
+C:\Users\aih\Desktop\AmobaProject_Vision(131220)\AmobaProject_Vision\bin\Debug\Emgu.CV.xml
+C:\Users\aih\Desktop\AmobaProject_Vision(131220)\AmobaProject_Vision\bin\Debug\Emgu.CV.UI.pdb
+C:\Users\aih\Desktop\AmobaProject_Vision(131220)\AmobaProject_Vision\bin\Debug\Emgu.CV.UI.xml
+C:\Users\aih\Desktop\AmobaProject_Vision(131220)\AmobaProject_Vision\bin\Debug\Emgu.Util.pdb
+C:\Users\aih\Desktop\AmobaProject_Vision(131220)\AmobaProject_Vision\bin\Debug\Emgu.Util.xml
+C:\Users\aih\Desktop\AmobaProject_Vision(131220)\AmobaProject_Vision\bin\Debug\ZedGraph.xml
+C:\Users\aih\Desktop\AmobaProject_Vision(131220)\AmobaProject_Vision\bin\Debug\zh-CN\Emgu.CV.UI.resources.dll
+C:\Users\aih\Desktop\AmobaProject_Vision(131220)\AmobaProject_Vision\bin\Debug\zh-CN\ZedGraph.resources.dll
+C:\Users\aih\Desktop\AmobaProject_Vision(131220)\AmobaProject_Vision\obj\x86\Debug\AmobaProject_Vision.csprojResolveAssemblyReference.cache
+C:\Users\aih\Desktop\AmobaProject_Vision(131220)\AmobaProject_Vision\obj\x86\Debug\AmobaProject_Vision.MainForm.resources
+C:\Users\aih\Desktop\AmobaProject_Vision(131220)\AmobaProject_Vision\obj\x86\Debug\AmobaProject_Vision.Properties.Resources.resources
+C:\Users\aih\Desktop\AmobaProject_Vision(131220)\AmobaProject_Vision\obj\x86\Debug\AmobaProject_Vision.TestForm.resources
+C:\Users\aih\Desktop\AmobaProject_Vision(131220)\AmobaProject_Vision\obj\x86\Debug\AmobaProject_Vision.csproj.GenerateResource.Cache
+C:\Users\aih\Desktop\AmobaProject_Vision(131220)\AmobaProject_Vision\bin\Debug\ImgPrcUtility.dll
+C:\Users\aih\Desktop\AmobaProject_Vision(131220)\AmobaProject_Vision\bin\Debug\ImgPrcUtility.pdb
+C:\Users\aih\Desktop\kepfeldolgozas\AmobaProject_Vision(131220)\AmobaProject_Vision\obj\x86\Debug\AmobaProject_Vision.exe
+C:\Users\aih\Desktop\kepfeldolgozas\AmobaProject_Vision(131220)\AmobaProject_Vision\obj\x86\Debug\AmobaProject_Vision.pdb
+C:\Users\aih\Desktop\kepfeldolgozas\AmobaProject_Vision(131220)\AmobaProject_Vision\bin\Debug\cudart32_50_35.dll
+C:\Users\aih\Desktop\kepfeldolgozas\AmobaProject_Vision(131220)\AmobaProject_Vision\bin\Debug\cvextern.dll
+C:\Users\aih\Desktop\kepfeldolgozas\AmobaProject_Vision(131220)\AmobaProject_Vision\bin\Debug\opencv_calib3d249.dll
+C:\Users\aih\Desktop\kepfeldolgozas\AmobaProject_Vision(131220)\AmobaProject_Vision\bin\Debug\opencv_contrib249.dll
+C:\Users\aih\Desktop\kepfeldolgozas\AmobaProject_Vision(131220)\AmobaProject_Vision\bin\Debug\opencv_core249.dll
+C:\Users\aih\Desktop\kepfeldolgozas\AmobaProject_Vision(131220)\AmobaProject_Vision\bin\Debug\opencv_features2d249.dll
+C:\Users\aih\Desktop\kepfeldolgozas\AmobaProject_Vision(131220)\AmobaProject_Vision\bin\Debug\opencv_flann249.dll
+C:\Users\aih\Desktop\kepfeldolgozas\AmobaProject_Vision(131220)\AmobaProject_Vision\bin\Debug\opencv_highgui249.dll
+C:\Users\aih\Desktop\kepfeldolgozas\AmobaProject_Vision(131220)\AmobaProject_Vision\bin\Debug\opencv_imgproc249.dll
+C:\Users\aih\Desktop\kepfeldolgozas\AmobaProject_Vision(131220)\AmobaProject_Vision\bin\Debug\opencv_legacy249.dll
+C:\Users\aih\Desktop\kepfeldolgozas\AmobaProject_Vision(131220)\AmobaProject_Vision\bin\Debug\opencv_ml249.dll
+C:\Users\aih\Desktop\kepfeldolgozas\AmobaProject_Vision(131220)\AmobaProject_Vision\bin\Debug\opencv_nonfree249.dll
+C:\Users\aih\Desktop\kepfeldolgozas\AmobaProject_Vision(131220)\AmobaProject_Vision\bin\Debug\opencv_objdetect249.dll
+C:\Users\aih\Desktop\kepfeldolgozas\AmobaProject_Vision(131220)\AmobaProject_Vision\bin\Debug\opencv_photo249.dll
+C:\Users\aih\Desktop\kepfeldolgozas\AmobaProject_Vision(131220)\AmobaProject_Vision\bin\Debug\opencv_stitching249.dll
+C:\Users\aih\Desktop\kepfeldolgozas\AmobaProject_Vision(131220)\AmobaProject_Vision\bin\Debug\opencv_video249.dll
+C:\Users\aih\Desktop\kepfeldolgozas\AmobaProject_Vision(131220)\AmobaProject_Vision\bin\Debug\opencv_videostab249.dll
+C:\Users\aih\Desktop\kepfeldolgozas\AmobaProject_Vision(131220)\AmobaProject_Vision\bin\Debug\AmobaProject_Vision.exe
+C:\Users\aih\Desktop\kepfeldolgozas\AmobaProject_Vision(131220)\AmobaProject_Vision\bin\Debug\AmobaProject_Vision.pdb
+C:\Users\aih\Desktop\kepfeldolgozas\AmobaProject_Vision(131220)\AmobaProject_Vision\bin\Debug\AmobaProject_Vision_OCR.dll
+C:\Users\aih\Desktop\kepfeldolgozas\AmobaProject_Vision(131220)\AmobaProject_Vision\bin\Debug\AmobaProject_Vision_Processor.dll
+C:\Users\aih\Desktop\kepfeldolgozas\AmobaProject_Vision(131220)\AmobaProject_Vision\bin\Debug\Emgu.CV.DebuggerVisualizers.VS2010.dll
+C:\Users\aih\Desktop\kepfeldolgozas\AmobaProject_Vision(131220)\AmobaProject_Vision\bin\Debug\Emgu.CV.dll
+C:\Users\aih\Desktop\kepfeldolgozas\AmobaProject_Vision(131220)\AmobaProject_Vision\bin\Debug\Emgu.CV.UI.dll
+C:\Users\aih\Desktop\kepfeldolgozas\AmobaProject_Vision(131220)\AmobaProject_Vision\bin\Debug\Emgu.Util.dll
+C:\Users\aih\Desktop\kepfeldolgozas\AmobaProject_Vision(131220)\AmobaProject_Vision\bin\Debug\Interface.dll
+C:\Users\aih\Desktop\kepfeldolgozas\AmobaProject_Vision(131220)\AmobaProject_Vision\bin\Debug\ImgPrcUtility.dll
+C:\Users\aih\Desktop\kepfeldolgozas\AmobaProject_Vision(131220)\AmobaProject_Vision\bin\Debug\ZedGraph.dll
+C:\Users\aih\Desktop\kepfeldolgozas\AmobaProject_Vision(131220)\AmobaProject_Vision\bin\Debug\AmobaProject_Vision_OCR.pdb
+C:\Users\aih\Desktop\kepfeldolgozas\AmobaProject_Vision(131220)\AmobaProject_Vision\bin\Debug\AmobaProject_Vision_Processor.pdb
+C:\Users\aih\Desktop\kepfeldolgozas\AmobaProject_Vision(131220)\AmobaProject_Vision\bin\Debug\Interface.pdb
+C:\Users\aih\Desktop\kepfeldolgozas\AmobaProject_Vision(131220)\AmobaProject_Vision\bin\Debug\Emgu.CV.pdb
+C:\Users\aih\Desktop\kepfeldolgozas\AmobaProject_Vision(131220)\AmobaProject_Vision\bin\Debug\Emgu.CV.xml
+C:\Users\aih\Desktop\kepfeldolgozas\AmobaProject_Vision(131220)\AmobaProject_Vision\bin\Debug\Emgu.CV.UI.pdb
+C:\Users\aih\Desktop\kepfeldolgozas\AmobaProject_Vision(131220)\AmobaProject_Vision\bin\Debug\Emgu.CV.UI.xml
+C:\Users\aih\Desktop\kepfeldolgozas\AmobaProject_Vision(131220)\AmobaProject_Vision\bin\Debug\Emgu.Util.pdb
+C:\Users\aih\Desktop\kepfeldolgozas\AmobaProject_Vision(131220)\AmobaProject_Vision\bin\Debug\Emgu.Util.xml
+C:\Users\aih\Desktop\kepfeldolgozas\AmobaProject_Vision(131220)\AmobaProject_Vision\bin\Debug\ImgPrcUtility.pdb
+C:\Users\aih\Desktop\kepfeldolgozas\AmobaProject_Vision(131220)\AmobaProject_Vision\bin\Debug\ZedGraph.xml
+C:\Users\aih\Desktop\kepfeldolgozas\AmobaProject_Vision(131220)\AmobaProject_Vision\bin\Debug\zh-CN\Emgu.CV.UI.resources.dll
+C:\Users\aih\Desktop\kepfeldolgozas\AmobaProject_Vision(131220)\AmobaProject_Vision\bin\Debug\zh-CN\ZedGraph.resources.dll
+C:\Users\aih\Desktop\kepfeldolgozas\AmobaProject_Vision(131220)\AmobaProject_Vision\obj\x86\Debug\AmobaProject_Vision.csprojResolveAssemblyReference.cache
+C:\Users\aih\Desktop\kepfeldolgozas\AmobaProject_Vision(131220)\AmobaProject_Vision\obj\x86\Debug\AmobaProject_Vision.MainForm.resources
+C:\Users\aih\Desktop\kepfeldolgozas\AmobaProject_Vision(131220)\AmobaProject_Vision\obj\x86\Debug\AmobaProject_Vision.Properties.Resources.resources
+C:\Users\aih\Desktop\kepfeldolgozas\AmobaProject_Vision(131220)\AmobaProject_Vision\obj\x86\Debug\AmobaProject_Vision.TestForm.resources
+C:\Users\aih\Desktop\kepfeldolgozas\AmobaProject_Vision(131220)\AmobaProject_Vision\obj\x86\Debug\AmobaProject_Vision.csproj.GenerateResource.Cache
+C:\Users\aih\Desktop\kepfeldolgozas\AmobaProject_Vision(131224)\AmobaProject_Vision\obj\x86\Debug\AmobaProject_Vision.exe
+C:\Users\aih\Desktop\kepfeldolgozas\AmobaProject_Vision(131224)\AmobaProject_Vision\obj\x86\Debug\AmobaProject_Vision.pdb
+C:\Users\aih\Desktop\kepfeldolgozas\AmobaProject_Vision(131224)\AmobaProject_Vision\bin\Debug\cudart32_50_35.dll
+C:\Users\aih\Desktop\kepfeldolgozas\AmobaProject_Vision(131224)\AmobaProject_Vision\bin\Debug\cvextern.dll
+C:\Users\aih\Desktop\kepfeldolgozas\AmobaProject_Vision(131224)\AmobaProject_Vision\bin\Debug\opencv_calib3d249.dll
+C:\Users\aih\Desktop\kepfeldolgozas\AmobaProject_Vision(131224)\AmobaProject_Vision\bin\Debug\opencv_contrib249.dll
+C:\Users\aih\Desktop\kepfeldolgozas\AmobaProject_Vision(131224)\AmobaProject_Vision\bin\Debug\opencv_core249.dll
+C:\Users\aih\Desktop\kepfeldolgozas\AmobaProject_Vision(131224)\AmobaProject_Vision\bin\Debug\opencv_features2d249.dll
+C:\Users\aih\Desktop\kepfeldolgozas\AmobaProject_Vision(131224)\AmobaProject_Vision\bin\Debug\opencv_flann249.dll
+C:\Users\aih\Desktop\kepfeldolgozas\AmobaProject_Vision(131224)\AmobaProject_Vision\bin\Debug\opencv_highgui249.dll
+C:\Users\aih\Desktop\kepfeldolgozas\AmobaProject_Vision(131224)\AmobaProject_Vision\bin\Debug\opencv_imgproc249.dll
+C:\Users\aih\Desktop\kepfeldolgozas\AmobaProject_Vision(131224)\AmobaProject_Vision\bin\Debug\opencv_legacy249.dll
+C:\Users\aih\Desktop\kepfeldolgozas\AmobaProject_Vision(131224)\AmobaProject_Vision\bin\Debug\opencv_ml249.dll
+C:\Users\aih\Desktop\kepfeldolgozas\AmobaProject_Vision(131224)\AmobaProject_Vision\bin\Debug\opencv_nonfree249.dll
+C:\Users\aih\Desktop\kepfeldolgozas\AmobaProject_Vision(131224)\AmobaProject_Vision\bin\Debug\opencv_objdetect249.dll
+C:\Users\aih\Desktop\kepfeldolgozas\AmobaProject_Vision(131224)\AmobaProject_Vision\bin\Debug\opencv_photo249.dll
+C:\Users\aih\Desktop\kepfeldolgozas\AmobaProject_Vision(131224)\AmobaProject_Vision\bin\Debug\opencv_stitching249.dll
+C:\Users\aih\Desktop\kepfeldolgozas\AmobaProject_Vision(131224)\AmobaProject_Vision\bin\Debug\opencv_video249.dll
+C:\Users\aih\Desktop\kepfeldolgozas\AmobaProject_Vision(131224)\AmobaProject_Vision\bin\Debug\opencv_videostab249.dll
+C:\Users\aih\Desktop\kepfeldolgozas\AmobaProject_Vision(131224)\AmobaProject_Vision\bin\Debug\AmobaProject_Vision.exe
+C:\Users\aih\Desktop\kepfeldolgozas\AmobaProject_Vision(131224)\AmobaProject_Vision\bin\Debug\AmobaProject_Vision.pdb
+C:\Users\aih\Desktop\kepfeldolgozas\AmobaProject_Vision(131224)\AmobaProject_Vision\bin\Debug\AmobaProject_Vision_OCR.dll
+C:\Users\aih\Desktop\kepfeldolgozas\AmobaProject_Vision(131224)\AmobaProject_Vision\bin\Debug\AmobaProject_Vision_Processor.dll
+C:\Users\aih\Desktop\kepfeldolgozas\AmobaProject_Vision(131224)\AmobaProject_Vision\bin\Debug\Emgu.CV.DebuggerVisualizers.VS2010.dll
+C:\Users\aih\Desktop\kepfeldolgozas\AmobaProject_Vision(131224)\AmobaProject_Vision\bin\Debug\Emgu.CV.dll
+C:\Users\aih\Desktop\kepfeldolgozas\AmobaProject_Vision(131224)\AmobaProject_Vision\bin\Debug\Emgu.CV.UI.dll
+C:\Users\aih\Desktop\kepfeldolgozas\AmobaProject_Vision(131224)\AmobaProject_Vision\bin\Debug\Emgu.Util.dll
+C:\Users\aih\Desktop\kepfeldolgozas\AmobaProject_Vision(131224)\AmobaProject_Vision\bin\Debug\Interface.dll
+C:\Users\aih\Desktop\kepfeldolgozas\AmobaProject_Vision(131224)\AmobaProject_Vision\bin\Debug\ImgPrcUtility.dll
+C:\Users\aih\Desktop\kepfeldolgozas\AmobaProject_Vision(131224)\AmobaProject_Vision\bin\Debug\ZedGraph.dll
+C:\Users\aih\Desktop\kepfeldolgozas\AmobaProject_Vision(131224)\AmobaProject_Vision\bin\Debug\AmobaProject_Vision_OCR.pdb
+C:\Users\aih\Desktop\kepfeldolgozas\AmobaProject_Vision(131224)\AmobaProject_Vision\bin\Debug\AmobaProject_Vision_Processor.pdb
+C:\Users\aih\Desktop\kepfeldolgozas\AmobaProject_Vision(131224)\AmobaProject_Vision\bin\Debug\Interface.pdb
+C:\Users\aih\Desktop\kepfeldolgozas\AmobaProject_Vision(131224)\AmobaProject_Vision\bin\Debug\Emgu.CV.pdb
+C:\Users\aih\Desktop\kepfeldolgozas\AmobaProject_Vision(131224)\AmobaProject_Vision\bin\Debug\Emgu.CV.xml
+C:\Users\aih\Desktop\kepfeldolgozas\AmobaProject_Vision(131224)\AmobaProject_Vision\bin\Debug\Emgu.CV.UI.pdb
+C:\Users\aih\Desktop\kepfeldolgozas\AmobaProject_Vision(131224)\AmobaProject_Vision\bin\Debug\Emgu.CV.UI.xml
+C:\Users\aih\Desktop\kepfeldolgozas\AmobaProject_Vision(131224)\AmobaProject_Vision\bin\Debug\Emgu.Util.pdb
+C:\Users\aih\Desktop\kepfeldolgozas\AmobaProject_Vision(131224)\AmobaProject_Vision\bin\Debug\Emgu.Util.xml
+C:\Users\aih\Desktop\kepfeldolgozas\AmobaProject_Vision(131224)\AmobaProject_Vision\bin\Debug\ImgPrcUtility.pdb
+C:\Users\aih\Desktop\kepfeldolgozas\AmobaProject_Vision(131224)\AmobaProject_Vision\bin\Debug\ZedGraph.xml
+C:\Users\aih\Desktop\kepfeldolgozas\AmobaProject_Vision(131224)\AmobaProject_Vision\bin\Debug\zh-CN\Emgu.CV.UI.resources.dll
+C:\Users\aih\Desktop\kepfeldolgozas\AmobaProject_Vision(131224)\AmobaProject_Vision\bin\Debug\zh-CN\ZedGraph.resources.dll
+C:\Users\aih\Desktop\kepfeldolgozas\AmobaProject_Vision(131224)\AmobaProject_Vision\obj\x86\Debug\AmobaProject_Vision.csprojResolveAssemblyReference.cache
+C:\Users\aih\Desktop\kepfeldolgozas\AmobaProject_Vision(131224)\AmobaProject_Vision\obj\x86\Debug\AmobaProject_Vision.MainForm.resources
+C:\Users\aih\Desktop\kepfeldolgozas\AmobaProject_Vision(131224)\AmobaProject_Vision\obj\x86\Debug\AmobaProject_Vision.Properties.Resources.resources
+C:\Users\aih\Desktop\kepfeldolgozas\AmobaProject_Vision(131224)\AmobaProject_Vision\obj\x86\Debug\AmobaProject_Vision.TestForm.resources
+C:\Users\aih\Desktop\kepfeldolgozas\AmobaProject_Vision(131224)\AmobaProject_Vision\obj\x86\Debug\AmobaProject_Vision.csproj.GenerateResource.Cache

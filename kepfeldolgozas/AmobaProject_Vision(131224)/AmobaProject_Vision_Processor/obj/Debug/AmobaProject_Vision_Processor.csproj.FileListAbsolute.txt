@@ -1,0 +1,182 @@
+C:\Users\HollosiJanos\Documents\Visual Studio 2010\Projects\new\AmobaProject_Vision\AmobaProject_Vision_Processor\bin\Debug\AmobaProject_Vision_Processor.dll
+C:\Users\HollosiJanos\Documents\Visual Studio 2010\Projects\new\AmobaProject_Vision\AmobaProject_Vision_Processor\bin\Debug\AmobaProject_Vision_Processor.pdb
+C:\Users\HollosiJanos\Documents\Visual Studio 2010\Projects\new\AmobaProject_Vision\AmobaProject_Vision_Processor\bin\Debug\Emgu.CV.DebuggerVisualizers.VS2010.dll
+C:\Users\HollosiJanos\Documents\Visual Studio 2010\Projects\new\AmobaProject_Vision\AmobaProject_Vision_Processor\bin\Debug\Emgu.CV.dll
+C:\Users\HollosiJanos\Documents\Visual Studio 2010\Projects\new\AmobaProject_Vision\AmobaProject_Vision_Processor\bin\Debug\Emgu.CV.UI.dll
+C:\Users\HollosiJanos\Documents\Visual Studio 2010\Projects\new\AmobaProject_Vision\AmobaProject_Vision_Processor\bin\Debug\Emgu.Util.dll
+C:\Users\HollosiJanos\Documents\Visual Studio 2010\Projects\new\AmobaProject_Vision\AmobaProject_Vision_Processor\bin\Debug\ZedGraph.dll
+C:\Users\HollosiJanos\Documents\Visual Studio 2010\Projects\new\AmobaProject_Vision\AmobaProject_Vision_Processor\bin\Debug\Emgu.CV.pdb
+C:\Users\HollosiJanos\Documents\Visual Studio 2010\Projects\new\AmobaProject_Vision\AmobaProject_Vision_Processor\bin\Debug\Emgu.CV.xml
+C:\Users\HollosiJanos\Documents\Visual Studio 2010\Projects\new\AmobaProject_Vision\AmobaProject_Vision_Processor\bin\Debug\Emgu.CV.UI.pdb
+C:\Users\HollosiJanos\Documents\Visual Studio 2010\Projects\new\AmobaProject_Vision\AmobaProject_Vision_Processor\bin\Debug\Emgu.CV.UI.xml
+C:\Users\HollosiJanos\Documents\Visual Studio 2010\Projects\new\AmobaProject_Vision\AmobaProject_Vision_Processor\bin\Debug\Emgu.Util.pdb
+C:\Users\HollosiJanos\Documents\Visual Studio 2010\Projects\new\AmobaProject_Vision\AmobaProject_Vision_Processor\bin\Debug\Emgu.Util.xml
+C:\Users\HollosiJanos\Documents\Visual Studio 2010\Projects\new\AmobaProject_Vision\AmobaProject_Vision_Processor\bin\Debug\ZedGraph.xml
+C:\Users\HollosiJanos\Documents\Visual Studio 2010\Projects\new\AmobaProject_Vision\AmobaProject_Vision_Processor\bin\Debug\zh-CN\Emgu.CV.UI.resources.dll
+C:\Users\HollosiJanos\Documents\Visual Studio 2010\Projects\new\AmobaProject_Vision\AmobaProject_Vision_Processor\bin\Debug\zh-CN\ZedGraph.resources.dll
+C:\Users\HollosiJanos\Documents\Visual Studio 2010\Projects\new\AmobaProject_Vision\AmobaProject_Vision_Processor\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\HollosiJanos\Documents\Visual Studio 2010\Projects\new\AmobaProject_Vision\AmobaProject_Vision_Processor\obj\Debug\AmobaProject_Vision_Processor.dll
+C:\Users\HollosiJanos\Documents\Visual Studio 2010\Projects\new\AmobaProject_Vision\AmobaProject_Vision_Processor\obj\Debug\AmobaProject_Vision_Processor.pdb
+C:\Users\HollosiJanos\Documents\Visual Studio 2010\Projects\new\AmobaProject_Vision\AmobaProject_Vision_Processor\bin\Debug\AmobaProject_Vision_OCR.dll
+C:\Users\HollosiJanos\Documents\Visual Studio 2010\Projects\new\AmobaProject_Vision\AmobaProject_Vision_Processor\bin\Debug\AmobaProject_Vision_OCR.pdb
+G:\AmobaProject_Vision(131122)\AmobaProject_Vision_Processor\bin\Debug\AmobaProject_Vision_Processor.dll
+G:\AmobaProject_Vision(131122)\AmobaProject_Vision_Processor\bin\Debug\AmobaProject_Vision_Processor.pdb
+G:\AmobaProject_Vision(131122)\AmobaProject_Vision_Processor\bin\Debug\AmobaProject_Vision_OCR.dll
+G:\AmobaProject_Vision(131122)\AmobaProject_Vision_Processor\bin\Debug\Emgu.CV.DebuggerVisualizers.VS2010.dll
+G:\AmobaProject_Vision(131122)\AmobaProject_Vision_Processor\bin\Debug\Emgu.CV.dll
+G:\AmobaProject_Vision(131122)\AmobaProject_Vision_Processor\bin\Debug\Emgu.CV.UI.dll
+G:\AmobaProject_Vision(131122)\AmobaProject_Vision_Processor\bin\Debug\Emgu.Util.dll
+G:\AmobaProject_Vision(131122)\AmobaProject_Vision_Processor\bin\Debug\ZedGraph.dll
+G:\AmobaProject_Vision(131122)\AmobaProject_Vision_Processor\bin\Debug\AmobaProject_Vision_OCR.pdb
+G:\AmobaProject_Vision(131122)\AmobaProject_Vision_Processor\bin\Debug\Emgu.CV.pdb
+G:\AmobaProject_Vision(131122)\AmobaProject_Vision_Processor\bin\Debug\Emgu.CV.xml
+G:\AmobaProject_Vision(131122)\AmobaProject_Vision_Processor\bin\Debug\Emgu.CV.UI.pdb
+G:\AmobaProject_Vision(131122)\AmobaProject_Vision_Processor\bin\Debug\Emgu.CV.UI.xml
+G:\AmobaProject_Vision(131122)\AmobaProject_Vision_Processor\bin\Debug\Emgu.Util.pdb
+G:\AmobaProject_Vision(131122)\AmobaProject_Vision_Processor\bin\Debug\Emgu.Util.xml
+G:\AmobaProject_Vision(131122)\AmobaProject_Vision_Processor\bin\Debug\ZedGraph.xml
+G:\AmobaProject_Vision(131122)\AmobaProject_Vision_Processor\bin\Debug\zh-CN\Emgu.CV.UI.resources.dll
+G:\AmobaProject_Vision(131122)\AmobaProject_Vision_Processor\bin\Debug\zh-CN\ZedGraph.resources.dll
+G:\AmobaProject_Vision(131122)\AmobaProject_Vision_Processor\obj\Debug\ResolveAssemblyReference.cache
+G:\AmobaProject_Vision(131122)\AmobaProject_Vision_Processor\obj\Debug\AmobaProject_Vision_Processor.dll
+G:\AmobaProject_Vision(131122)\AmobaProject_Vision_Processor\obj\Debug\AmobaProject_Vision_Processor.pdb
+G:\AmobaProject_Vision(131202)\AmobaProject_Vision_Processor\bin\Debug\AmobaProject_Vision_Processor.dll
+G:\AmobaProject_Vision(131202)\AmobaProject_Vision_Processor\bin\Debug\AmobaProject_Vision_Processor.pdb
+G:\AmobaProject_Vision(131202)\AmobaProject_Vision_Processor\bin\Debug\AmobaProject_Vision_OCR.dll
+G:\AmobaProject_Vision(131202)\AmobaProject_Vision_Processor\bin\Debug\Emgu.CV.DebuggerVisualizers.VS2010.dll
+G:\AmobaProject_Vision(131202)\AmobaProject_Vision_Processor\bin\Debug\Emgu.CV.dll
+G:\AmobaProject_Vision(131202)\AmobaProject_Vision_Processor\bin\Debug\Emgu.CV.UI.dll
+G:\AmobaProject_Vision(131202)\AmobaProject_Vision_Processor\bin\Debug\Emgu.Util.dll
+G:\AmobaProject_Vision(131202)\AmobaProject_Vision_Processor\bin\Debug\ZedGraph.dll
+G:\AmobaProject_Vision(131202)\AmobaProject_Vision_Processor\bin\Debug\AmobaProject_Vision_OCR.pdb
+G:\AmobaProject_Vision(131202)\AmobaProject_Vision_Processor\bin\Debug\Emgu.CV.pdb
+G:\AmobaProject_Vision(131202)\AmobaProject_Vision_Processor\bin\Debug\Emgu.CV.xml
+G:\AmobaProject_Vision(131202)\AmobaProject_Vision_Processor\bin\Debug\Emgu.CV.UI.pdb
+G:\AmobaProject_Vision(131202)\AmobaProject_Vision_Processor\bin\Debug\Emgu.CV.UI.xml
+G:\AmobaProject_Vision(131202)\AmobaProject_Vision_Processor\bin\Debug\Emgu.Util.pdb
+G:\AmobaProject_Vision(131202)\AmobaProject_Vision_Processor\bin\Debug\Emgu.Util.xml
+G:\AmobaProject_Vision(131202)\AmobaProject_Vision_Processor\bin\Debug\ZedGraph.xml
+G:\AmobaProject_Vision(131202)\AmobaProject_Vision_Processor\bin\Debug\zh-CN\Emgu.CV.UI.resources.dll
+G:\AmobaProject_Vision(131202)\AmobaProject_Vision_Processor\bin\Debug\zh-CN\ZedGraph.resources.dll
+G:\AmobaProject_Vision(131202)\AmobaProject_Vision_Processor\obj\Debug\ResolveAssemblyReference.cache
+G:\AmobaProject_Vision(131202)\AmobaProject_Vision_Processor\obj\Debug\AmobaProject_Vision_Processor.dll
+G:\AmobaProject_Vision(131202)\AmobaProject_Vision_Processor\obj\Debug\AmobaProject_Vision_Processor.pdb
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131206)\AmobaProject_Vision_Processor\bin\Debug\AmobaProject_Vision_Processor.dll
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131206)\AmobaProject_Vision_Processor\bin\Debug\AmobaProject_Vision_Processor.pdb
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131206)\AmobaProject_Vision_Processor\bin\Debug\AmobaProject_Vision_OCR.dll
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131206)\AmobaProject_Vision_Processor\bin\Debug\Emgu.CV.DebuggerVisualizers.VS2010.dll
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131206)\AmobaProject_Vision_Processor\bin\Debug\Emgu.CV.dll
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131206)\AmobaProject_Vision_Processor\bin\Debug\Emgu.CV.UI.dll
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131206)\AmobaProject_Vision_Processor\bin\Debug\Emgu.Util.dll
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131206)\AmobaProject_Vision_Processor\bin\Debug\Interface.dll
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131206)\AmobaProject_Vision_Processor\bin\Debug\ZedGraph.dll
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131206)\AmobaProject_Vision_Processor\bin\Debug\AmobaProject_Vision_OCR.pdb
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131206)\AmobaProject_Vision_Processor\bin\Debug\Interface.pdb
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131206)\AmobaProject_Vision_Processor\bin\Debug\Emgu.CV.pdb
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131206)\AmobaProject_Vision_Processor\bin\Debug\Emgu.CV.xml
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131206)\AmobaProject_Vision_Processor\bin\Debug\Emgu.CV.UI.pdb
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131206)\AmobaProject_Vision_Processor\bin\Debug\Emgu.CV.UI.xml
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131206)\AmobaProject_Vision_Processor\bin\Debug\Emgu.Util.pdb
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131206)\AmobaProject_Vision_Processor\bin\Debug\Emgu.Util.xml
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131206)\AmobaProject_Vision_Processor\bin\Debug\ZedGraph.xml
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131206)\AmobaProject_Vision_Processor\bin\Debug\zh-CN\Emgu.CV.UI.resources.dll
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131206)\AmobaProject_Vision_Processor\bin\Debug\zh-CN\ZedGraph.resources.dll
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131206)\AmobaProject_Vision_Processor\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131206)\AmobaProject_Vision_Processor\obj\Debug\AmobaProject_Vision_Processor.dll
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131206)\AmobaProject_Vision_Processor\obj\Debug\AmobaProject_Vision_Processor.pdb
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131211)\AmobaProject_Vision_Processor\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131211)\AmobaProject_Vision_Processor\obj\Debug\AmobaProject_Vision_Processor.dll
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131211)\AmobaProject_Vision_Processor\bin\Debug\AmobaProject_Vision_Processor.dll
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131211)\AmobaProject_Vision_Processor\bin\Debug\AmobaProject_Vision_Processor.pdb
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131211)\AmobaProject_Vision_Processor\bin\Debug\AmobaProject_Vision_OCR.dll
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131211)\AmobaProject_Vision_Processor\bin\Debug\Emgu.CV.DebuggerVisualizers.VS2010.dll
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131211)\AmobaProject_Vision_Processor\bin\Debug\Emgu.CV.dll
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131211)\AmobaProject_Vision_Processor\bin\Debug\Emgu.CV.UI.dll
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131211)\AmobaProject_Vision_Processor\bin\Debug\Emgu.Util.dll
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131211)\AmobaProject_Vision_Processor\bin\Debug\Interface.dll
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131211)\AmobaProject_Vision_Processor\bin\Debug\ZedGraph.dll
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131211)\AmobaProject_Vision_Processor\bin\Debug\AmobaProject_Vision_OCR.pdb
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131211)\AmobaProject_Vision_Processor\bin\Debug\Interface.pdb
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131211)\AmobaProject_Vision_Processor\bin\Debug\Emgu.CV.pdb
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131211)\AmobaProject_Vision_Processor\bin\Debug\Emgu.CV.xml
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131211)\AmobaProject_Vision_Processor\bin\Debug\Emgu.CV.UI.pdb
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131211)\AmobaProject_Vision_Processor\bin\Debug\Emgu.CV.UI.xml
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131211)\AmobaProject_Vision_Processor\bin\Debug\Emgu.Util.pdb
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131211)\AmobaProject_Vision_Processor\bin\Debug\Emgu.Util.xml
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131211)\AmobaProject_Vision_Processor\bin\Debug\ZedGraph.xml
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131211)\AmobaProject_Vision_Processor\bin\Debug\zh-CN\Emgu.CV.UI.resources.dll
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131211)\AmobaProject_Vision_Processor\bin\Debug\zh-CN\ZedGraph.resources.dll
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131211)\AmobaProject_Vision_Processor\obj\Debug\AmobaProject_Vision_Processor.pdb
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131220)\AmobaProject_Vision_Processor\bin\Debug\AmobaProject_Vision_Processor.dll
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131220)\AmobaProject_Vision_Processor\bin\Debug\AmobaProject_Vision_Processor.pdb
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131220)\AmobaProject_Vision_Processor\bin\Debug\AmobaProject_Vision_OCR.dll
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131220)\AmobaProject_Vision_Processor\bin\Debug\Emgu.CV.DebuggerVisualizers.VS2010.dll
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131220)\AmobaProject_Vision_Processor\bin\Debug\Emgu.CV.dll
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131220)\AmobaProject_Vision_Processor\bin\Debug\Emgu.CV.UI.dll
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131220)\AmobaProject_Vision_Processor\bin\Debug\Emgu.Util.dll
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131220)\AmobaProject_Vision_Processor\bin\Debug\Interface.dll
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131220)\AmobaProject_Vision_Processor\bin\Debug\ZedGraph.dll
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131220)\AmobaProject_Vision_Processor\bin\Debug\AmobaProject_Vision_OCR.pdb
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131220)\AmobaProject_Vision_Processor\bin\Debug\Interface.pdb
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131220)\AmobaProject_Vision_Processor\bin\Debug\Emgu.CV.pdb
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131220)\AmobaProject_Vision_Processor\bin\Debug\Emgu.CV.xml
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131220)\AmobaProject_Vision_Processor\bin\Debug\Emgu.CV.UI.pdb
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131220)\AmobaProject_Vision_Processor\bin\Debug\Emgu.CV.UI.xml
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131220)\AmobaProject_Vision_Processor\bin\Debug\Emgu.Util.pdb
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131220)\AmobaProject_Vision_Processor\bin\Debug\Emgu.Util.xml
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131220)\AmobaProject_Vision_Processor\bin\Debug\ZedGraph.xml
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131220)\AmobaProject_Vision_Processor\bin\Debug\zh-CN\Emgu.CV.UI.resources.dll
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131220)\AmobaProject_Vision_Processor\bin\Debug\zh-CN\ZedGraph.resources.dll
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131220)\AmobaProject_Vision_Processor\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131220)\AmobaProject_Vision_Processor\obj\Debug\AmobaProject_Vision_Processor.dll
+C:\Users\Kamera\Desktop\AmobaProject_Vision(131220)\AmobaProject_Vision_Processor\obj\Debug\AmobaProject_Vision_Processor.pdb
+C:\Users\aih\Desktop\AmobaProject_Vision(131220)\AmobaProject_Vision_Processor\bin\Debug\AmobaProject_Vision_Processor.dll
+C:\Users\aih\Desktop\AmobaProject_Vision(131220)\AmobaProject_Vision_Processor\bin\Debug\AmobaProject_Vision_Processor.pdb
+C:\Users\aih\Desktop\AmobaProject_Vision(131220)\AmobaProject_Vision_Processor\bin\Debug\AmobaProject_Vision_OCR.dll
+C:\Users\aih\Desktop\AmobaProject_Vision(131220)\AmobaProject_Vision_Processor\bin\Debug\Emgu.CV.DebuggerVisualizers.VS2010.dll
+C:\Users\aih\Desktop\AmobaProject_Vision(131220)\AmobaProject_Vision_Processor\bin\Debug\Emgu.CV.dll
+C:\Users\aih\Desktop\AmobaProject_Vision(131220)\AmobaProject_Vision_Processor\bin\Debug\Emgu.CV.UI.dll
+C:\Users\aih\Desktop\AmobaProject_Vision(131220)\AmobaProject_Vision_Processor\bin\Debug\Emgu.Util.dll
+C:\Users\aih\Desktop\AmobaProject_Vision(131220)\AmobaProject_Vision_Processor\bin\Debug\Interface.dll
+C:\Users\aih\Desktop\AmobaProject_Vision(131220)\AmobaProject_Vision_Processor\bin\Debug\ZedGraph.dll
+C:\Users\aih\Desktop\AmobaProject_Vision(131220)\AmobaProject_Vision_Processor\bin\Debug\AmobaProject_Vision_OCR.pdb
+C:\Users\aih\Desktop\AmobaProject_Vision(131220)\AmobaProject_Vision_Processor\bin\Debug\Interface.pdb
+C:\Users\aih\Desktop\AmobaProject_Vision(131220)\AmobaProject_Vision_Processor\bin\Debug\Emgu.CV.pdb
+C:\Users\aih\Desktop\AmobaProject_Vision(131220)\AmobaProject_Vision_Processor\bin\Debug\Emgu.CV.xml
+C:\Users\aih\Desktop\AmobaProject_Vision(131220)\AmobaProject_Vision_Processor\bin\Debug\Emgu.CV.UI.pdb
+C:\Users\aih\Desktop\AmobaProject_Vision(131220)\AmobaProject_Vision_Processor\bin\Debug\Emgu.CV.UI.xml
+C:\Users\aih\Desktop\AmobaProject_Vision(131220)\AmobaProject_Vision_Processor\bin\Debug\Emgu.Util.pdb
+C:\Users\aih\Desktop\AmobaProject_Vision(131220)\AmobaProject_Vision_Processor\bin\Debug\Emgu.Util.xml
+C:\Users\aih\Desktop\AmobaProject_Vision(131220)\AmobaProject_Vision_Processor\bin\Debug\ZedGraph.xml
+C:\Users\aih\Desktop\AmobaProject_Vision(131220)\AmobaProject_Vision_Processor\bin\Debug\zh-CN\Emgu.CV.UI.resources.dll
+C:\Users\aih\Desktop\AmobaProject_Vision(131220)\AmobaProject_Vision_Processor\bin\Debug\zh-CN\ZedGraph.resources.dll
+C:\Users\aih\Desktop\AmobaProject_Vision(131220)\AmobaProject_Vision_Processor\obj\Debug\AmobaProject_Vision_Processor.csprojResolveAssemblyReference.cache
+C:\Users\aih\Desktop\AmobaProject_Vision(131220)\AmobaProject_Vision_Processor\obj\Debug\AmobaProject_Vision_Processor.dll
+C:\Users\aih\Desktop\AmobaProject_Vision(131220)\AmobaProject_Vision_Processor\obj\Debug\AmobaProject_Vision_Processor.pdb
+C:\Users\aih\Desktop\AmobaProject_Vision(131220)\AmobaProject_Vision_Processor\bin\Debug\ImgPrcUtility.dll
+C:\Users\aih\Desktop\AmobaProject_Vision(131220)\AmobaProject_Vision_Processor\bin\Debug\ImgPrcUtility.pdb
+C:\Users\aih\Desktop\kepfeldolgozas\AmobaProject_Vision(131220)\AmobaProject_Vision_Processor\bin\Debug\AmobaProject_Vision_Processor.dll
+C:\Users\aih\Desktop\kepfeldolgozas\AmobaProject_Vision(131220)\AmobaProject_Vision_Processor\bin\Debug\AmobaProject_Vision_Processor.pdb
+C:\Users\aih\Desktop\kepfeldolgozas\AmobaProject_Vision(131220)\AmobaProject_Vision_Processor\bin\Debug\AmobaProject_Vision_OCR.dll
+C:\Users\aih\Desktop\kepfeldolgozas\AmobaProject_Vision(131220)\AmobaProject_Vision_Processor\bin\Debug\Emgu.CV.DebuggerVisualizers.VS2010.dll
+C:\Users\aih\Desktop\kepfeldolgozas\AmobaProject_Vision(131220)\AmobaProject_Vision_Processor\bin\Debug\Emgu.CV.dll
+C:\Users\aih\Desktop\kepfeldolgozas\AmobaProject_Vision(131220)\AmobaProject_Vision_Processor\bin\Debug\Emgu.CV.UI.dll
+C:\Users\aih\Desktop\kepfeldolgozas\AmobaProject_Vision(131220)\AmobaProject_Vision_Processor\bin\Debug\Emgu.Util.dll
+C:\Users\aih\Desktop\kepfeldolgozas\AmobaProject_Vision(131220)\AmobaProject_Vision_Processor\bin\Debug\ImgPrcUtility.dll
+C:\Users\aih\Desktop\kepfeldolgozas\AmobaProject_Vision(131220)\AmobaProject_Vision_Processor\bin\Debug\Interface.dll
+C:\Users\aih\Desktop\kepfeldolgozas\AmobaProject_Vision(131220)\AmobaProject_Vision_Processor\bin\Debug\ZedGraph.dll
+C:\Users\aih\Desktop\kepfeldolgozas\AmobaProject_Vision(131220)\AmobaProject_Vision_Processor\bin\Debug\AmobaProject_Vision_OCR.pdb
+C:\Users\aih\Desktop\kepfeldolgozas\AmobaProject_Vision(131220)\AmobaProject_Vision_Processor\bin\Debug\ImgPrcUtility.pdb
+C:\Users\aih\Desktop\kepfeldolgozas\AmobaProject_Vision(131220)\AmobaProject_Vision_Processor\bin\Debug\Interface.pdb
+C:\Users\aih\Desktop\kepfeldolgozas\AmobaProject_Vision(131220)\AmobaProject_Vision_Processor\bin\Debug\Emgu.CV.pdb
+C:\Users\aih\Desktop\kepfeldolgozas\AmobaProject_Vision(131220)\AmobaProject_Vision_Processor\bin\Debug\Emgu.CV.xml
+C:\Users\aih\Desktop\kepfeldolgozas\AmobaProject_Vision(131220)\AmobaProject_Vision_Processor\bin\Debug\Emgu.CV.UI.pdb
+C:\Users\aih\Desktop\kepfeldolgozas\AmobaProject_Vision(131220)\AmobaProject_Vision_Processor\bin\Debug\Emgu.CV.UI.xml
+C:\Users\aih\Desktop\kepfeldolgozas\AmobaProject_Vision(131220)\AmobaProject_Vision_Processor\bin\Debug\Emgu.Util.pdb
+C:\Users\aih\Desktop\kepfeldolgozas\AmobaProject_Vision(131220)\AmobaProject_Vision_Processor\bin\Debug\Emgu.Util.xml
+C:\Users\aih\Desktop\kepfeldolgozas\AmobaProject_Vision(131220)\AmobaProject_Vision_Processor\bin\Debug\ZedGraph.xml
+C:\Users\aih\Desktop\kepfeldolgozas\AmobaProject_Vision(131220)\AmobaProject_Vision_Processor\bin\Debug\zh-CN\Emgu.CV.UI.resources.dll
+C:\Users\aih\Desktop\kepfeldolgozas\AmobaProject_Vision(131220)\AmobaProject_Vision_Processor\bin\Debug\zh-CN\ZedGraph.resources.dll
+C:\Users\aih\Desktop\kepfeldolgozas\AmobaProject_Vision(131220)\AmobaProject_Vision_Processor\obj\Debug\AmobaProject_Vision_Processor.csprojResolveAssemblyReference.cache
+C:\Users\aih\Desktop\kepfeldolgozas\AmobaProject_Vision(131220)\AmobaProject_Vision_Processor\obj\Debug\AmobaProject_Vision_Processor.dll
+C:\Users\aih\Desktop\kepfeldolgozas\AmobaProject_Vision(131220)\AmobaProject_Vision_Processor\obj\Debug\AmobaProject_Vision_Processor.pdb
