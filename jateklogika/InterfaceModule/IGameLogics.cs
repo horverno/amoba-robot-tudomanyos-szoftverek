@@ -3,12 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace RoboTicTacToe
+namespace InterfaceModule
 {
     /// <summary>
     /// This interface describes the communication with the GameLogic module for the other modules.
     /// </summary>
-    interface IGameLogics : IGame
+    public interface IGameLogics : IGame
     {
         /// <summary>
         /// With this event the game logics can call for a movement (from the kinematics)
@@ -20,7 +20,7 @@ namespace RoboTicTacToe
     /// <summary>
     /// This class represents a movement request  the robot (requested by the game logics).
     /// </summary>
-    class RobotMovementRequestEventArgs : EventArgs
+    public class RobotMovementRequestEventArgs : EventArgs
     {
         public RobotMovement movementType { get; set; }
         public Piece pieceType { get; set; }

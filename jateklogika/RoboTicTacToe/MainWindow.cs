@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 
-namespace RoboTicTacToe
+namespace MainModule
 {
     public partial class MainWindow : Form
     {

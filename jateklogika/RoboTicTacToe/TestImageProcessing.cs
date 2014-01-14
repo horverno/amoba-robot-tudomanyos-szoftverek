@@ -2,8 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using InterfaceModule;
 
-namespace RoboTicTacToe
+namespace MainModule
 {
     /// <summary>
     /// Test class to check the intermodule communication

@@ -11,3 +11,12 @@ Z:\Dokumentumok\Egyetem\Tantárgyak\Diff\tudom.szoft.ter\VS Projektek\RoboTicTac
 Z:\Dokumentumok\Egyetem\Tantárgyak\Diff\tudom.szoft.ter\VS Projektek\RoboTicTacToe\RoboTicTacToe\obj\x86\Debug\RoboTicTacToe.pdb
 Z:\Dokumentumok\Egyetem\Tantárgyak\Diff\tudom.szoft.ter\VS Projektek\jateklogika\RoboTicTacToe\obj\x86\Debug\RoboTicTacToe.exe
 Z:\Dokumentumok\Egyetem\Tantárgyak\Diff\tudom.szoft.ter\VS Projektek\jateklogika\RoboTicTacToe\obj\x86\Debug\RoboTicTacToe.pdb
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\RoboTicTacToe\RoboTicTacToe\obj\x86\Debug\RoboTicTacToe.exe
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\RoboTicTacToe\RoboTicTacToe\obj\x86\Debug\RoboTicTacToe.pdb
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\RoboTicTacToe\RoboTicTacToe\obj\x86\Debug\RoboTicTacToe.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\RoboTicTacToe\RoboTicTacToe\obj\x86\Debug\RoboTicTacToe.MainWindow.resources
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\RoboTicTacToe\RoboTicTacToe\obj\x86\Debug\RoboTicTacToe.Properties.Resources.resources
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\RoboTicTacToe\RoboTicTacToe\obj\x86\Debug\RoboTicTacToe.csproj.GenerateResource.Cache
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\RoboTicTacToe\RoboTicTacToe\bin\Debug\RoboTicTacToe.exe
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\RoboTicTacToe\RoboTicTacToe\bin\Debug\RoboTicTacToe.pdb
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\RoboTicTacToe\RoboTicTacToe\obj\x86\Debug\RoboTicTacToe.TestWindow.resources

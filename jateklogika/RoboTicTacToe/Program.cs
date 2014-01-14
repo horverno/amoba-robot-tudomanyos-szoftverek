@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Windows.Forms;
 
-namespace RoboTicTacToe
+namespace MainModule
 {
     static class Program
     {
