@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace RoboTicTacToe
+namespace InterfaceModule
 {
     /// <summary>
     /// This is the enumeration of all the movement types the robot arm can do.
@@ -14,7 +14,7 @@ namespace RoboTicTacToe
     /// <summary>
     /// This interface represents the communication between the kinematics and the game logic modules.
     /// </summary>
-    interface IKinematics : IGame
+    public interface IKinematics : IGame
     {
         /// <summary>
         /// This event must be "called" whenever the status of the robot has changed.
@@ -33,7 +33,7 @@ namespace RoboTicTacToe
     /// <summary>
     /// An instance of this class contains the information about the new status of the robot.
     /// </summary>
-    class RobotStatusChangedEventArgs : EventArgs
+    public class RobotStatusChangedEventArgs : EventArgs
     {
         public RobotStatus CurrentStatus { get; set; }
 
