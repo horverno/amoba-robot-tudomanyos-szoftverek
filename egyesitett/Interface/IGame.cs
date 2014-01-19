@@ -28,17 +28,21 @@ namespace InterfaceModule
     /// </summary>
     public class PostMessageEventArgs : EventArgs
     {
-        public string message{ get; set; }
+        public string message { get; set; }
+        public bool important { get; set; }
 
-        public PostMessageEventArgs (string message) : base()
+        public PostMessageEventArgs (string message, bool important) : base()
 	    {
             this.message = message;
+            this.important = important;
 	    }
+
+        public PostMessageEventArgs (string message) : this(message, false){}
 
         /// <returns>Returns the message as a string</returns>
         public override string ToString()
         {
-            return "Post message: " + message;
+            return (important?"IMPORTANT MESSAGE: ":"Post message: ") + message;
         }
     }
 }
