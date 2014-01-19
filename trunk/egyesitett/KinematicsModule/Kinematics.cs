@@ -11,6 +11,9 @@ namespace KinematicsModule
 {
     public class Kinematics : IKinematics
     {
+        public event EventHandler<RobotStatusChangedEventArgs> RobotStatusChanged;
+        public event EventHandler<PostMessageEventArgs> PostMessageShowRequest;
+
         public const int DEFAULT_PORTNUM = 3; // COM3
         public const int DEFAULT_BAUDNUM = 1; // 1Mbps
         const int motorokszama = 7;
@@ -31,24 +34,18 @@ namespace KinematicsModule
             }
         }
 
-        public event EventHandler<RobotStatusChangedEventArgs> RobotStatusChanged;
-
-        public event EventHandler<PostMessageEventArgs> PostMessageShowRequest;
-
         public Kinematics()
         {
-            
             if (dynamixel.dxl_initialize(DEFAULT_PORTNUM, DEFAULT_BAUDNUM) == 0)
             {
-                Console.WriteLine("Failed to open USB2Dynamixel!");
-                Console.WriteLine("Press any key to terminate...");
+                OnPostMessageShowRequest("Failed to open USB2Dynamixel!");
+                //Console.WriteLine("Press any key to terminate...");
                 //Console.ReadKey(true);
                 status = RobotStatus.Offline;
-                
             }
             else
             {
-                Console.WriteLine("Succeed to open USB2Dynamixel!");
+                OnPostMessageShowRequest("Succeeded to open USB2Dynamixel!");
                 status = RobotStatus.Ready;
             }
 
@@ -72,53 +69,55 @@ namespace KinematicsModule
             // bekérem, hogy hova mozgassam
             //string hova = adatbekeres();
 
-
             //int wasitok = aktmozgas(0, 0);
             //if (wasitok == 0)
             //{
             //    //Console.ReadKey();
             //}
         }
-
-
-        private void testRobotStatusChangedEvent(RobotStatus newStatus)
-        {
-            status = newStatus;
-        }
-
+        /// <summary>This method is for request the UI to show a message</summary>
+        /// <param name="message">the message to be shown</param>
         public void OnPostMessageShowRequest(string message)
         {
             if (PostMessageShowRequest != null)
                 PostMessageShowRequest(this, new PostMessageEventArgs(message));
         }
-
-
+        /// <summary>This method must be called when the status of the robot arm changes</summary>
+        /// <param name="newStatus">the new status of the robot</param>
         public void OnRobotStatusChanged(RobotStatus newStatus)
         {
             if (RobotStatusChanged != null)
                 RobotStatusChanged(this, new RobotStatusChangedEventArgs(newStatus));
         }
-
-        /*public void SignUpToRobotMovementRequestEvent(IGameLogics gameLogics)
-        {
-            gameLogics.RobotMovementReqest += RobotMovementRequestHandler;
-        }*/
-
+        /// <param name="e">this object contains all information about the requested movement</param>
         public void RobotMovementRequestHandler(object sender, RobotMovementRequestEventArgs e)
         {
-            status = RobotStatus.Moving;
-            OnPostMessageShowRequest("movement (" + e.ToString() + ") started...");
-            if (aktmozgas(e.destRow, e.destCol) == 1)
+            switch (e.movementType)
             {
-                status = RobotStatus.Ready;
+                case RobotMovement.CleanUp: // tábla leszedés
+                    break;
+
+                case RobotMovement.PlacePiece:  // bábu felhelyezés
+                    status = RobotStatus.Moving;
+                    OnPostMessageShowRequest("movement (" + e.ToString() + ") started...");
+                    if (aktmozgas(e.destRow, e.destCol) == 1)   // TODO: new thread / async?
+                    {
+                        status = RobotStatus.Ready;
+                    }
+                    else
+                    {
+                        status = RobotStatus.ServoError;
+                    }
+                    OnPostMessageShowRequest("movement stopped"); 
+                    break;
+
+                case RobotMovement.Cheer:   // nyertes mozdulat
+                    break;
+
+                case RobotMovement.Grieve:  // vesztes mozdulat
+                    break;
             }
-            else
-            {
-                status = RobotStatus.ServoError;
-            }
-           
-            status = RobotStatus.Ready;
-            OnPostMessageShowRequest("movement stopped");
+            
             
         }
 
@@ -379,31 +378,31 @@ namespace KinematicsModule
             switch (CommStatus)
             {
                 case dynamixel.COMM_TXFAIL:
-                    //Console.WriteLine("COMM_TXFAIL: Failed transmit instruction packet!");
+                    Console.WriteLine("COMM_TXFAIL: Failed transmit instruction packet!");
                     break;
 
                 case dynamixel.COMM_TXERROR:
-                    //Console.WriteLine("COMM_TXERROR: Incorrect instruction packet!");
+                    Console.WriteLine("COMM_TXERROR: Incorrect instruction packet!");
                     break;
 
                 case dynamixel.COMM_RXFAIL:
-                    //Console.WriteLine("COMM_RXFAIL: Failed get status packet from device!");
+                    Console.WriteLine("COMM_RXFAIL: Failed get status packet from device!");
                     break;
 
                 case dynamixel.COMM_RXWAITING:
-                    //Console.WriteLine("COMM_RXWAITING: Now recieving status packet!");
+                    Console.WriteLine("COMM_RXWAITING: Now recieving status packet!");
                     break;
 
                 case dynamixel.COMM_RXTIMEOUT:
-                    //Console.WriteLine("COMM_RXTIMEOUT: There is no status packet!");
+                    Console.WriteLine("COMM_RXTIMEOUT: There is no status packet!");
                     break;
 
                 case dynamixel.COMM_RXCORRUPT:
-                    //Console.WriteLine("COMM_RXCORRUPT: Incorrect status packet!");
+                    Console.WriteLine("COMM_RXCORRUPT: Incorrect status packet!");
                     break;
 
                 default:
-                    //Console.WriteLine("This is unknown error code!");
+                    Console.WriteLine("This is unknown error code!");
                     break;
             }
         }

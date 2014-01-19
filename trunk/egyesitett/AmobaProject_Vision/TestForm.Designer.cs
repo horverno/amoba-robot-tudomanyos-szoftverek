@@ -1,4 +1,4 @@
-﻿namespace AmobaProject_Vision
+﻿namespace MainModule
 {
     partial class TestForm
     {

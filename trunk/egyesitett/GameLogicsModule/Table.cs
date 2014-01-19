@@ -36,12 +36,14 @@ namespace GameLogicsModule
             return table[col, row];
         }
 
+        public T[,] getTable()
+        {
+            return table;
+        }
+
         public void setField(int col, int row, T item)
         {
             table[col, row] = item;
         }
-
-
-
     }
 }

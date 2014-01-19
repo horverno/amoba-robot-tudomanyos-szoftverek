@@ -15,14 +15,55 @@ namespace GameLogicsModule
 
         public int maxChainLength { get; private set; }
 
+        public Piece lastPiece{ get; private set; }
+
         public TicTacToeTable(int colCount, int rowCount, Piece fillWith) : base(colCount, rowCount, fillWith)
         {
             maxChainLength = colCount > rowCount ? colCount : rowCount;
-            fillTableWith(fillWith);
+            lastPiece = Piece._Empty;
+        }
+        /// <summary>
+        /// Registers the new move on the table if it is valid.
+        /// If there are any conflicts between the last and the current table state, it throws and exception instead.
+        /// </summary>
+        /// <param name="newTableSetup">the changed state of the table</param>
+        /// <returns>Returns the type of the new piece so the game logics can decide to move or not.</returns>
+        public Piece UpdateTable(Piece[,] newTableSetup)
+        {
+            int newMoveColIndex = -1;
+            int newMoveRowIndex = -1;
+            for (int i = 0; i < colCount; ++i)
+            {
+                for (int j = 0; j < rowCount; ++j)
+                {
+                    if (newTableSetup[i, j] != table[i, j])
+                    {
+                        if (newMoveRowIndex != -1 || newMoveRowIndex != -1) throw new Exception("Hiba: Egynél több változás a táblán!");
+                        newMoveColIndex = i;
+                        newMoveRowIndex = j;
+                    }
+                    switch (newTableSetup[i,j])
+                    {
+                        case Piece.O:
+                        case Piece.X:
+                        case Piece._Empty:
+                            break;
+                        default:    // else: field error
+                            throw new Exception("Mezőhiba [" + ++i + ". sor, " + ++j + ". oszlop]: " + newTableSetup[i, j].ToString());
+                    }
+                }
+            }
+            if (newTableSetup[newMoveColIndex, newMoveRowIndex]==lastPiece)
+            {
+                throw new Exception("Nem megengedett lépés a következő mezőn: [" +
+                    ++newMoveColIndex + ".sor, " + ++newMoveRowIndex + ".oszlop] (a másik játékos jön)!");
+            }
+            setField(newMoveColIndex, newMoveRowIndex, newTableSetup[newMoveColIndex, newMoveRowIndex]);
+            return newTableSetup[newMoveColIndex, newMoveRowIndex];
         }
 
         /// <summary>
-        /// 
+        /// Experimanetal code to find a more efficient way to generate the next step. 
         /// </summary>
         /// <returns>
         /// Returns a result array [x, y]:
