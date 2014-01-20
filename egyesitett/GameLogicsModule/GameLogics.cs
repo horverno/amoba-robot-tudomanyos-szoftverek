@@ -17,6 +17,7 @@ namespace GameLogicsModule
         // componenet state indicators:
         private RobotStatus robotStatus;
         private GameStatus cameraStatus;
+        /// <summary>the type of the next piece in the dispenser</summary>
         private Piece nextPiece;
         /// <summary>the game table</summary>
         private TicTacToeTable table;
@@ -29,12 +30,13 @@ namespace GameLogicsModule
         /// <param name="pieceOfTheRobot">the piece type of the player (to play with)</param>
         public GameLogics(Piece pieceOfTheRobot)
         {
-            this.colCount = colCount;
-            this.rowCount = rowCount;
             nextMoveCalculator = new GepiJatekos();
             this.pieceOfTheRobot = pieceOfTheRobot;
         }
 
+        /// <param name="colCount">number of the columns</param>
+        /// <param name="rowCount">number of the rows</param>
+        /// <param name="pieceOfTheRobot">piece type to play with</param>
         private void newGame(int colCount, int rowCount, Piece pieceOfTheRobot)
         {
             this.colCount = colCount;
@@ -43,9 +45,7 @@ namespace GameLogicsModule
             this.pieceOfTheRobot = pieceOfTheRobot;
         }
 
-        /// <summary>
-        /// This method analyses the given table and gives the next move.
-        /// </summary>
+        /// <summary>This method analyses the given table and gives the next move.</summary>
         /// <param name="table">current table state</param>
         /// <param name="findForX"> whether to find a move for X (or for O)</param>
         /// <param name="resultColIndex">the column index of the target field</param>
@@ -65,6 +65,10 @@ namespace GameLogicsModule
             resultRowIndex = result[1];
         }
 
+        /// <summary>
+        /// Verifies that is it safe to start the robot arm and if not, it informs the user about the reason.
+        /// </summary>
+        /// <returns>Returns true if it is allowed to move the arm.</returns>
         private bool CheckIfIsMoveAllowed()
         {
             switch (robotStatus)
@@ -72,7 +76,8 @@ namespace GameLogicsModule
                 case RobotStatus.Ready:
                     break;
                 case RobotStatus.Moving:
-                    break;
+                    OnPostMessageShowRequest("Parancsütközés: A robotkar már mozog!", true);
+                    return false;
                 case RobotStatus.Offline:
                     OnPostMessageShowRequest("A robotkar nem elérhető!", true);
                     return false;
@@ -101,19 +106,35 @@ namespace GameLogicsModule
                     OnPostMessageShowRequest("Ismeretlen kamera állapot!", true);
                     return false;
             }
-            return nextPiece == pieceOfTheRobot;
+            if (nextPiece != pieceOfTheRobot)
+            {
+                OnPostMessageShowRequest("Nem megfelelő bábu van az adagolóban!", true);
+            }
+            OnPostMessageShowRequest("", true); // deletes the previous error message
+            return true;
         }
 
+        /// <summary>
+        /// Tests if it is the turn of the robot and it is clear to  move and if yes, it calculates and starts it.
+        /// Must be called whenever an event occurs, that may makes necessary the robot's action.
+        /// </summary>
         private void TryToMove()
         {
-            int destCol, destRow;
-            if (CheckIfIsMoveAllowed())
+            try
             {
-                FindNextMove(table.getTable(), pieceOfTheRobot == Piece.X, out destCol, out destRow);
-                if (CheckIfIsMoveAllowed()) // because it may changed
+                int destCol, destRow;
+                if (CheckIfIsMoveAllowed())
                 {
-                    OnRobotMovementRequiest(RobotMovement.PlacePiece, pieceOfTheRobot, destCol, destRow);
+                    FindNextMove(table.getTable(), pieceOfTheRobot == Piece.X, out destCol, out destRow);
+                    if (CheckIfIsMoveAllowed()) // because it may changed
+                    {
+                        OnRobotMovementRequiest(RobotMovement.PlacePiece, pieceOfTheRobot, destCol, destRow);
+                    }
                 }
+            }
+            catch (Exception ex)
+            {
+                OnPostMessageShowRequest(ex.Message, true);
             }
         }
         
@@ -166,7 +187,7 @@ namespace GameLogicsModule
             {
                 OnPostMessageShowRequest(ex.Message, true); // notifying the user so he/she can fix the error
             }
-            
+            // First test of the project:
             //if (IsMoveAllowed())
             //{
             //    int[] result = new int[2];
@@ -183,7 +204,10 @@ namespace GameLogicsModule
             OnPostMessageShowRequest("Pickup field status has changed:\n" + e.ToString());
             TryToMove();
         }
-
+        /// <summary>Provides compatibility between the nextStepGen() method and the rest of the program.</summary>
+        /// <param name="source">game table to convert</param>
+        /// <param name="swapPieceTypes">needed because the nextStepGen() method can only calculate for "O"</param>
+        /// <returns>Returns the converted table.</returns>
         private int[,] convertTable(Piece[,] source, bool swapPieceTypes)
         {
             if (source == null) throw new Exception("Hiányzó játéktér!");

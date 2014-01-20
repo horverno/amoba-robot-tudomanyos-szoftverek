@@ -21,6 +21,9 @@ namespace MainModule
         Kinematics kinematics;
         Camera imageProcessor;
 
+        /// <summary>
+        /// The main form of the program.
+        /// </summary>
         public RoboTicTacToe()
         {
             InitializeComponent();
@@ -44,6 +47,9 @@ namespace MainModule
             imageProcessor.Init(pictureBox1, pictureBox2, pictureBox3, 17, 452, 200, 500, 359, 10, "Consolas");
         }
         
+        /// <summary>
+        /// Nedded for starting the image processor before calling the handler of the game logics.
+        /// </summary>
         void gameStatusChanged(object sender, InterfaceModule.GameStatusChangedEventArgs e)
         {
             if (e.CurrentStatus == InterfaceModule.GameStatus.Online)
@@ -55,9 +61,14 @@ namespace MainModule
             Console.WriteLine(e.ToString());
         }
 
+        /// <summary>Displays the incoming messages on the form.</summary>
         public void PostMessageHandler(object sender, PostMessageEventArgs e)
         {
-            textBox1.AppendText(e.message + "\n");
+            if (e.important){
+                lblNotifier.Text = e.message;
+            }else{
+                textBox1.AppendText(e.message + "\n");
+            }
         }
 
         private void újJátékToolStripMenuItem_Click(object sender, EventArgs e)

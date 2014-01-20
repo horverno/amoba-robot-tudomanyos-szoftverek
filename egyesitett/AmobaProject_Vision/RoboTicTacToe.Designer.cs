@@ -34,6 +34,7 @@
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.újJátékToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.textBox1 = new System.Windows.Forms.TextBox();
+            this.lblNotifier = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -44,23 +45,23 @@
             // 
             this.pictureBox1.Location = new System.Drawing.Point(12, 27);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(462, 396);
+            this.pictureBox1.Size = new System.Drawing.Size(480, 360);
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
             // pictureBox2
             // 
-            this.pictureBox2.Location = new System.Drawing.Point(480, 27);
+            this.pictureBox2.Location = new System.Drawing.Point(498, 27);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(238, 165);
+            this.pictureBox2.Size = new System.Drawing.Size(240, 180);
             this.pictureBox2.TabIndex = 1;
             this.pictureBox2.TabStop = false;
             // 
             // pictureBox3
             // 
-            this.pictureBox3.Location = new System.Drawing.Point(480, 251);
+            this.pictureBox3.Location = new System.Drawing.Point(532, 213);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(238, 172);
+            this.pictureBox3.Size = new System.Drawing.Size(172, 172);
             this.pictureBox3.TabIndex = 2;
             this.pictureBox3.TabStop = false;
             // 
@@ -70,7 +71,7 @@
             this.újJátékToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1132, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(1154, 24);
             this.menuStrip1.TabIndex = 4;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -86,17 +87,29 @@
             this.textBox1.BackColor = System.Drawing.SystemColors.Highlight;
             this.textBox1.Enabled = false;
             this.textBox1.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.textBox1.Location = new System.Drawing.Point(725, 28);
+            this.textBox1.Location = new System.Drawing.Point(744, 27);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(395, 395);
+            this.textBox1.Size = new System.Drawing.Size(395, 360);
             this.textBox1.TabIndex = 5;
+            // 
+            // lblNotifier
+            // 
+            this.lblNotifier.AutoSize = true;
+            this.lblNotifier.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.lblNotifier.ForeColor = System.Drawing.Color.Maroon;
+            this.lblNotifier.Location = new System.Drawing.Point(12, 390);
+            this.lblNotifier.Name = "lblNotifier";
+            this.lblNotifier.Size = new System.Drawing.Size(42, 33);
+            this.lblNotifier.TabIndex = 6;
+            this.lblNotifier.Text = "...";
             // 
             // RoboTicTacToe
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1132, 445);
+            this.ClientSize = new System.Drawing.Size(1154, 439);
+            this.Controls.Add(this.lblNotifier);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.pictureBox2);
@@ -126,5 +139,6 @@
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem újJátékToolStripMenuItem;
         private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Label lblNotifier;
     }
 }

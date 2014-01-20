@@ -18,14 +18,11 @@ namespace InterfaceModule
         /// <summary>
         /// This event can be used by all modules to send post messages to the gui (so the user can follow the process).
         /// </summary>
-        /// <remarks>asdf</remarks>
         event EventHandler<PostMessageEventArgs> PostMessageShowRequest;
 
     }
     
-    /// <summary>
-    /// This class describes an object holding a post message
-    /// </summary>
+    /// <summary>This class describes an object holding a post message.</summary>
     public class PostMessageEventArgs : EventArgs
     {
         public string message { get; set; }
@@ -39,7 +36,7 @@ namespace InterfaceModule
 
         public PostMessageEventArgs (string message) : this(message, false){}
 
-        /// <returns>Returns the message as a string</returns>
+        /// <returns>Returns the message as a string.</returns>
         public override string ToString()
         {
             return (important?"IMPORTANT MESSAGE: ":"Post message: ") + message;
