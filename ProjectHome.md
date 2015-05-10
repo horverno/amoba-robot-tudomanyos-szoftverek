@@ -1,0 +1,1 @@
+Tuidomanyos szoftverek tervezese targy
